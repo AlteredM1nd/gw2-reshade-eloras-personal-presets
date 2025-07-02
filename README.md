@@ -32,7 +32,7 @@ This preset is designed for high-quality screenshots and immersive exploration i
 
 ---
 
-## Required Shaders (.fx files)
+## Required Effect Packages/Shaders (.fx files)
 
 Below is the exact list of .fx files required by this preset, as referenced in the preset's Techniques. Ensure these files are present in your ReShade `Shaders` folder:
 
@@ -82,17 +82,20 @@ Below is the exact list of .fx files required by this preset, as referenced in t
 ## Installation Instructions
 
 1. **Download & Install ReShade 6.5.1**
-   - Run the ReShade installer.
-   - Select your `Gw2-64.exe` (Guild Wars 2 executable).
+   - Run the ReShade installer (I recommend the ReShade 6.5.1 with full add-on support for future proofing). ([Download here](https://reshade.me/#download))
+   - Select your `Gw2-64.exe` (Guild Wars 2 executable), it may not appear on the default list of applications, and if so, navigate to the default file location and select it `C:\Program Files\Guild Wars 2` (default path).
    - Choose DirectX 10/11/12.
-   - When prompted, select the standard shader packs, but you can skip any you don't need if you're manually adding the required .fx files.
+   - If you're only using my preset, on the next screen you can click the `Browse...` button and navigate to my preset and selct it and it will install all the effect packages used in my preset, otherwise you can click on the `Skip` button.
+   - When prompted, select the effect packages you would like to install, if you would like to experiment I suggest clicking the `Check all` button to install all of them, otherwise you can select the files listed above in [Required Shaders (.fx files)](#required-shaders-fx-files). A simpler method however would be to select my .ini file in the previous step.
+   - You can safely `Skip` the list of plugins as my presets don't require any at the moment
+   - Click `Finish`
 
 2. **Copy the Preset**
-   - Place `Elora's Personal Presets - Standard - Third Person Photos.ini` (or your chosen preset) into your Guild Wars 2 game folder (where `Gw2-64.exe` is located).
+   - Place `Elora's Personal Presets - Standard - Third Person Photos.ini` (or your chosen preset) into your Guild Wars 2 game folder (where `Gw2-64.exe` is located). (not required if you selected my .ini file in the first step)
 
 3. **Add Required Shaders**
    - Ensure all required .fx files (see above) are in your `reshade-shaders\Shaders` folder.
-   - Place any required textures in `reshade-shaders\Textures` if needed.
+   - Place any required textures in `reshade-shaders\Textures` if needed. (not required if you installed them in the first step)
 
 4. **Rename dxgi.dll to d3d11.dll**
    - In `C:\Program Files\Guild Wars 2` (default path) rename the `dxgi.dll` to `d3d11.dll`, this change is required since the update to DX11 in order for ReShade to recognize Guild Wars 2 and initialize during launch. If you'd like to be extra safe, you can create a backup copy of this file first before renaming.
