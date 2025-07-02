@@ -14,6 +14,7 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 6. [FOV & Camera Tips](#fov--camera-tips)
 7. [Troubleshooting & FAQ](#troubleshooting--faq)
 8. [Credits & Resources](#credits--resources)
+9. [📸 Preset Previews](#preset-previews)
 
 ---
 
@@ -122,7 +123,7 @@ For best results, match these settings as closely as possible:
 - Character Model Limit: Highest
 - Character Model Quality: Highest
 - Best Texture Filtering: On
-- Effect LOD: On
+- Effect LOD: Off
 - High-Res Character Textures: On
 - Vertical Sync: Off
 
@@ -136,9 +137,9 @@ For best results, match these settings as closely as possible:
 - Selection Outline: Off
 - Ambient Occlusion: On
 - Depth Blur: Off
-- Light Adaptation: Off
-- Motion Blur Power: Minimum
-- Environment Zone Intensity: Minimum
+- Light Adaptation: On
+- Motion Blur Power: Medium
+- Environment Zone Intensity: Maximum
 
 > **Note:** These settings are crucial for the preset to look as intended. Deviations may result in visual artifacts or reduced quality.
 
@@ -171,6 +172,26 @@ For best results, match these settings as closely as possible:
 - Preset by Elora
 - [ReShade](https://reshade.me/)
 - Shader authors: Marty McFly, prod80, qUINT, Zenteon, and others
+
+---
+
+## 📸 Preset Previews
+
+| The Grove | The Grove 2 | Lowland Shore |
+|-----------|-------------|---------------|
+| ![The Grove](screenshots/TheGrove.webp) | ![The Grove 2](screenshots/TheGrove2.webp) | ![Lowland Shore](screenshots/LowlandShore.webp) |
+
+| Hoelbrak Sunset | Sarah Rata Sum | Elora Rata Sum |
+|-----------------|----------------|----------------|
+| ![Hoelbrak Sunset](screenshots/HoelbrakSunset.webp) | ![Sarah Rata Sum](screenshots/SarahRataSum.webp) | ![Elora Rata Sum](screenshots/EloraRataSum.webp) |
+
+| Divinity's Reach | Elora Rata Sum 3 | Alina Rata Sum |
+|------------------|------------------|----------------|
+| ![Divinity's Reach](screenshots/DivinitysReach.webp) | ![Elora Rata Sum 3](screenshots/EloraRataSum3.webp) | ![Alina Rata Sum](screenshots/AlinaRataSum.webp) |
+
+| Erelith Rata Sum | Eirene Rata Sum | Thrassak Rata Sum |
+|------------------|-----------------|-------------------|
+| ![Erelith Rata Sum](screenshots/ErelithRataSum.webp) | ![Eirene Rata Sum](screenshots/EireneRataSum.webp) | ![Thrassak Rata Sum](screenshots/ThrassakRataSum.webp) |
 
 ---
 
