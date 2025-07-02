@@ -174,7 +174,7 @@ For best results, match these settings as closely as possible:
 
 ## Credits & Resources
 
-- Preset by Elora
+- Preset by Elora/AlteredM1nd
 - [ReShade](https://reshade.me/)
 - Shader authors: Marty McFly, prod80, qUINT, Zenteon, and others
 
