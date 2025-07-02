@@ -94,11 +94,14 @@ Below is the exact list of .fx files required by this preset, as referenced in t
    - Ensure all required .fx files (see above) are in your `reshade-shaders\Shaders` folder.
    - Place any required textures in `reshade-shaders\Textures` if needed.
 
-4. **Launch Guild Wars 2**
+4. **Rename dxgi.dll to d3d11.dll**
+   - In `C:\Program Files\Guild Wars 2` (default path) rename the `dxgi.dll` to `d3d11.dll`, this change is required since the update to DX11 in order for ReShade to recognize Guild Wars 2 and initialize during launch. If you'd like to be extra safe, you can create a backup copy of this file first before renaming.
+
+5. **Launch Guild Wars 2**
    - Press `Home` to open the ReShade menu.
    - Select the preset from the dropdown.
 
-5. **Set a Toggle Key** (optional)
+6. **Set a Toggle Key** (optional)
    - Navigate to the `Settings` tab.
    - Bind a key for `Effect Toggle Key`.
    - Use your keybind to turn the effect on and off whenever it suits you.
