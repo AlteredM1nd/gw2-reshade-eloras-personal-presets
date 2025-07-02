@@ -14,7 +14,7 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 6. [FOV & Camera Tips](#fov--camera-tips)
 7. [Troubleshooting & FAQ](#troubleshooting--faq)
 8. [Credits & Resources](#credits--resources)
-9. [📸 Preset Previews](#preset-previews)
+9. [Preset Previews](#preset-previews)
 
 ---
 
@@ -175,7 +175,7 @@ For best results, match these settings as closely as possible:
 
 ---
 
-## 📸 Preset Previews
+## Preset Previews
 
 | The Grove | The Grove 2 | Lowland Shore |
 |-----------|-------------|---------------|
