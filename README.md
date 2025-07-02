@@ -94,7 +94,7 @@ Below is the exact list of .fx files required by this preset, as referenced in t
    - Place `Elora's Personal Presets - Standard - Third Person Photos.ini` (or your chosen preset) into your Guild Wars 2 game folder (where `Gw2-64.exe` is located). (not required if you selected my .ini file in the first step)
 
 3. **Add Required Shaders**
-   - Ensure all required .fx files (see above) are in your `reshade-shaders\Shaders` folder.
+   - Ensure all required .fx files (see above) are in your `reshade-shaders\Shaders` folder. (not required if you installed them in the first step)
    - Place any required textures in `reshade-shaders\Textures` if needed. (not required if you installed them in the first step)
 
 4. **Rename dxgi.dll to d3d11.dll**
