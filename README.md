@@ -33,7 +33,7 @@ This preset is designed for high-quality screenshots and immersive gameplay in G
 
 ## Required Shaders (.fx files)
 
-You must have the following .fx files in your ReShade `Shaders` folder. If you do not want to install all available shaders, make sure you have these:
+Below is the exact list of .fx files required by this preset, as referenced in the preset's Techniques. Ensure these files are present in your ReShade `Shaders` folder:
 
 - Zenteon_Framework.fx
 - MartysMods_LAUNCHPAD.fx
@@ -56,15 +56,24 @@ You must have the following .fx files in your ReShade `Shaders` folder. If you d
 - Zenteon_Sharpen.fx
 - Zenteon_XenonBloom.fx
 - BloomingHDR.fx
-- SSDO_Plus@GloomAO.fx
+- GloomAO.fx
 - FGFXLargeScalePerceptualObscuranceIrradiance.fx
 - LocalContrast.fx
 - qUINT_dof.fx
 - pCamera.fx
 - pColors.fx
 - SmartDeNoise.fx
+- cFlow.fx
+- SuperDepth3D.fx
+- SuperDepth3D_VR+.fx
+- MartysMods_SMAA.fx
+- Gravity_CS.fx
+- lilium__hdr_and_sdr_analysis.fx
+- Gravity.fx
 
-> **Tip:** If you're missing any of these, you can download them from the official ReShade repositories or the shader authors' GitHubs. Some may be in optional or third-party packs.
+> **Note:**
+> - The list above is derived directly from the preset's Techniques line. Some techniques may reference the same .fx file with different technique names.
+> - If you are missing any of these, you can download them from the official ReShade repositories or the shader authors' GitHubs. Some may be in optional or third-party packs.
 
 ---
 
