@@ -198,6 +198,10 @@ For best results, match these settings as closely as possible:
 |------------------|-----------------|-------------------|
 | ![Erelith Rata Sum](screenshots/ErelithRataSum.webp) | ![Eirene Rata Sum](screenshots/EireneRataSum.webp) | ![Thrassak Rata Sum](screenshots/ThrassakRataSum.webp) |
 
+| Danala Claypool | Divinity's Reach 2 | Cantha |
+|------------------|-----------------|-------------------|
+| ![Danala Claypool](screenshots/DanalaClaypool.webp) | ![DivinitysReach2](screenshots/DivinitysReach2.webp) | ![Cantha](screenshots/Cantha.webp) |
+
 ---
 
 Enjoy your enhanced Guild Wars 2 visuals!
