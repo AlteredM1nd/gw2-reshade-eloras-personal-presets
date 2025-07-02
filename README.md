@@ -85,7 +85,7 @@ Below is the exact list of .fx files required by this preset, as referenced in t
    - Run the ReShade installer (I recommend the ReShade 6.5.1 with full add-on support for future proofing). ([Download here](https://reshade.me/#download))
    - Select your `Gw2-64.exe` (Guild Wars 2 executable), it may not appear on the default list of applications, and if so, navigate to the default file location and select it `C:\Program Files\Guild Wars 2` (default path).
    - Choose DirectX 10/11/12.
-   - If you're only using my preset, on the next screen you can click the `Browse...` button and navigate to my preset and selct it and it will install all the effect packages used in my preset, otherwise you can click on the `Skip` button.
+   - If you plan on using my preset and want to streamline the installation, on the next screen you can click the `Browse...` button, navigate to my preset, select it, and it will install all the effect packages used in my preset, otherwise you can click on the `Skip` button.
    - When prompted, select the effect packages you would like to install, if you would like to experiment I suggest clicking the `Check all` button to install all of them, otherwise you can select the files listed above in [Required Shaders (.fx files)](#required-shaders-fx-files). A simpler method however would be to select my .ini file in the previous step.
    - You can safely `Skip` the list of plugins as my presets don't require any at the moment.
    - Click `Finish`.
