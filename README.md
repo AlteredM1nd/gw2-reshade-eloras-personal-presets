@@ -64,13 +64,6 @@ Below is the exact list of .fx files required by this preset, as referenced in t
 - pCamera.fx
 - pColors.fx
 - SmartDeNoise.fx
-- cFlow.fx
-- SuperDepth3D.fx
-- SuperDepth3D_VR+.fx
-- MartysMods_SMAA.fx
-- Gravity_CS.fx
-- lilium__hdr_and_sdr_analysis.fx
-- Gravity.fx
 
 > **Note:**
 > - The list above is derived directly from the preset's Techniques line. Some techniques may reference the same .fx file with different technique names.
