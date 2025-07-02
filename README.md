@@ -87,8 +87,8 @@ Below is the exact list of .fx files required by this preset, as referenced in t
    - Choose DirectX 10/11/12.
    - If you're only using my preset, on the next screen you can click the `Browse...` button and navigate to my preset and selct it and it will install all the effect packages used in my preset, otherwise you can click on the `Skip` button.
    - When prompted, select the effect packages you would like to install, if you would like to experiment I suggest clicking the `Check all` button to install all of them, otherwise you can select the files listed above in [Required Shaders (.fx files)](#required-shaders-fx-files). A simpler method however would be to select my .ini file in the previous step.
-   - You can safely `Skip` the list of plugins as my presets don't require any at the moment
-   - Click `Finish`
+   - You can safely `Skip` the list of plugins as my presets don't require any at the moment.
+   - Click `Finish`.
 
 2. **Copy the Preset**
    - Place `Elora's Personal Presets - Standard - Third Person Photos.ini` (or your chosen preset) into your Guild Wars 2 game folder (where `Gw2-64.exe` is located). (not required if you selected my .ini file in the first step)
