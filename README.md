@@ -20,7 +20,7 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 
 ## About This Preset
 
-This preset is designed for high-quality screenshots and immersive gameplay in Guild Wars 2. It enhances lighting, contrast, bloom, and ambient occlusion for a cinematic look, especially in photo mode.
+This preset is designed for high-quality screenshots and immersive gameplay in Guild Wars 2. It enhances lighting, contrast, bloom, and ambient occlusion for a cinematic look.
 
 ---
 
