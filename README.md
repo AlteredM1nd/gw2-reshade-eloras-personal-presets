@@ -20,7 +20,7 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 
 ## About This Preset
 
-This preset is designed for high-quality screenshots and immersive exploration in Guild Wars 2. It enhances lighting, contrast, bloom, and ambient occlusion for a cinematic look.
+This preset is designed for high-quality screenshots and immersive exploration in Guild Wars 2. It enhances lighting, contrast, bloom, and ambient occlusion for a cinematic look. The First Person Photos and Third Person Photos presets are designed for taking screenshots using the specified perspectives, the main difference between them being the hyperfocal distance setting in the ADOF.fx filter. I'll be working on developing an additional set of presets that are less intensive and can be used for general gameplay, when those are completed I'll merge those into the main branch, create a new release, and update the changelog. Stay tuned!
 
 ---
 
@@ -96,6 +96,11 @@ Below is the exact list of .fx files required by this preset, as referenced in t
 4. **Launch Guild Wars 2**
    - Press `Home` to open the ReShade menu.
    - Select the preset from the dropdown.
+
+5. **Set a Toggle Key** (optional)
+   - Navigate to the `Settings` tab.
+   - Bind a key for `Effect Toggle Key`.
+   - Use your keybind to turn the effect on and off whenever it suits you.
 
 ---
 
