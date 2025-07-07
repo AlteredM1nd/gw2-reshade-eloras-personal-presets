@@ -178,7 +178,7 @@ For best results, match these settings as closely as possible:
 
 ## Hardware Recommendations & Performance
 
-**Always On Presets are optimized for:**
+**Always On - High Presets are optimized for:**
 - CPU: Intel Core i7-13700HX or AMD Ryzen 7 7735HS
 - GPU: NVIDIA GeForce RTX 4050 (6GB VRAM) or AMD Radeon RX 7600M
 - RAM: 16 GB DDR5
@@ -186,12 +186,12 @@ For best results, match these settings as closely as possible:
 - OS: Windows 10/11 64-bit
 - Performance Target: 1080p @ 60+ FPS with all effects enabled
 
-**User Testing:**
+**Always On - High Presets User Testing:**
 - On a system with Intel i7-8700K, 32GB RAM, and RTX 2080 Ti:
   - Without DOF: 90–75 FPS
   - With DOF: 80–60 FPS
 
-- Always On presets deliver roughly double the FPS of the Photo Mode presets.
+- Always On - High presets deliver roughly double the FPS of the Photo Mode presets.
 
 ---
 
