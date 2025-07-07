@@ -36,7 +36,7 @@ This collection now includes two main preset types:
   - **Always On - High - DOF** (Depth of Field enabled)
   - **Always On - High - No DOF** (Depth of Field disabled)
 
-  These presets offer roughly double the FPS of the Photo Mode presets, making them ideal for regular play with high visual quality.
+  These presets offer roughly double the FPS of the Photo Mode presets, making them ideal for regular play with high visual quality. Additional presets are currently in development for medium spec systems and low spec systems, check back soon for the new presets!
 
 ---
 
