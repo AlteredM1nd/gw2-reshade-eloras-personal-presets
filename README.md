@@ -16,6 +16,7 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 4. [Installation Instructions](#installation-instructions)
 5. [In-Game Graphics Settings (Recommended)](#in-game-graphics-settings-recommended)
 6. [FOV & Camera Tips](#fov--camera-tips)
+7. [Hardware Recommendations & Performance](#hardware-recommendations--performance)
 7. [Troubleshooting & FAQ](#troubleshooting--faq)
 8. [Credits & Resources](#credits--resources)
 9. [Preset Previews](#preset-previews)
@@ -25,11 +26,17 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 
 ## About This Preset
 
-**Preset Version:** 1.0.0 (see [CHANGELOG.md](./CHANGELOG.md))
+**Preset Version:** 2.0.0 (see [CHANGELOG.md](./CHANGELOG.md))
 
-This preset is designed for high-quality screenshots and immersive exploration in Guild Wars 2. It enhances lighting, contrast, bloom, and ambient occlusion for a cinematic look. The First Person Photos and Third Person Photos presets are designed for taking screenshots using the specified perspectives, the main difference between them being the hyperfocal distance setting in the ADOF.fx filter.
+This collection now includes two main preset types:
 
-> **Upcoming:** A less-intensive gameplay preset is in development! When ready, it will be merged into the main branch and announced in the changelog.
+- **Photo Mode Presets**: Formerly known as "Standard - First Person Photos" and "Standard - Third Person Photos," now renamed to **Photo Mode - First Person** and **Photo Mode - Third Person**. These are designed for high-quality screenshots, with a focus on maximum visual fidelity. The main difference between them is the far blur curve setting in the ADOF.fx filter.
+
+- **Always On Presets**: New in v2.0.0! These are designed for everyday gameplay, targeting high performance (60+ FPS) on modern hardware. The first release includes:
+  - **Always On - High - DOF** (Depth of Field enabled)
+  - **Always On - High - No DOF** (Depth of Field disabled)
+
+  These presets offer roughly double the FPS of the Photo Mode presets, making them ideal for regular play with high visual quality.
 
 ---
 
@@ -93,7 +100,7 @@ Below is the exact list of .fx files required by this preset, as referenced in t
    - Click `Finish`.
 
 2. **Copy the Preset**
-   - Place `Elora's Personal Presets - Standard - First Person Photos.ini` and `Elora's Personal Presets - Standard - Third Person Photos.ini` into your Guild Wars 2 game folder (`C:\Program Files\Guild Wars 2` (default path)). (not required if you selected my .ini files in the first step)
+   - Place `Elora's Personal Presets - Photo Mode - First Person.ini` and `Elora's Personal Presets - Photo Mode - Third Person.ini` into your Guild Wars 2 game folder (`C:\Program Files\Guild Wars 2` by default). For gameplay, use `Elora's Personal Presets - Always On - High - DOF.ini` or `Elora's Personal Presets - Always On - High - No DOF.ini` as appropriate. (Not required if you selected my .ini files in the first step)
 
 3. **Add Required Shaders**
    - Ensure all required .fx files (see above) are in your `reshade-shaders\Shaders` folder. (not required if you installed them in the first step)
@@ -163,6 +170,28 @@ For best results, match these settings as closely as possible:
 
 - **Field of View (FOV):** For screenshots, I recommend zooming all the way in (first-person style) for the most cinematic effect. However, feel free to adjust FOV to your preference for gameplay or wider shots.
 - **Camera Position:** Experiment with camera angles and zoom for the best composition.
+- **First-Person Camera** Enable First-Person Camera in `Options` > `General Options` > `Camera` > `Enable First Person Camera` to allow yourself to zoom in and view the game in first person
+- **Adjust First Person Camera Height** You can toggle the camera position in First-Person mode to make it align with your character's head in `Options` > `General Options` > `Camera` > `Adjust Camera to Character Height`
+- **Set a Toggle For Show/Hide UI** If you plan on taking a lot of screenshots, I would recommend setting a keybind that is easy to use or remember in `Options` > `Control Options` > `User Interface` > `Show/Hide UI` so that way you can quickly toggle the UI on or off
+
+---
+
+## Hardware Recommendations & Performance
+
+**Always On Presets are optimized for:**
+- CPU: Intel Core i7-13700HX or AMD Ryzen 7 7735HS
+- GPU: NVIDIA GeForce RTX 4050 (6GB VRAM) or AMD Radeon RX 7600M
+- RAM: 16 GB DDR5
+- Storage: SSD with 10+ GB free
+- OS: Windows 10/11 64-bit
+- Performance Target: 1080p @ 60+ FPS with all effects enabled
+
+**User Testing:**
+- On a system with Intel i7-8700K, 32GB RAM, and RTX 2080 Ti:
+  - Without DOF: 90–75 FPS
+  - With DOF: 80–60 FPS
+  
+- Always On presets deliver roughly double the FPS of the Photo Mode presets.
 
 ---
 
