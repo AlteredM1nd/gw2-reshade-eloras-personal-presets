@@ -18,9 +18,9 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 6. [FOV & Camera Tips](#fov--camera-tips)
 7. [Hardware Recommendations & Performance](#hardware-recommendations--performance)
 8. [Troubleshooting & FAQ](#troubleshooting--faq)
-9. [Credits & Resources](#credits--resources)
-10. [Preset Previews](#preset-previews)
-11. [Contact](#contact)
+9. [License](#license)
+10. [Contact](#contact)
+11. [Preset Previews](#preset-previews)
 
 ---
 
@@ -226,7 +226,7 @@ This project is licensed under the MIT License. See [LICENSE](./LICENSE) for det
 
 ## Contact
 
-For questions, feedback, or to share your screenshots:
+For questions, feedback, or suggestions:
 - Discord: alteredm1nd
 - Reddit: u/alteredm1nd
 - In game: AlteredMind.3275
@@ -252,5 +252,3 @@ For questions, feedback, or to share your screenshots:
 ---
 
 Enjoy your enhanced Guild Wars 2 visuals!
-
-For questions or updates, feel free to reach out. 
