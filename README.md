@@ -231,6 +231,7 @@ For questions, feedback, or to share your screenshots:
 - Reddit: u/alteredm1nd
 - In game: AlteredMind.3275
 - GitHub Issues
+- GitHub Discussions
 
 ---
 
