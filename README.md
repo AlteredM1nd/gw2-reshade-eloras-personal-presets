@@ -17,10 +17,10 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 5. [In-Game Graphics Settings (Recommended)](#in-game-graphics-settings-recommended)
 6. [FOV & Camera Tips](#fov--camera-tips)
 7. [Hardware Recommendations & Performance](#hardware-recommendations--performance)
-7. [Troubleshooting & FAQ](#troubleshooting--faq)
-8. [Credits & Resources](#credits--resources)
-9. [Preset Previews](#preset-previews)
-10. [Contact](#contact)
+8. [Troubleshooting & FAQ](#troubleshooting--faq)
+9. [Credits & Resources](#credits--resources)
+10. [Preset Previews](#preset-previews)
+11. [Contact](#contact)
 
 ---
 
@@ -190,7 +190,7 @@ For best results, match these settings as closely as possible:
 - On a system with Intel i7-8700K, 32GB RAM, and RTX 2080 Ti:
   - Without DOF: 90–75 FPS
   - With DOF: 80–60 FPS
-  
+
 - Always On presets deliver roughly double the FPS of the Photo Mode presets.
 
 ---
