@@ -209,7 +209,7 @@ For best results, match these settings as closely as possible:
 
 **Q: My game is running slowly!**
 - Some effects (like MXAO, SSDO, and high-quality DOF) are demanding. Disable or lower their quality in the ReShade menu if needed.
-- For gameplay, toggle off the most demanding effects or use the upcoming gameplay preset.
+- For gameplay, toggle off the most demanding effects or use a lower version of the Always On (High, Medium, or Low) presets, until you achieve a framerame that works best for your system.
 - Lower your in-game resolution or reduce supersampling for better performance.
 
 **Q: Where do I get missing shaders?**
