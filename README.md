@@ -85,6 +85,7 @@ Below is the exact list of .fx files required by this preset, as referenced in t
 > - The list above is derived directly from the preset's Techniques line. Some techniques may reference the same .fx file with different technique names.
 > - If you are missing any of these, you can download them from the official ReShade repositories or the shader authors' GitHubs. Some may be in optional or third-party packs.
 > - When installing ReShade, you can select these filters during the setup process, personally, I install all available filters to give myself room to experiment.
+> - Additional information on each effect package along with tips for tweaking them yourself (should you choose to do so) can be found in [EFFECTS.md](./EFFECTS.md).
 
 ---
 
