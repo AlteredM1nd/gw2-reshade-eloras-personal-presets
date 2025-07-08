@@ -50,7 +50,7 @@ This collection now includes two main preset types:
 
 ## Required Effect Packages/Shaders (.fx files)
 
-Below is the exact list of .fx files required by this preset, as referenced in the preset's Techniques. Ensure these files are present in your ReShade `Shaders` folder:
+Below is the exact list of .fx files required by this preset, as referenced in the preset's Techniques. These effect packages can be installed during the standard setup/installation wizard for ReShade. Ensure these files are present in your ReShade `Shaders` folder:
 
 - Zenteon_Framework.fx ([Zenteon Shaders](https://github.com/Zenteon/Reshade-Shaders))
 - MartysMods_LAUNCHPAD.fx ([qUINT by Marty McFly](https://github.com/martymcmodding/qUINT))
