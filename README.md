@@ -206,7 +206,8 @@ For best results, match these settings as closely as possible:
   - Without DOF: 90–75 FPS
   - With DOF: 80–60 FPS
 
-- Always On - High presets deliver roughly double the FPS of the Photo Mode presets.
+> **Note:**
+> - Always On - High presets deliver roughly double the FPS of the Photo Mode presets.
 
 ---
 
