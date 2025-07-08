@@ -2,10 +2,15 @@
 
 All notable changes to these presets will be documented in this file.
 
-## [1.0.0] - 2025-07-01
-- Initial public release of Elora's Personal Presets for Guild Wars 2
-- Includes First Person and Third Person photo presets
-- Full README with setup instructions and required shaders list 
+## [2.1.0] - 2025-07-07
+### Added
+- Created `EFFECTS.md` with a comprehensive breakdown of all effect packages and shaders used in the presets. Includes purpose, key settings, and tips for tweaking visuals or performance.
+
+### Changed
+- Expanded and clarified the "FOV & Camera Tips" section in `README.md` with more detailed advice on camera controls, composition, and screenshot techniques.
+- Updated hardware recommendations and performance notes in `README.md` for both Photo Mode and Always On presets.
+
+---
 
 ## [2.0.0] - 2025-07-07
 - Renamed the existing Standard - First Person Photos and Standard - Third Person Photos presets to Photo Mode - First Person and Photo Mode - Third Person for clarity.
@@ -23,3 +28,10 @@ All notable changes to these presets will be documented in this file.
   - Without DOF: 90-75 FPS
   - With DOF: 80-60 FPS
 - Always On presets deliver roughly double the FPS of the Photo Mode presets, making them ideal for everyday gameplay with high visual fidelity. 
+
+---
+
+## [1.0.0] - 2025-07-01
+- Initial public release of Elora's Personal Presets for Guild Wars 2
+- Includes First Person and Third Person photo presets
+- Full README with setup instructions and required shaders list 

@@ -26,7 +26,7 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 
 ## About This Preset
 
-**Preset Version:** 2.0.0 (see [CHANGELOG.md](./CHANGELOG.md))
+**Preset Version:** 2.1.0 (see [CHANGELOG.md](./CHANGELOG.md))
 
 This collection now includes two main preset types:
 
