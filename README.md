@@ -246,7 +246,7 @@ This project is licensed under the MIT License. See [LICENSE](./LICENSE) for det
 For questions, feedback, or suggestions:
 - Discord: alteredm1nd
 - Reddit: u/alteredm1nd
-- In game: AlteredMind.3275
+- In Game: AlteredMind.3275
 - GitHub Issues
 - GitHub Discussions
 
