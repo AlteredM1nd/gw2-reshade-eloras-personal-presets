@@ -190,8 +190,8 @@ For best results, match these settings as closely as possible:
 - OS: Windows 10/11 64-bit
 - Performance Target: 1080p @ 40+ FPS with all effects enabled
 
-> **Note**
-> Photo Mode presets are not intended for regular gameplay, they're meant for taking high quality photos. Please use one of the Always On presets if you intend to use any during gameplay.
+> **Note:**
+> - Photo Mode presets are not intended for regular gameplay, they're meant for taking high quality photos. Please use one of the Always On presets if you intend to use any during gameplay.
 
 **Always On - High Presets are optimized for:**
 - CPU: Intel Core i7-13700HX or AMD Ryzen 7 7735HS
