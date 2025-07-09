@@ -268,6 +268,8 @@ For questions, feedback, or suggestions:
 | ![Danala Claypool](screenshots/DanalaClaypool.png) | ![DivinitysReach2](screenshots/DivinitysReach2.png) | ![Cantha](screenshots/Cantha.png) |
 | Elora The Grove | Grothmar Valley | The Grove 3 |
 | ![Elora The Grove](screenshots/EloraTheGrove.png) | ![Grothmar Valley](screenshots/GrothmarValley.png) | ![The Grove 3](screenshots/TheGrove3.png) |
+| Bitterfrost Frontier | Divinity's Reach 3 | Chaos Crystal Cavern |
+| ![Bitterfrost Frontier](screenshots/BitterfrostFrontier.png) | ![Divinitys Reach 3](screenshots/DivinitysReach3.png) | ![Chaos Crystal Cavern](screenshots/ChaosCrystalCavern.png) |
 
 ---
 
