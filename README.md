@@ -257,15 +257,16 @@ For questions, feedback, or suggestions:
 
 | The Grove | The Grove 2 | Lowland Shore |
 |-----------|-------------|---------------|
-| ![The Grove](screenshots/TheGrove.webp) | ![The Grove 2](screenshots/TheGrove2.webp) | ![Lowland Shore](screenshots/LowlandShore.webp) |
+| ![The Grove](screenshots/TheGrove.png) | ![The Grove 2](screenshots/TheGrove2.png) | ![Lowland Shore](screenshots/LowlandShore.png) |
 | Hoelbrak Sunset | Sarah Rata Sum | Elora Rata Sum |
-| ![Hoelbrak Sunset](screenshots/HoelbrakSunset.webp) | ![Sarah Rata Sum](screenshots/SarahRataSum.webp) | ![Elora Rata Sum](screenshots/EloraRataSum.webp) |
+| ![Hoelbrak Sunset](screenshots/HoelbrakSunset.png) | ![Sarah Rata Sum](screenshots/SarahRataSum.png) | ![Elora Rata Sum](screenshots/EloraRataSum.png) |
 | Divinity's Reach | Elora Rata Sum 3 | Alina Rata Sum |
-| ![Divinity's Reach](screenshots/DivinitysReach.webp) | ![Elora Rata Sum 3](screenshots/EloraRataSum3.webp) | ![Alina Rata Sum](screenshots/AlinaRataSum.webp) |
+| ![Divinity's Reach](screenshots/DivinitysReach.png) | ![Elora Rata Sum 3](screenshots/EloraRataSum3.png) | ![Alina Rata Sum](screenshots/AlinaRataSum.png) |
 | Erelith Rata Sum | Eirene Rata Sum | Thrassak Rata Sum |
-| ![Erelith Rata Sum](screenshots/ErelithRataSum.webp) | ![Eirene Rata Sum](screenshots/EireneRataSum.webp) | ![Thrassak Rata Sum](screenshots/ThrassakRataSum.webp) |
+| ![Erelith Rata Sum](screenshots/ErelithRataSum.png) | ![Eirene Rata Sum](screenshots/EireneRataSum.png) | ![Thrassak Rata Sum](screenshots/ThrassakRataSum.png) |
 | Danala Claypool | Divinity's Reach 2 | Cantha |
-| ![Danala Claypool](screenshots/DanalaClaypool.webp) | ![DivinitysReach2](screenshots/DivinitysReach2.webp) | ![Cantha](screenshots/Cantha.webp) |
+| ![Danala Claypool](screenshots/DanalaClaypool.png) | ![DivinitysReach2](screenshots/DivinitysReach2.png) | ![Cantha](screenshots/Cantha.png) |
+| ![Elora The Grove](screenshots/EloraTheGrove.png) | ![Grothmar Valley](screenshots/GrothmarValley.png) | ![The Grove 3](screenshots/TheGrove3.png) |
 
 ---
 
