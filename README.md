@@ -266,6 +266,7 @@ For questions, feedback, or suggestions:
 | ![Erelith Rata Sum](screenshots/ErelithRataSum.png) | ![Eirene Rata Sum](screenshots/EireneRataSum.png) | ![Thrassak Rata Sum](screenshots/ThrassakRataSum.png) |
 | Danala Claypool | Divinity's Reach 2 | Cantha |
 | ![Danala Claypool](screenshots/DanalaClaypool.png) | ![DivinitysReach2](screenshots/DivinitysReach2.png) | ![Cantha](screenshots/Cantha.png) |
+| Elora The Grove | Grothmar Valley | The Grove 3 |
 | ![Elora The Grove](screenshots/EloraTheGrove.png) | ![Grothmar Valley](screenshots/GrothmarValley.png) | ![The Grove 3](screenshots/TheGrove3.png) |
 
 ---
