@@ -278,6 +278,8 @@ For questions, feedback, or suggestions:
 | ![Elora The Grove](screenshots/EloraTheGrove.png) | ![Grothmar Valley](screenshots/GrothmarValley.png) | ![The Grove 3](screenshots/TheGrove3.png) |
 | Bitterfrost Frontier | Hellion Forest | Chaos Crystal Cavern |
 | ![Bitterfrost Frontier](screenshots/BitterfrostFrontier.png) | ![Hellion Forest](screenshots/HellionForest.png) | ![Chaos Crystal Cavern](screenshots/ChaosCrystalCavern.png) |
+| Dragonfall | Heart of the Mists | Crystal Desert |
+| ![Dragonfall](screenshots/Dragonfall.png) | ![Heart of the Mists](screenshots/HeartOfTheMists.png) | ![Crystal Desert](screenshots/CrystalDesert.png) |
 
 ---
 
