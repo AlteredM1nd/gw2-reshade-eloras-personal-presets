@@ -26,7 +26,7 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 
 ## About This Preset
 
-**Preset Version:** 2.1.0 (see [CHANGELOG.md](./CHANGELOG.md))
+**Preset Version:** 3.0.0 (see [CHANGELOG.md](./CHANGELOG.md))
 
 This collection now includes two main preset types:
 
@@ -80,6 +80,14 @@ Below is the exact list of .fx files required by this preset, as referenced in t
 - pCamera.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
 - pColors.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
 - SmartDeNoise.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
+- Shading.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
+- VolumetricFog.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
+- ReflectiveBumpmapping.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
+- cDLAA.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
+- DFTAA.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
+- DTAA.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
+- GaussianBlur.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
+- GBloom.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
 
 > **Note:**
 > - The list above is derived directly from the preset's Techniques line. Some techniques may reference the same .fx file with different technique names.

@@ -199,6 +199,55 @@ Official and community shaders included with ReShade. [ReShade Shaders GitHub](h
 - **Key Settings:**
   - `Saturation`, `Contrast`, `Gamma`, `Lift`, `Gain`.
 
+### Shading.fx
+- **Purpose:** Adds stylized shading and lighting to enhance the painterly or cartoon-like look of the scene.
+- **Key Settings:**
+  - `ShadingIntensity`: Strength of the shading effect.
+  - `SamplingArea`: Area over which shading is calculated.
+- **Tips:** Use for a more artistic, less photorealistic look.
+
+### VolumetricFog.fx
+- **Purpose:** Simulates volumetric fog and light scattering for atmospheric depth and god rays.
+- **Key Settings:**
+  - `Intensity`, `Radius`, `SampleCount`, `Exposure`, `Gamma`.
+- **Tips:** Increase intensity and sample count for denser, more dramatic fog; lower for subtle haze.
+
+### ReflectiveBumpmapping.fx
+- **Purpose:** Adds reflective bump mapping for enhanced surface detail and subtle reflections.
+- **Key Settings:**
+  - `FresnelMult`, `ReliefHeight`, `SampleCount`.
+- **Tips:** Use moderate values to avoid overly shiny or artificial surfaces.
+
+### cDLAA.fx (Contrast-aware Directionally Localized Anti-Aliasing)
+- **Purpose:** Advanced anti-aliasing technique for reducing jagged edges while preserving detail.
+- **Key Settings:**
+  - `ContrastThreshold`, `PreserveFrequencies`.
+- **Tips:** Use with other AA for best results in screenshots.
+
+### DFTAA.fx (Directional Filtering Temporal Anti-Aliasing)
+- **Purpose:** Temporal anti-aliasing to smooth out shimmering and flickering in motion.
+- **Key Settings:**
+  - `EdgeThreshold`, `Lambda`.
+- **Tips:** Best for video or animated scenes; may slightly blur stills.
+
+### DTAA.fx (Directional Temporal Anti-Aliasing)
+- **Purpose:** Another temporal anti-aliasing shader for reducing aliasing artifacts over time.
+- **Key Settings:**
+  - `blendRate`, `mixRate`.
+- **Tips:** Combine with other AA for maximum smoothness.
+
+### GaussianBlur.fx
+- **Purpose:** Applies a soft blur to the image, useful for dreamy or atmospheric effects.
+- **Key Settings:**
+  - `BlurRadius`, `BlurStrength`.
+- **Tips:** Use sparingly to avoid loss of detail; great for soft focus or haze.
+
+### GBloom.fx
+- **Purpose:** Adds an additional bloom layer for glowing highlights and enhanced fantasy lighting.
+- **Key Settings:**
+  - `BloomIntensity`, `BloomSaturation`, `BlurRadius`, `LuminanceThreshold`.
+- **Tips:** Stack with other bloom effects for a magical, ethereal look.
+
 ---
 
 ## Tips for Tweaking

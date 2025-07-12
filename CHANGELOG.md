@@ -2,6 +2,22 @@
 
 All notable changes to these presets will be documented in this file.
 
+## [3.0.0] - 2025-07-08
+### Added
+- Released **Photo Mode - Ultra**: a major overhaul and next-generation upgrade to the First Person photo preset, designed for maximum visual fidelity and screenshot artistry.
+
+### Changed
+- **Cinematic Visuals:** Ultra delivers a painterly, dreamlike look with soft, diffused lighting, pronounced god rays, and lush, harmonious color grading. Volumetric fog and advanced bloom effects create a magical, ethereal atmosphere perfect for fantasy screenshots.
+- **Atmosphere & Depth:** The new effect stack enhances depth and immersion, with subtle haze and light scattering that make environments feel alive and three-dimensional.
+- **Technique Overhaul:** Ultra introduces a revised and expanded set of effects, including new cinematic shading, advanced bloom layers, volumetric fog, reflective bump mapping, and multiple anti-aliasing methods. Several older effects were removed or replaced for a cleaner, more modern look.
+- **Sharpening & Noise:** Sharpening and denoising are carefully balanced for clarity without harshness, with new sharpening methods and reduced noise for a cleaner, more photographic image.
+- **Artistic Focus:** Every frame is tuned for screenshot artistry—colors are vivid but balanced, details are crisp without harshness, and the overall presentation is clean and free of distracting artifacts.
+
+### Notes
+- **Performance:** Ultra is more demanding than previous presets and is intended for high-end screenshots and showcase moments, not regular gameplay. For everyday use, continue to use the Always On or standard Photo Mode presets.
+
+---
+
 ## [2.1.0] - 2025-07-07
 ### Added
 - Created `EFFECTS.md` with a comprehensive breakdown of all effect packages and shaders used in the presets. Includes purpose, key settings, and tips for tweaking visuals or performance.
