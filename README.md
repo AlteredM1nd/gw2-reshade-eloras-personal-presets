@@ -277,12 +277,8 @@ For questions, feedback, or suggestions:
 | The Grove | The Grove 2 | Lowland Shore |
 |-----------|-------------|---------------|
 | ![The Grove](screenshots/TheGrove.png) | ![The Grove 2](screenshots/TheGrove2.png) | ![Lowland Shore](screenshots/LowlandShore.png) |
-| Hoelbrak Sunset | Sarah Rata Sum | Elora Rata Sum |
-| ![Hoelbrak Sunset](screenshots/HoelbrakSunset.png) | ![Sarah Rata Sum](screenshots/SarahRataSum.png) | ![Elora Rata Sum](screenshots/EloraRataSum.png) |
-| Divinity's Reach | Elora Rata Sum 3 | Alina Rata Sum |
-| ![Divinity's Reach](screenshots/DivinitysReach.png) | ![Elora Rata Sum 3](screenshots/EloraRataSum3.png) | ![Alina Rata Sum](screenshots/AlinaRataSum.png) |
-| Erelith Rata Sum | Eirene Rata Sum | Thrassak Rata Sum |
-| ![Erelith Rata Sum](screenshots/ErelithRataSum.png) | ![Eirene Rata Sum](screenshots/EireneRataSum.png) | ![Thrassak Rata Sum](screenshots/ThrassakRataSum.png) |
+| Hoelbrak Sunset | Thrassak Rata Sum | Eirene Rata Sum |
+| ![Hoelbrak Sunset](screenshots/HoelbrakSunset.png) | ![Thrassak Rata Sum](screenshots/ThrassakRataSum.png) | ![Eirene Rata Sum](screenshots/EireneRataSum.png) |
 | Danala Claypool | Divinity's Reach 2 | Cantha |
 | ![Danala Claypool](screenshots/DanalaClaypool.png) | ![DivinitysReach2](screenshots/DivinitysReach2.png) | ![Cantha](screenshots/Cantha.png) |
 | Elora The Grove | Grothmar Valley | The Grove 3 |
