@@ -280,13 +280,13 @@ For questions, feedback, or suggestions:
 
 ## Preset Previews
 
-| The Grove | The Grove 2 | Lowland Shore 1 |
+| The Grove | The Grove 4 | Lowland Shore 1 |
 |-----------|-------------|---------------|
 | ![The Grove](screenshots/TheGrove.png) | ![The Grove 4](screenshots/TheGrove4.png) | ![Lowland Shore](screenshots/LowlandShore1.png) |
 | Hoelbrak Sunset | Thrassak Rata Sum | Eirene Rata Sum |
 | ![Hoelbrak Sunset](screenshots/HoelbrakSunset.png) | ![Thrassak Rata Sum](screenshots/ThrassakRataSum.png) | ![Eirene Rata Sum](screenshots/EireneRataSum.png) |
-| Danala Claypool | Divinity's Reach 2 | Cantha |
-| ![Danala Claypool](screenshots/DanalaClaypool.png) | ![DivinitysReach2](screenshots/DivinitysReach2.png) | ![Cantha](screenshots/Cantha.png) |
+| Danala Claypool | Divinity's Reach 2 | Seitung Province |
+| ![Danala Claypool](screenshots/DanalaClaypool.png) | ![DivinitysReach2](screenshots/DivinitysReach2.png) | ![Seitung Province](screenshots/SeitungProvince2.png) |
 | Elora The Grove | Grothmar Valley | The Grove 3 |
 | ![Elora The Grove](screenshots/EloraTheGrove.png) | ![Grothmar Valley](screenshots/GrothmarValley.png) | ![The Grove 3](screenshots/TheGrove3.png) |
 | Bitterfrost Frontier | Hellion Forest | Chaos Crystal Cavern |
