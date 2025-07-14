@@ -277,9 +277,9 @@ For questions, feedback, or suggestions:
 
 ## Preset Previews
 
-| The Grove | The Grove 2 | Lowland Shore |
+| The Grove | The Grove 2 | Lowland Shore 1 |
 |-----------|-------------|---------------|
-| ![The Grove](screenshots/TheGrove.png) | ![The Grove 2](screenshots/TheGrove2.png) | ![Lowland Shore](screenshots/LowlandShore.png) |
+| ![The Grove](screenshots/TheGrove.png) | ![The Grove 4](screenshots/TheGrove4.png) | ![Lowland Shore](screenshots/LowlandShore1.png) |
 | Hoelbrak Sunset | Thrassak Rata Sum | Eirene Rata Sum |
 | ![Hoelbrak Sunset](screenshots/HoelbrakSunset.png) | ![Thrassak Rata Sum](screenshots/ThrassakRataSum.png) | ![Eirene Rata Sum](screenshots/EireneRataSum.png) |
 | Danala Claypool | Divinity's Reach 2 | Cantha |
