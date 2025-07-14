@@ -47,7 +47,7 @@ This collection now includes two main preset types:
 
   These presets offer roughly double the FPS of the Photo Mode presets, making them ideal for regular play with high visual quality. Additional presets are currently in development for medium spec systems and low spec systems, check back soon for the new presets!
 
-  ![Race Always On High GIF](images/RaceGif.gif)
+  ![Race Always On High GIF](images/RaceGIF-10-2-Optimized.gif)
 
 ---
 
