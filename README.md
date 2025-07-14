@@ -29,6 +29,8 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 
 **Preset Version:** 3.0.0 (see [CHANGELOG.md](./CHANGELOG.md))
 
+This preset was designed to deliver a cinematic, next-generation visual experience in Guild Wars 2. Whether you're a content creator or an everyday player, it enables you to capture eye-catching screenshots, breathtaking videos, and enjoy a more immersive gameplay experience—elevating the standard of in-game visuals for everyone.
+
 This collection now includes two main preset types:
 
 - **Photo Mode Presets**: Formerly known as "Standard - First Person Photos" and "Standard - Third Person Photos," now renamed to **Photo Mode - First Person** and **Photo Mode - Third Person**. These are designed for high-quality screenshots, with a focus on maximum visual fidelity. The main difference between them is the far blur curve setting in the ADOF.fx filter.
