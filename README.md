@@ -1,4 +1,4 @@
-![Elora's Personal Presets Banner](images/EPPBanner.png)
+![Elora's Personal Presets Banner](images/EPPBannerAlt2.png)
 # Elora's Personal Presets – Guild Wars 2 ReShade (v6.5.1)
 
 ![License](https://img.shields.io/github/license/alteredm1nd/gw2-reshade-eloras-personal-presets)
