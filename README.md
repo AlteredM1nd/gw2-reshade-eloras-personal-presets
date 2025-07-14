@@ -256,6 +256,9 @@ For best results, match these settings as closely as possible:
 - Make sure you renamed `dxgi.dll` to `d3d11.dll` in your GW2 folder (see Installation Instructions).
 - Some overlays (Discord, Steam, etc.) can interfere—try disabling them.
 
+**Q: The Depth of Field is reversed, why is that?**
+- Click on the `Edit global preprocessor definitions` button from the `ReShade Menu` and change `RESHADE_DEPTH_INPUT_IS_REVERSED` from `1` to `0` and click on the `Apply` button
+
 ---
 
 ## License
