@@ -13,7 +13,7 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 
 1. [About This Preset](#about-this-preset)
 2. [Requirements](#requirements)
-3. [Required Shaders (.fx files)](#required-effect-packagesshaders-fx-files)
+3. [Required Effect Packages/Shaders (.fx files)](#required-effect-packagesshaders-fx-files)
 4. [Installation Instructions](#installation-instructions)
 5. [In-Game Graphics Settings (Recommended)](#in-game-graphics-settings-recommended)
 6. [FOV & Camera Tips](#fov--camera-tips)
@@ -103,7 +103,7 @@ Below is the exact list of .fx files required by this preset, as referenced in t
 > **Note:**
 > - The list above is derived directly from the preset's Techniques line. Some techniques may reference the same .fx file with different technique names.
 > - If you are missing any of these, you can download them from the official ReShade repositories or the shader authors' GitHubs. Some may be in optional or third-party packs.
-> - When installing ReShade, you can select these filters during the setup process, personally, I install all available filters to give myself room to experiment.
+> - When installing ReShade, you can select these effect packages during the setup process, personally, I install all available effect packages to give myself room to experiment.
 > - Additional information on each effect package along with tips for tweaking them yourself (should you choose to do so) can be found in [EFFECTS.md](./EFFECTS.md).
 
 ---
@@ -140,6 +140,9 @@ Below is the exact list of .fx files required by this preset, as referenced in t
 
 7. **Tweak Settings** (optional)
    - If you like how I have things set up then you can skip this, but if you'd like to simply use my preset as a foundation for more changes you're more than welcome to do that. At the end of the day, this is your game, you should enjoy the way that it looks, and it should suit your preferences. Modify sliders and toggle effects until everything is just right for you. If you need to revert back, you can always just download this preset again or you can create a new preset based on mine using the `Add A New Preset` (Plus Icon) button in the `Reshade Menu` and put a checkmark in the `Inherit Current Preset` checkbox - this way the original preset remains untouched and you get a brand new copy to modify to your heart's content!
+
+   > **Note:**
+   > - Additional information on each effect package along with tips for tweaking them yourself (should you choose to do so) can be found in [EFFECTS.md](./EFFECTS.md).
 
 ---
 
