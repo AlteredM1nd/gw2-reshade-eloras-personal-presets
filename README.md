@@ -33,15 +33,21 @@ This collection now includes two main preset types:
 
 - **Photo Mode Presets**: Formerly known as "Standard - First Person Photos" and "Standard - Third Person Photos," now renamed to **Photo Mode - First Person** and **Photo Mode - Third Person**. These are designed for high-quality screenshots, with a focus on maximum visual fidelity. The main difference between them is the far blur curve setting in the ADOF.fx filter.
 
+![Elora Grove Transition HD](images/EloraGroveTransitionHD-Optimized.gif)
+
    - **New in v3.0.0: Photo Mode - Ultra**
 
       Photo Mode - Ultra is a next-generation preset designed for screenshot artistry and cinematic visuals. It features a dreamy, painterly look with soft lighting, god rays, volumetric fog, and advanced bloom and anti-aliasing effects. Ultra is intended for users who want the most visually striking and atmospheric screenshots possible. It is more demanding than the other presets and is not recommended for regular gameplay, but is perfect for capturing breathtaking moments and fantasy scenes in Guild Wars 2.
+
+      ![Dragonall Transition HD](images/DragonfallTransitionHD-Optimized.gif)
 
 - **Always On Presets**: New in v2.0.0! These are designed for everyday gameplay, targeting high performance (60+ FPS) on modern hardware. The first release includes:
   - **Always On - High - DOF** (Depth of Field enabled)
   - **Always On - High - No DOF** (Depth of Field disabled)
 
   These presets offer roughly double the FPS of the Photo Mode presets, making them ideal for regular play with high visual quality. Additional presets are currently in development for medium spec systems and low spec systems, check back soon for the new presets!
+
+  ![Race Always On High GIF](images/RaceGif.gif)
 
 ---
 
