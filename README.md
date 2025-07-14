@@ -68,7 +68,7 @@ Below is the exact list of .fx files required by this preset, as referenced in t
 - MartysMods_MXAO.fx ([qUINT by Marty McFly](https://github.com/martymcmodding/qUINT))
 - PPFX_SSDO.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
 - NeoSSAO.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
-- NGLighting.fx ([ReShade Repository](https://github.com/mj-ehsan/NiceGuy-Shaders))
+- NGLighting.fx ([Nice Guy Shaders](https://github.com/mj-ehsan/NiceGuy-Shaders))
 - AmbientLight.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
 - ZN_LC.fx ([Zenteon Shaders](https://github.com/Zenteon/Reshade-Shaders))
 - CAS.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
