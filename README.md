@@ -2,6 +2,7 @@
 # Elora's Personal Presets – Guild Wars 2 ReShade (v6.5.1)
 
 ![License](https://img.shields.io/github/license/alteredm1nd/gw2-reshade-eloras-personal-presets)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/alteredm1nd/gw2-reshade-eloras-personal-presets)](https://github.com/alteredm1nd/gw2-reshade-eloras-personal-presets/releases)
 
 Welcome! This guide will walk you through installing and using my custom ReShade preset for Guild Wars 2, updated for ReShade 6.5.1. It includes a full list of required shaders, recommended in-game graphics settings, and tips for best results.
 
@@ -133,7 +134,7 @@ Below is the exact list of .fx files required by this preset, as referenced in t
 
 5. **Launch Guild Wars 2**
    - Press `Home` to open the ReShade menu.
-   - Select the preset from the dropdown.
+   - Select the desired preset from the dropdown menu at the top.
 
 6. **Set a Toggle Key** (optional)
    - Navigate to the `Settings` tab.
