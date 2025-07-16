@@ -2,7 +2,7 @@
 
 All notable changes to these presets will be documented in this file.
 
-## [4.0.0] - 2025-07-08
+## [4.0.0] - 2025-07-16
 ### Added
 - Introduced **Always On - Medium** and **Always On - Low** presets, each available in DOF (Depth of Field) and No DOF variants.
 - These new presets are designed to expand accessibility for users with lower-spec hardware, those seeking higher FPS, or anyone preferring a more minimal ReShade experience.
