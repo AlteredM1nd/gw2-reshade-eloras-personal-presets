@@ -28,7 +28,7 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 
 ## About This Preset
 
-**Preset Version:** 3.0.0 (see [CHANGELOG.md](./CHANGELOG.md))
+**Preset Version:** 4.0.0 (see [CHANGELOG.md](./CHANGELOG.md))
 
 This preset was designed to deliver a cinematic, next-generation visual experience in Guild Wars 2. Whether you're a content creator or an everyday player, it enables you to capture eye-catching screenshots, breathtaking videos, and enjoy a more immersive gameplay experience—elevating the standard of in-game visuals for everyone.
 
@@ -38,17 +38,22 @@ This collection now includes two main preset types:
 
 ![Elora Grove Transition HD](images/EloraGroveTransitionHD-Optimized.gif)
 
-   - **New in v3.0.0: Photo Mode - Ultra**
+   - **Photo Mode - Ultra**
 
       Photo Mode - Ultra is a next-generation preset designed for screenshot artistry and cinematic visuals. It features a dreamy, painterly look with soft lighting, god rays, volumetric fog, and advanced bloom and anti-aliasing effects. Ultra is intended for users who want the most visually striking and atmospheric screenshots possible. It is more demanding than the other presets and is not recommended for regular gameplay, but is perfect for capturing breathtaking moments and fantasy scenes in Guild Wars 2.
 
       ![Dragonall Transition HD](images/DragonfallTransitionHD-Optimized.gif)
 
-- **Always On Presets**: New in v2.0.0! These are designed for everyday gameplay, targeting high performance (60+ FPS) on modern hardware. The first release includes:
+- **Always On Presets**: Now available in High, Medium, and Low performance tiers, each with DOF (Depth of Field) and No DOF variants. These are designed for everyday gameplay, offering a range of performance and visual fidelity options for all types of hardware:
+
   - **Always On - High - DOF** (Depth of Field enabled)
   - **Always On - High - No DOF** (Depth of Field disabled)
+  - **Always On - Medium - DOF** (Depth of Field enabled)
+  - **Always On - Medium - No DOF** (Depth of Field disabled)
+  - **Always On - Low - DOF** (Depth of Field enabled)
+  - **Always On - Low - No DOF** (Depth of Field disabled)
 
-  These presets offer roughly double the FPS of the Photo Mode presets, making them ideal for regular play with high visual quality. Additional presets are currently in development for medium spec systems and low spec systems, check back soon for the new presets!
+  Always On - High presets offer roughly double the FPS of the Photo Mode presets, making them ideal for regular play with high visual quality. Always On - Medium and Low presets are also available, these presets expand accessibility for users with lower-spec hardware, those seeking higher FPS, or anyone preferring a more minimal ReShade experience. Medium offers approximately 10-20 more FPS than High, and Low offers approximately 20-40 more FPS than High. All Always On presets deliver high visual quality with a focus on smooth gameplay. Please note, some effect packages used in Photo Mode are disabled in Always On presets, with progressively more effect packages being disabled as you transition from High to Low, while I've tried my best to keep as much of the look and feel as possible, the graphics quality naturally decreases as you move to lower versions with the tradeoff being higher FPS.
 
   ![Race Always On High GIF](images/RaceGIF-10-2-Optimized.gif)
 
@@ -115,7 +120,7 @@ Below is the exact list of .fx files required by this preset, as referenced in t
 
 1. **Download & Install ReShade 6.5.1**
    - Run the ReShade installer (I recommend the ReShade 6.5.1 with full add-on support for future proofing). ([Download here](https://reshade.me/#download))
-   - Select your `Gw2-64.exe` (Guild Wars 2 executable), it may not appear on the default list of applications, and if so, navigate to the default file location and select it `C:\Program Files\Guild Wars 2` (default path).
+   - Select your `Gw2-64.exe` (Guild Wars 2 executable), it may not appear on the default list of applications, and if so, navigate to the default file location and select it `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players).
    - Choose DirectX 10/11/12.
    - If you plan on using my preset and want to streamline the installation, on the next screen you can click the `Browse...` button, navigate to my preset, select it, and it will install all the effect packages used in my preset, otherwise you can click on the `Skip` button.
    - When prompted, select the effect packages you would like to install, if you would like to experiment I suggest clicking the `Check all` button to install all of them, otherwise you can select the files listed above in [Required Effect Packages/Shaders (.fx files)](#required-effect-packagesshaders-fx-files). A simpler method however would be to select my .ini file in the previous step.
@@ -123,14 +128,14 @@ Below is the exact list of .fx files required by this preset, as referenced in t
    - Click `Finish`.
 
 2. **Copy the Preset**
-   - Place `Elora's Personal Presets - Photo Mode - First Person.ini` and `Elora's Personal Presets - Photo Mode - Third Person.ini` into your Guild Wars 2 game folder (`C:\Program Files\Guild Wars 2` by default). For gameplay, use `Elora's Personal Presets - Always On - High - DOF.ini` or `Elora's Personal Presets - Always On - High - No DOF.ini` as appropriate. (Not required if you selected my .ini files in the first step)
+   - Place `Elora's Personal Presets - Photo Mode - First Person.ini`, `Elora's Personal Presets - Photo Mode - Third Person.ini`, `Elora's Personal Presets - Always On - High - DOF.ini`, `Elora's Personal Presets - Always On - High - No DOF.ini`, `Elora's Personal Presets - Always On - Medium - DOF.ini`, `Elora's Personal Presets - Always On - Medium - No DOF.ini`, `Elora's Personal Presets - Always On - Low - DOF.ini`, and `Elora's Personal Presets - Always On - Low - No DOF.ini` into your Guild Wars 2 game folder (`C:\Program Files\Guild Wars 2` default for standalone launcher players or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` default for Steam players). (Not required if you selected my .ini files in the first step)
 
 3. **Add Required Shaders**
    - Ensure all required .fx files (see above) are in your `reshade-shaders\Shaders` folder. (not required if you installed them in the first step)
    - Place any required textures in `reshade-shaders\Textures` if needed. (not required if you installed them in the first step)
 
 4. **Rename dxgi.dll to d3d11.dll**
-   - In `C:\Program Files\Guild Wars 2` (default path) rename the `dxgi.dll` to `d3d11.dll`, this change is required since the update to DX11 in order for ReShade to recognize Guild Wars 2 and initialize during launch. If you'd like to be extra safe, you can create a backup copy of this file first before renaming.
+   - In `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players) rename the `dxgi.dll` to `d3d11.dll`, this change is required since the update to DX11 in order for ReShade to recognize Guild Wars 2 and initialize during launch. If you'd like to be extra safe, you can create a backup copy of this file first before renaming.
 
 5. **Launch Guild Wars 2**
    - Press `Home` to open the ReShade menu.
@@ -209,32 +214,48 @@ For best results, match these settings as closely as possible:
 
 ## Hardware Recommendations & Performance
 
-**Photo Mode Presets are optimized for:**
-- CPU: Intel Core i7-13700HX or AMD Ryzen 7 7735HS
-- GPU: NVIDIA GeForce RTX 4050 (6GB VRAM) or AMD Radeon RX 7600M
-- RAM: 16 GB DDR5
-- Storage: SSD
-- OS: Windows 10/11 64-bit
-- Performance Target: 1080p @ 40+ FPS with all effects enabled
+**Photo Mode Presets Performance & Recommendations:**
+
+- Tested with: 
+  - CPU: Intel Core i7-13700HX or AMD Ryzen 7 7735HS
+  - GPU: NVIDIA GeForce RTX 4050 (6GB VRAM) or AMD Radeon RX 7600M
+  - RAM: 16 GB DDR5
+  - Storage: SSD
+  - OS: Windows 10/11 64-bit
+
+- **Photo Mode**
+  - Optimized for: Modern mid/high-end systems
+  - Performance Target: 1080p @ 40+ FPS with all effects enabled
+
+- **Photo Mode - Ultra**
+  - Optimized for: Modern mid/high-end systems
+  - Performance Target: 1080p @ 30+ FPS with all effects enabled
 
 > **Note:**
 > - Photo Mode presets are not intended for regular gameplay, they're meant for taking high quality photos. Please use one of the Always On presets if you intend to use any during gameplay.
 
-**Always On - High Presets are optimized for:**
-- CPU: Intel Core i7-13700HX or AMD Ryzen 7 7735HS
-- GPU: NVIDIA GeForce RTX 4050 (6GB VRAM) or AMD Radeon RX 7600M
-- RAM: 16 GB DDR5
-- Storage: SSD
-- OS: Windows 10/11 64-bit
-- Performance Target: 1080p @ 60+ FPS with all effects enabled
+**Always On Presets Performance & Recommendations:**
 
-**Always On - High Presets User Testing:**
-- On a system with Intel i7-8700K, 32GB RAM, and RTX 2080 Ti:
-  - Without DOF: 90–75 FPS
-  - With DOF: 80–60 FPS
+- Tested with:
+  - CPU: Intel Core i7-13700HX or AMD Ryzen 7 7735HS
+  - GPU: NVIDIA GeForce RTX 4050 (6GB VRAM) or AMD Radeon RX 7600M
+  - RAM: 16 GB DDR5
+  - Storage: SSD
+  - OS: Windows 10/11 64-bit
 
-> **Note:**
-> - Always On - High presets deliver roughly double the FPS of the Photo Mode presets.
+- **Always On - High**
+  - Optimized for: Modern mid/high-end systems
+  - Performance Target: 1080p @ 60+ FPS with all effects enabled
+
+- **Always On - Medium**
+  - Optimized for: Mid-range systems
+  - Performance Target: 1080p @ 70–80+ FPS (approx. 10–20 more FPS than High)
+
+- **Always On - Low**
+  - Optimized for: Lower-end or older systems, or users wanting maximum FPS/minimal effects
+  - Performance Target: 1080p @ 90–100+ FPS (approx. 20–40 more FPS than High)
+
+All Always On presets deliver high visual quality with a focus on smooth gameplay. Choose the tier that best matches your hardware and FPS goals.
 
 ---
 
@@ -249,7 +270,7 @@ For best results, match these settings as closely as possible:
 
 **Q: My game is running slowly!**
 - Some effects (like MXAO, SSDO, and high-quality DOF) are demanding. Disable or lower their quality in the ReShade menu if needed.
-- For gameplay, toggle off the most demanding effects or use a lower version of the Always On (High, Medium, or Low) presets, until you achieve a framerame that works best for your system.
+- For gameplay, toggle off the most demanding effects or use the Always On preset tier (High, Medium, or Low) that achieves the framerate that works best for your system.
 - Lower your in-game resolution or reduce supersampling for better performance.
 
 **Q: Where do I get missing shaders?**

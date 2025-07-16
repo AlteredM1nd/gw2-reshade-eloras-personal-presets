@@ -2,6 +2,17 @@
 
 All notable changes to these presets will be documented in this file.
 
+## [4.0.0] - 2025-07-08
+### Added
+- Introduced **Always On - Medium** and **Always On - Low** presets, each available in DOF (Depth of Field) and No DOF variants.
+- These new presets are designed to expand accessibility for users with lower-spec hardware, those seeking higher FPS, or anyone preferring a more minimal ReShade experience.
+- **Performance:**
+  - Always On - Medium: Offers approximately 10-20 more FPS compared to Always On - High.
+  - Always On - Low: Offers approximately 20-40 more FPS compared to Always On - High.
+- All Always On presets now cover a wider range of hardware and performance needs, making them suitable for both high-end and lower-end systems, as well as users prioritizing smooth gameplay.
+
+---
+
 ## [3.0.0] - 2025-07-08
 ### Added
 - Released **Photo Mode - Ultra**: a major overhaul and next-generation upgrade to the First Person photo preset, designed for maximum visual fidelity and screenshot artistry.
