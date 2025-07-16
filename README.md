@@ -128,6 +128,7 @@ Below is the exact list of .fx files required by this preset, as referenced in t
    - Click `Finish`.
 
 2. **Copy the Preset**
+   - Download the latest release from [My Release Page](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/releases)
    - Place `Elora's Personal Presets - Photo Mode - First Person.ini`, `Elora's Personal Presets - Photo Mode - Third Person.ini`, `Elora's Personal Presets - Always On - High - DOF.ini`, `Elora's Personal Presets - Always On - High - No DOF.ini`, `Elora's Personal Presets - Always On - Medium - DOF.ini`, `Elora's Personal Presets - Always On - Medium - No DOF.ini`, `Elora's Personal Presets - Always On - Low - DOF.ini`, and `Elora's Personal Presets - Always On - Low - No DOF.ini` into your Guild Wars 2 game folder (`C:\Program Files\Guild Wars 2` default for standalone launcher players or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` default for Steam players). (Not required if you selected my .ini files in the first step)
 
 3. **Add Required Shaders**
