@@ -319,6 +319,8 @@ For questions, feedback, or suggestions:
 | ![Bitterfrost Frontier](screenshots/BitterfrostFrontier.png) | ![Hellion Forest](screenshots/HellionForest.png) | ![Chaos Crystal Cavern](screenshots/ChaosCrystalCavern.png) |
 | Dragonfall | Heart of the Mists | Crystal Desert |
 | ![Dragonfall](screenshots/Dragonfall.png) | ![Heart of the Mists](screenshots/HeartOfTheMists.png) | ![Crystal Desert](screenshots/CrystalDesert.png) |
+| Homestead 1 | Homestead 2 | Homestead 3 |
+| ![Homestead 1](screenshots/Homestead1.png) | ![Homestead 2](screenshots/Homestead2.png) | ![Homestead 3](screenshots/Homestead3.png) |
 
 ---
 
