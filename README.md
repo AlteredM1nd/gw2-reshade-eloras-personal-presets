@@ -69,7 +69,7 @@ This collection now includes two main preset types:
 
 ## Required Effect Packages/Add-ons
 
-Below is the exact list of .fx files required by this preset, as referenced in the preset's Techniques. **These effect packages can be installed during the standard setup/installation wizard for ReShade.** Ensure these files are present in your ReShade `Shaders` folder:
+Below is the exact list of .fx files and .addon files required by this preset, as referenced in the preset's Techniques (.fx files) and referenced by all ReShade add-ons currently in use. **These effect packages and add-ons can be installed during the standard setup/installation wizard for ReShade.** Ensure these .fx files are present in your `Guild Wars 2\reshade-shaders\Shaders` folder and that the .addon files are present in your `Guild Wars 2 Game Folder` (`C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players)):
 
 - Zenteon_Framework.fx ([Zenteon Shaders](https://github.com/Zenteon/Reshade-Shaders))
 - MartysMods_LAUNCHPAD.fx ([qUINT by Marty McFly](https://github.com/martymcmodding/qUINT))
@@ -121,7 +121,7 @@ Below is the exact list of .fx files required by this preset, as referenced in t
 
 1. **Download Presets**
    - Download the latest release from [My Release Page](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/releases).
-   - You can either download the `.ini files` beginning with `Elora's Personal Presets` from the `Assets` section of the latest release by clicking on them individually or click `Source code (zip)` to download my entire repository as a `.zip file` containing everything which you will then have to extract (unzip) by clicking on the `.zip` file in your `File Explorer`, clicking on the `Extract All` button, and then clicking on the `Extract` button.
+   - You can either download the `.ini files` beginning with `Elora's Personal Presets` from the `Assets` section of the latest release by clicking on them individually along with the `ReshadeEffectShaderToggler.ini` or click `Source code (zip)` to download my entire repository as a `.zip file` containing everything which you will then have to extract (unzip) by clicking on the `.zip` file in your `File Explorer`, clicking on the `Extract All` button, and then clicking on the `Extract` button.
    - Copy all files beginning with `Elora's Personal Presets` along with `ReshadeEffectShaderToggler.ini` into your Guild Wars 2 game folder `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players).
 
 2. **Download and Install ReShade 6.5.1**
