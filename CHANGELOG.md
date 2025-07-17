@@ -2,6 +2,13 @@
 
 All notable changes to these presets will be documented in this file.
 
+## [4.1.0] - 2025-07-17
+### Added
+- **REST (ReshadeEffectShaderToggler) is now required** for all presets. This add-on ensures that ReShade effects no longer affect the Guild Wars 2 UI.
+- REST can be downloaded from [https://github.com/4lex4nder/ReshadeEffectShaderToggler](https://github.com/4lex4nder/ReshadeEffectShaderToggler).
+- Updated the installation instructions and required effect packages/add-ons list in the README to include REST and copying your working ReshadeEffectShaderToggler.ini into the Guild Wars 2 folder.
+- With this change, all effect packages used by the presets will no longer affect the UI, providing a cleaner and more immersive experience.
+
 ## [4.0.0] - 2025-07-16
 ### Added
 - Introduced **Always On - Medium** and **Always On - Low** presets, each available in DOF (Depth of Field) and No DOF variants.

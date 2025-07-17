@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/github/license/alteredm1nd/gw2-reshade-eloras-personal-presets)](./LICENSE)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/alteredm1nd/gw2-reshade-eloras-personal-presets)](https://github.com/alteredm1nd/gw2-reshade-eloras-personal-presets/releases)
 
-Welcome! This guide will walk you through installing and using my custom ReShade preset for Guild Wars 2, updated for ReShade 6.5.1. It includes a full list of required shaders, recommended in-game graphics settings, and tips for best results.
+Welcome! This guide will walk you through installing and using my custom ReShade preset for Guild Wars 2, updated for ReShade 6.5.1. It includes a full list of required effect packages, add-ons, recommended in-game graphics settings, and tips for best results.
 
 > **Changelog:** See [CHANGELOG.md](./CHANGELOG.md) for recent updates and version history.
 
@@ -14,7 +14,7 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 
 1. [About This Preset](#about-this-preset)
 2. [Requirements](#requirements)
-3. [Required Effect Packages/Shaders (.fx files)](#required-effect-packagesshaders-fx-files)
+3. [Required Effect Packages/Shaders (.fx files)](#required-effect-packagesadd-ons)
 4. [Installation Instructions](#installation-instructions)
 5. [In-Game Graphics Settings (Recommended)](#in-game-graphics-settings-recommended)
 6. [FOV & Camera Tips](#fov--camera-tips)
@@ -28,7 +28,7 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 
 ## About This Preset
 
-**Preset Version:** 4.0.0 (see [CHANGELOG.md](./CHANGELOG.md))
+**Preset Version:** 4.1.0 (see [CHANGELOG.md](./CHANGELOG.md))
 
 This preset was designed to deliver a cinematic, next-generation visual experience in Guild Wars 2. Whether you're a content creator or an everyday player, it enables you to capture eye-catching screenshots, breathtaking videos, and enjoy a more immersive gameplay experience—elevating the standard of in-game visuals for everyone.
 
@@ -67,7 +67,7 @@ This collection now includes two main preset types:
 
 ---
 
-## Required Effect Packages/Shaders (.fx files)
+## Required Effect Packages/Add-ons
 
 Below is the exact list of .fx files required by this preset, as referenced in the preset's Techniques. **These effect packages can be installed during the standard setup/installation wizard for ReShade.** Ensure these files are present in your ReShade `Shaders` folder:
 
@@ -107,6 +107,7 @@ Below is the exact list of .fx files required by this preset, as referenced in t
 - DTAA.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
 - GaussianBlur.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
 - GBloom.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
+- ReshadeEffectShaderToggler.addon ([ReshadeEffectShaderToggler by 4lex4nder](https://github.com/4lex4nder/ReshadeEffectShaderToggler))
 
 > **Note:**
 > - The list above is derived directly from the preset's Techniques line. Some techniques may reference the same .fx file with different technique names.
@@ -121,7 +122,7 @@ Below is the exact list of .fx files required by this preset, as referenced in t
 1. **Download Presets**
    - Download the latest release from [My Release Page](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/releases).
    - You can either download the `.ini files` beginning with `Elora's Personal Presets` from the `Assets` section of the latest release by clicking on them individually or click `Source code (zip)` to download my entire repository as a `.zip file` containing everything which you will then have to extract (unzip) by clicking on the `.zip` file in your `File Explorer`, clicking on the `Extract All` button, and then clicking on the `Extract` button.
-   - Copy all files beginning with `Elora's Personal Presets` into your Guild Wars 2 game folder `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players).
+   - Copy all files beginning with `Elora's Personal Presets` along with `ReshadeEffectShaderToggler.ini` into your Guild Wars 2 game folder `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players).
 
 2. **Download and Install ReShade 6.5.1**
    - Download the latest version of the ReShade installer (ReShade 6.5.1 with full add-on support) and run it. ([Download here](https://reshade.me/#download))
@@ -130,7 +131,7 @@ Below is the exact list of .fx files required by this preset, as referenced in t
    - Choose `Install ReShade and effects` and then click `Next`.
    - Click `Browse...`, navigate to and select `Elora's Personal Presets - Photo Mode - Ultra.ini` (since this uses the most effect packages, it will install all the effect packages used in all my presets) and then click `Open`.
    - It will automatically select all of the effect packages used by my presets for installation, if this is sufficient for you, then you can click `Next` and it will begin downloading the required effect packages. If you would like to give yourself more options for experimenting, you can instead click `Uncheck All` and then click `Check All`, this will install every available effect package in the ReShade repository which will give you a lot of room for experimenting with new effect packages.
-   - You can safely click `Skip` on the list of add-ons available for installation as my presets don't require any at the moment (please note, this may change in the future).
+   - On the `Select add-ons to install:` screen, select `ReshadeEffectShaderToggler (REST) by 4lex4nder` and click `Next`
    - Click `Finish`.
 
 3. **Rename dxgi.dll to d3d11.dll**
