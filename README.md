@@ -63,13 +63,13 @@ This collection now includes two main preset types:
 
 - **Guild Wars 2** (latest version)
 - **ReShade 6.5.1** ([Download here](https://reshade.me/#download))
-- Windows 10/11
+- **Windows 10/11**
 
 ---
 
 ## Required Effect Packages/Shaders (.fx files)
 
-Below is the exact list of .fx files required by this preset, as referenced in the preset's Techniques. These effect packages can be installed during the standard setup/installation wizard for ReShade. Ensure these files are present in your ReShade `Shaders` folder:
+Below is the exact list of .fx files required by this preset, as referenced in the preset's Techniques. **These effect packages can be installed during the standard setup/installation wizard for ReShade.** Ensure these files are present in your ReShade `Shaders` folder:
 
 - Zenteon_Framework.fx ([Zenteon Shaders](https://github.com/Zenteon/Reshade-Shaders))
 - MartysMods_LAUNCHPAD.fx ([qUINT by Marty McFly](https://github.com/martymcmodding/qUINT))
@@ -118,37 +118,35 @@ Below is the exact list of .fx files required by this preset, as referenced in t
 
 ## Installation Instructions
 
-1. **Download & Install ReShade 6.5.1**
-   - Run the ReShade installer (I recommend the ReShade 6.5.1 with full add-on support for future proofing). ([Download here](https://reshade.me/#download))
-   - Select your `Gw2-64.exe` (Guild Wars 2 executable), it may not appear on the default list of applications, and if so, navigate to the default file location and select it `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players).
-   - Choose DirectX 10/11/12.
-   - If you plan on using my preset and want to streamline the installation, on the next screen you can click the `Browse...` button, navigate to my preset, select it, and it will install all the effect packages used in my preset, otherwise you can click on the `Skip` button.
-   - When prompted, select the effect packages you would like to install, if you would like to experiment I suggest clicking the `Check all` button to install all of them, otherwise you can select the files listed above in [Required Effect Packages/Shaders (.fx files)](#required-effect-packagesshaders-fx-files).
-   - You can safely `Skip` the list of add-ons/plugins as my presets don't require any at the moment (please note, this may change in the future which is why installing the full add-on support version is recommended for future proofing).
+1. **Download Presets and ReShade 6.5.1 & Install**
+   - Download the latest release from [My Release Page](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/releases).
+   - You can either download the .ini files beginning with `Elora's Personal Presets` from the `Assets` section of the latest release by clicking on them individually or click `Source code (zip)` to download my entire repository as a `.zip file` containing everything which you will then have to extract (unzip).
+   - Download the latest version of the ReShade installer (I recommend the ReShade 6.5.1 with full add-on support for future proofing) and run it. ([Download here](https://reshade.me/#download))
+   - Select your `Gw2-64.exe` (Guild Wars 2 executable), it may not appear on the default list of applications, and if so, click `Browse...` and navigate to the Guild Wars 2 folder and select it `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players) and then click `Next`.
+   - Choose `Microsoft DirectX 10/11/12` and then click `Next`.
+   - Choose `Install ReShade and effects` and then click `Next`.
+   - Click `Browse...`, navigate to and select `Elora's Personal Presets - Photo Mode - Ultra.ini` (since this uses the most effect packages, it will install all the effect packages used in all my presets) and then click `Open`.
+   - It will automatically select all of the effect packages used by my presets for installation, if this is sufficient for you, then you can click `Next` and it will begin downloading the required effect packages. If you would like to give yourself more options for experimenting, you can instead, click `Uncheck All` and then click `Check All`, this will install every available effect package in the ReShade repository which will give you a lot of room for experimenting.
+   - You can safely click `Skip` on the list of add-ons available for installation as my presets don't require any at the moment (please note, this may change in the future which is why installing the full add-on support version is recommended for future proofing).
    - Click `Finish`.
 
-2. **Copy the Preset**
-   - Download the latest release from [My Release Page](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/releases).
-   - You can either download the .ini files beginning with `Elora's Personal Presets` from the `Assets` section of the latest release by clicking on them individually or click `Source code (zip)` to download my entire repository as a `.zip file` containing everything.
-   - Place `Elora's Personal Presets - Photo Mode - Ultra.ini`, `Elora's Personal Presets - Photo Mode - First Person.ini`, `Elora's Personal Presets - Photo Mode - Third Person.ini`, `Elora's Personal Presets - Always On - High - DOF.ini`, `Elora's Personal Presets - Always On - High - No DOF.ini`, `Elora's Personal Presets - Always On - Medium - DOF.ini`, `Elora's Personal Presets - Always On - Medium - No DOF.ini`, `Elora's Personal Presets - Always On - Low - DOF.ini`, and `Elora's Personal Presets - Always On - Low - No DOF.ini` into your Guild Wars 2 game folder (`C:\Program Files\Guild Wars 2` default for standalone launcher players or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` default for Steam players). (Not required if you selected my .ini files in the first step).
+2. **Copy the remaining Presets**
+   - Place `Elora's Personal Presets - Photo Mode - Ultra.ini`, `Elora's Personal Presets - Photo Mode - First Person.ini`, `Elora's Personal Presets - Photo Mode - Third Person.ini`, `Elora's Personal Presets - Always On - High - DOF.ini`, `Elora's Personal Presets - Always On - High - No DOF.ini`, `Elora's Personal Presets - Always On - Medium - DOF.ini`, `Elora's Personal Presets - Always On - Medium - No DOF.ini`, `Elora's Personal Presets - Always On - Low - DOF.ini`, and `Elora's Personal Presets - Always On - Low - No DOF.ini` into your Guild Wars 2 game folder (`C:\Program Files\Guild Wars 2` default for standalone launcher players or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` default for Steam players).
 
-3. **Add Required Shaders**
-   - Ensure all required .fx files (see above) are in your `reshade-shaders\Shaders` folder. (not required if you installed them in the first step)
-   - Place any required textures in `reshade-shaders\Textures` if needed. (not required if you installed them in the first step)
-
-4. **Rename dxgi.dll to d3d11.dll**
+3. **Rename dxgi.dll to d3d11.dll**
    - In `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players) rename the `dxgi.dll` to `d3d11.dll`, this change is required since the update to DX11 in order for ReShade to recognize Guild Wars 2 and initialize during launch. If you'd like to be extra safe, you can create a backup copy of this file first before renaming.
 
-5. **Launch Guild Wars 2**
-   - Press `Home` to open the ReShade menu.
-   - Select the desired preset from the dropdown menu at the top.
+4. **Launch Guild Wars 2**
+   - Launch Guild Wars 2.
+   - Press the `Home` button on your keyboard to open the ReShade menu (this keybind can be modified in the ReShade settings menu).
+   - Select the desired preset from the dropdown menu at the top to activate it.
 
-6. **Set a Toggle Key** (optional)
+5. **Set a Toggle Key** (optional)
    - Navigate to the `Settings` tab.
    - Bind a key for `Effect Toggle Key`.
    - Use your keybind to turn the current preset on and off whenever it suits you.
 
-7. **Tweak Settings** (optional)
+6. **Tweak Settings** (optional)
    - If you like how I have things set up then you can skip this, but if you'd like to simply use my preset as a foundation for more changes you're more than welcome to do that. At the end of the day, this is your game, you should enjoy the way that it looks, and it should suit your preferences. Modify sliders and toggle effects until everything is just right for you. If you need to revert back, you can always just download this preset again or you can create a new preset based on mine using the `Add A New Preset` (Plus Icon) button in the `Reshade Menu` and put a checkmark in the `Inherit Current Preset` checkbox - this way the original preset remains untouched and you get a brand new copy to modify to your heart's content!
 
  > **Note:**
