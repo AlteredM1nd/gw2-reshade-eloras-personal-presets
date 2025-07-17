@@ -2,6 +2,10 @@
 
 All notable changes to these presets will be documented in this file.
 
+## [4.1.1] - 2025-07-17
+### Changed
+- Updated `pSSDOFadeEnd` to `0.350000` and `pSSDOFadeStart` to `0.100000` for `PPFX_SSDO.fx` in all presets. This adjustment ensures that shadows rendered by SSDO gradually fade closer to the player's character than before, resulting in more natural shadow transitions.
+
 ## [4.1.0] - 2025-07-17
 ### Added
 - **REST (ReshadeEffectShaderToggler) is now required** for all presets. This add-on ensures that ReShade effects no longer affect the Guild Wars 2 UI.
