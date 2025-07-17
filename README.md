@@ -118,23 +118,23 @@ Below is the exact list of .fx files required by this preset, as referenced in t
 
 ## Installation Instructions
 
-1. **Download Presets and ReShade 6.5.1 & Install**
+1. **Download Presets**
    - Download the latest release from [My Release Page](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/releases).
-   - You can either download the .ini files beginning with `Elora's Personal Presets` from the `Assets` section of the latest release by clicking on them individually or click `Source code (zip)` to download my entire repository as a `.zip file` containing everything which you will then have to extract (unzip).
-   - Download the latest version of the ReShade installer (I recommend the ReShade 6.5.1 with full add-on support for future proofing) and run it. ([Download here](https://reshade.me/#download))
+   - You can either download the `.ini files` beginning with `Elora's Personal Presets` from the `Assets` section of the latest release by clicking on them individually or click `Source code (zip)` to download my entire repository as a `.zip file` containing everything which you will then have to extract (unzip) by clicking on the `.zip` file in your `File Explorer`, clicking on the `Extract All` button, and then clicking on the `Extract` button.
+   - Copy all files beginning with `Elora's Personal Presets` into your Guild Wars 2 game folder `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players)
+
+2. **Download and Install ReShade 6.5.1**
+   - Download the latest version of the ReShade installer (ReShade 6.5.1 with full add-on support) and run it. ([Download here](https://reshade.me/#download))
    - Select your `Gw2-64.exe` (Guild Wars 2 executable), it may not appear on the default list of applications, and if so, click `Browse...` and navigate to the Guild Wars 2 folder and select it `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players) and then click `Next`.
    - Choose `Microsoft DirectX 10/11/12` and then click `Next`.
    - Choose `Install ReShade and effects` and then click `Next`.
    - Click `Browse...`, navigate to and select `Elora's Personal Presets - Photo Mode - Ultra.ini` (since this uses the most effect packages, it will install all the effect packages used in all my presets) and then click `Open`.
    - It will automatically select all of the effect packages used by my presets for installation, if this is sufficient for you, then you can click `Next` and it will begin downloading the required effect packages. If you would like to give yourself more options for experimenting, you can instead, click `Uncheck All` and then click `Check All`, this will install every available effect package in the ReShade repository which will give you a lot of room for experimenting.
-   - You can safely click `Skip` on the list of add-ons available for installation as my presets don't require any at the moment (please note, this may change in the future which is why installing the full add-on support version is recommended for future proofing).
+   - You can safely click `Skip` on the list of add-ons available for installation as my presets don't require any at the moment (please note, this may change in the future).
    - Click `Finish`.
 
-2. **Copy the remaining Presets**
-   - Place `Elora's Personal Presets - Photo Mode - Ultra.ini`, `Elora's Personal Presets - Photo Mode - First Person.ini`, `Elora's Personal Presets - Photo Mode - Third Person.ini`, `Elora's Personal Presets - Always On - High - DOF.ini`, `Elora's Personal Presets - Always On - High - No DOF.ini`, `Elora's Personal Presets - Always On - Medium - DOF.ini`, `Elora's Personal Presets - Always On - Medium - No DOF.ini`, `Elora's Personal Presets - Always On - Low - DOF.ini`, and `Elora's Personal Presets - Always On - Low - No DOF.ini` into your Guild Wars 2 game folder (`C:\Program Files\Guild Wars 2` default for standalone launcher players or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` default for Steam players).
-
 3. **Rename dxgi.dll to d3d11.dll**
-   - In `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players) rename the `dxgi.dll` to `d3d11.dll`, this change is required since the update to DX11 in order for ReShade to recognize Guild Wars 2 and initialize during launch. If you'd like to be extra safe, you can create a backup copy of this file first before renaming.
+   - In `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players) rename the `dxgi.dll` to `d3d11.dll`, this change is required since the update to DX11 in order for ReShade to recognize Guild Wars 2 and initialize during launch.
 
 4. **Launch Guild Wars 2**
    - Launch Guild Wars 2.
