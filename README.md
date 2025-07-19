@@ -78,14 +78,14 @@ Below is the exact list of .fx files and .addon files required by this preset, a
 - NeoSSAO.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
 - NGLighting.fx ([Nice Guy Shaders](https://github.com/mj-ehsan/NiceGuy-Shaders))
 - AmbientLight.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
-- ZN_LC.fx ([Zenteon Shaders](https://github.com/Zenteon/Reshade-Shaders))
+- ZN_LC.fx ([ZN FX](https://github.com/Zenteon/ZN_FX))
 - CAS.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
 - HexLensFlare.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
 - MagicBloom.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
 - PD80_02_Bloom.fx ([prod80 Shaders](https://github.com/prod80/prod80-ReShade-Repository))
 - PD80_04_Color_Temperature.fx ([prod80 Shaders](https://github.com/prod80/prod80-ReShade-Repository))
-- Quark_Local_Contrast.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
-- Quark_Xenon_Bloom.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
+- Quark_Local_Contrast.fx ([Quark FX](https://github.com/Zenteon/QuarkFX))
+- Quark_Xenon_Bloom.fx ([Quark FX](https://github.com/Zenteon/QuarkFX))
 - Reinhard.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
 - Vibrance.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
 - lilium__rcas_hdr.fx ([ReShade Repository](https://github.com/crosire/reshade-shaders))
@@ -284,6 +284,9 @@ All Always On presets deliver high visual quality with a focus on smooth gamepla
 **Q: The Depth of Field is reversed, why is that?**
 - Click on the `Edit global preprocessor definitions` button from the `ReShade Menu` and change `RESHADE_DEPTH_INPUT_IS_REVERSED` from `1` to `0` and click on the `Apply` button.
 
+**Q: My UI is blurry when I use any of the Photo Mode or Always On - DOF Presets, how do I fix that?**
+- In order for your UI to not be affected by `ADOF.fx` the `REST add-on` is required. You can rerun the ReShade installation and follow the steps in the [Installation Instructions](#installation-instructions) to ensure that the REST add-on is installed and then ensure that my `ReshadeEffectShaderToggler.ini` is placed into your `Guild Wars 2 Game Folder` which is `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players)
+
 ---
 
 ## License
@@ -305,21 +308,21 @@ For questions, feedback, or suggestions:
 
 ## Preset Previews
 
-| The Grove | The Grove 4 | Lowland Shore 1 |
+| Mistburned Barrens | The Grove 4 | Lowland Shore 1 |
 |-----------|-------------|---------------|
-| ![The Grove](screenshots/TheGrove.png) | ![The Grove 4](screenshots/TheGrove4.png) | ![Lowland Shore](screenshots/LowlandShore1.png) |
-| Hoelbrak Sunset | Thrassak Rata Sum | Eirene Rata Sum |
-| ![Hoelbrak Sunset](screenshots/HoelbrakSunset.png) | ![Thrassak Rata Sum](screenshots/ThrassakRataSum.png) | ![Eirene Rata Sum](screenshots/EireneRataSum.png) |
+| ![Mistburned Barrens](screenshots/MistburnedBarrens.png) | ![The Grove 4](screenshots/TheGrove4.png) | ![Lowland Shore](screenshots/LowlandShore1.png) |
+| Hoelbrak Sunset | Thrassak Rata Sum | Desert Highlands |
+| ![Hoelbrak Sunset](screenshots/HoelbrakSunset.png) | ![Thrassak Rata Sum](screenshots/ThrassakRataSum.png) | ![Desert Highlands](screenshots/DesertHighlands.png) |
 | Danala Claypool | Divinity's Reach 2 | Seitung Province |
 | ![Danala Claypool](screenshots/DanalaClaypool.png) | ![DivinitysReach2](screenshots/DivinitysReach2.png) | ![Seitung Province](screenshots/SeitungProvince2.png) |
 | Elora The Grove | Grothmar Valley | The Grove 3 |
 | ![Elora The Grove](screenshots/EloraTheGrove.png) | ![Grothmar Valley](screenshots/GrothmarValley.png) | ![The Grove 3](screenshots/TheGrove3.png) |
 | Bitterfrost Frontier | Hellion Forest | Chaos Crystal Cavern |
 | ![Bitterfrost Frontier](screenshots/BitterfrostFrontier.png) | ![Hellion Forest](screenshots/HellionForest.png) | ![Chaos Crystal Cavern](screenshots/ChaosCrystalCavern.png) |
-| Dragonfall | Heart of the Mists | Crystal Desert |
-| ![Dragonfall](screenshots/Dragonfall.png) | ![Heart of the Mists](screenshots/HeartOfTheMists.png) | ![Crystal Desert](screenshots/CrystalDesert.png) |
-| Homestead 1 | Homestead 2 | Homestead 3 |
-| ![Homestead 1](screenshots/Homestead1.png) | ![Homestead 2](screenshots/Homestead2.png) | ![Homestead 3](screenshots/Homestead3.png) |
+| Dragonfall | Mistburned Barrens 1 | Crystal Desert |
+| ![Dragonfall](screenshots/Dragonfall.png) | ![Mistburned Barrens 1](screenshots/MistburnedBarrens1.png) | ![Crystal Desert](screenshots/CrystalDesert.png) |
+| Skywatch Archipelago | Homestead 2 | Homestead 3 |
+| ![Skywatch Archipelago](screenshots/SkywatchArchipelago.png) | ![Homestead 2](screenshots/Homestead2.png) | ![Homestead 3](screenshots/Homestead3.png) |
 
 ---
 
