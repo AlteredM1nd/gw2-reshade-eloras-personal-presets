@@ -2,6 +2,10 @@
 
 All notable changes to these presets will be documented in this file.
 
+## [4.1.2] - 2025-07-20
+### Added
+- Added two new pixel hashes to `ReshadeEffectShaderToggler.ini` to ensure that effect packages no longer render on top of NPC speech bubbles. This minor update further improves UI clarity during gameplay. 
+
 ## [4.1.1] - 2025-07-17
 ### Changed
 - Updated `pSSDOFadeEnd` to `0.350000` and `pSSDOFadeStart` to `0.100000` for `PPFX_SSDO.fx` in all presets. This adjustment ensures that shadows rendered by SSDO gradually fade closer to the player's character than before, resulting in more natural shadow transitions.
