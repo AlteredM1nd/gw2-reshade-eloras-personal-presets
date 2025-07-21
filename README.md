@@ -321,7 +321,7 @@ For questions, feedback, or suggestions:
 | ![Bitterfrost Frontier](screenshots/BitterfrostFrontier.png) | ![Hellion Forest](screenshots/HellionForest.png) | ![Plains of Ashford](screenshots/PlainsOfAshford.png) |
 | Dragonfall | Mistburned Barrens 1 | Crystal Desert |
 | ![Dragonfall](screenshots/Dragonfall.png) | ![Mistburned Barrens 1](screenshots/MistburnedBarrens1.png) | ![Crystal Desert](screenshots/CrystalDesert.png) |
-| Skywatch Archipelago | Homestead 2 | Homestead 3 |
+| Skywatch Archipelago | Homestead 2 | Echovald Wilds 2 |
 | ![Skywatch Archipelago](screenshots/SkywatchArchipelago.png) | ![Homestead 2](screenshots/Homestead2.png) | ![Echovald Wilds 2](screenshots/EchovaldWilds2.png) |
 
 ---
