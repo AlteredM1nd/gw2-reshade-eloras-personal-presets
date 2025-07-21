@@ -312,7 +312,7 @@ For questions, feedback, or suggestions:
 |-----------|-------------|---------------|
 | ![Mistburned Barrens](screenshots/MistburnedBarrens.png) | ![The Grove 4](screenshots/TheGrove4.png) | ![Lowland Shore 1](screenshots/LowlandShore1.png) |
 | Hoelbrak Sunset | Frostgorge Sound 1 | Desert Highlands |
-| ![Hoelbrak Sunset](screenshots/HoelbrakSunset.png) | ![Frostgorge Sound 1](screenshots\/FrostgorgeSound1.png.png) | ![Desert Highlands](screenshots/DesertHighlands.png) |
+| ![Hoelbrak Sunset](screenshots/HoelbrakSunset.png) | ![Frostgorge Sound 1](screenshots/FrostgorgeSound1.png) | ![Desert Highlands](screenshots/DesertHighlands.png) |
 | Danala Claypool | Divinity's Reach 2 | Echovald Wilds 6 |
 | ![Danala Claypool](screenshots/DanalaClaypool.png) | ![DivinitysReach2](screenshots/DivinitysReach2.png) | ![Echovald Wilds 6](screenshots/EchovaldWilds6.png) |
 | Elora The Grove | Echovald Wilds 5 | Echovald Wilds 3 |
