@@ -316,7 +316,7 @@ For questions, feedback, or suggestions:
 | Danala Claypool | Divinity's Reach 2 | Seitung Province |
 | ![Danala Claypool](screenshots/DanalaClaypool.png) | ![DivinitysReach2](screenshots/DivinitysReach2.png) | ![Seitung Province](screenshots/SeitungProvince2.png) |
 | Elora The Grove | Grothmar Valley | The Grove 3 |
-| ![Elora The Grove](screenshots/EloraTheGrove.png) | ![Grothmar Valley](screenshots/GrothmarValley.png) | ![The Grove 3](screenshots/TheGrove3.png) |
+| ![Elora The Grove 1](screenshots/EloraTheGrove1.png) | ![Grothmar Valley](screenshots/GrothmarValley.png) | ![The Grove 3](screenshots/TheGrove3.png) |
 | Bitterfrost Frontier | Hellion Forest | Chaos Crystal Cavern |
 | ![Bitterfrost Frontier](screenshots/BitterfrostFrontier.png) | ![Hellion Forest](screenshots/HellionForest.png) | ![Chaos Crystal Cavern](screenshots/ChaosCrystalCavern.png) |
 | Dragonfall | Mistburned Barrens 1 | Crystal Desert |
