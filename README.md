@@ -310,19 +310,19 @@ For questions, feedback, or suggestions:
 
 | Mistburned Barrens | The Grove 4 | Lowland Shore 1 |
 |-----------|-------------|---------------|
-| ![Mistburned Barrens](screenshots/MistburnedBarrens.png) | ![The Grove 4](screenshots/TheGrove4.png) | ![Lowland Shore](screenshots/LowlandShore1.png) |
-| Hoelbrak Sunset | Thrassak Rata Sum | Desert Highlands |
-| ![Hoelbrak Sunset](screenshots/HoelbrakSunset.png) | ![Thrassak Rata Sum](screenshots/ThrassakRataSum.png) | ![Desert Highlands](screenshots/DesertHighlands.png) |
-| Danala Claypool | Divinity's Reach 2 | Seitung Province |
-| ![Danala Claypool](screenshots/DanalaClaypool.png) | ![DivinitysReach2](screenshots/DivinitysReach2.png) | ![Seitung Province](screenshots/SeitungProvince2.png) |
-| Elora The Grove | Grothmar Valley | The Grove 3 |
-| ![Elora The Grove 1](screenshots/EloraTheGrove1.png) | ![Grothmar Valley](screenshots/GrothmarValley.png) | ![The Grove 3](screenshots/TheGrove3.png) |
-| Bitterfrost Frontier | Hellion Forest | Chaos Crystal Cavern |
-| ![Bitterfrost Frontier](screenshots/BitterfrostFrontier.png) | ![Hellion Forest](screenshots/HellionForest.png) | ![Chaos Crystal Cavern](screenshots/ChaosCrystalCavern.png) |
+| ![Mistburned Barrens](screenshots/MistburnedBarrens.png) | ![The Grove 4](screenshots/TheGrove4.png) | ![Lowland Shore 1](screenshots/LowlandShore1.png) |
+| Hoelbrak Sunset | Frostgorge Sound 1 | Desert Highlands |
+| ![Hoelbrak Sunset](screenshots/HoelbrakSunset.png) | ![Frostgorge Sound 1](screenshots\/FrostgorgeSound1.png.png) | ![Desert Highlands](screenshots/DesertHighlands.png) |
+| Danala Claypool | Divinity's Reach 2 | Echovald Wilds 6 |
+| ![Danala Claypool](screenshots/DanalaClaypool.png) | ![DivinitysReach2](screenshots/DivinitysReach2.png) | ![Echovald Wilds 6](screenshots/EchovaldWilds6.png) |
+| Elora The Grove | Echovald Wilds 5 | Echovald Wilds 3 |
+| ![Elora The Grove 1](screenshots/EloraTheGrove1.png) | ![Echovald Wilds 5](screenshots/EchovaldWilds5.png) | ![Echovald Wilds 3](screenshots/EchovaldWilds3.png) |
+| Bitterfrost Frontier | Hellion Forest | Plains of Ashford |
+| ![Bitterfrost Frontier](screenshots/BitterfrostFrontier.png) | ![Hellion Forest](screenshots/HellionForest.png) | ![Plains of Ashford](screenshots/PlainsOfAshford.png) |
 | Dragonfall | Mistburned Barrens 1 | Crystal Desert |
 | ![Dragonfall](screenshots/Dragonfall.png) | ![Mistburned Barrens 1](screenshots/MistburnedBarrens1.png) | ![Crystal Desert](screenshots/CrystalDesert.png) |
 | Skywatch Archipelago | Homestead 2 | Homestead 3 |
-| ![Skywatch Archipelago](screenshots/SkywatchArchipelago.png) | ![Homestead 2](screenshots/Homestead2.png) | ![Homestead 3](screenshots/Homestead3.png) |
+| ![Skywatch Archipelago](screenshots/SkywatchArchipelago.png) | ![Homestead 2](screenshots/Homestead2.png) | ![Echovald Wilds 2](screenshots/EchovaldWilds2.png) |
 
 ---
 
