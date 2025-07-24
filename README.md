@@ -287,6 +287,9 @@ All Always On presets deliver high visual quality with a focus on smooth gamepla
 **Q: My UI is blurry when I use any of the Photo Mode or Always On - DOF Presets, how do I fix that?**
 - In order for your UI to not be affected by `ADOF.fx` the `REST add-on` is required. You can rerun the ReShade installation and follow the steps in the [Installation Instructions](#installation-instructions) to ensure that the REST add-on is installed and then ensure that my `ReshadeEffectShaderToggler.ini` is placed into your `Guild Wars 2 Game Folder` which is `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players)
 
+**Q: Why is everything except the UI very dark?**
+- This will happen when using `ReshadeEffectShaderToggler.ini` files designed for other presets that don't utilize the same effect packages or for older versions of ReShade - my preset has it's own `ReshadeEffectShaderToggler.ini` that has been configured for my current effect package load order and won't cause this issue. Please download the `ReshadeEffectShaderToggler.ini` from my repo and replace it with the `ReshadeEffectShaderToggler.ini` that is currently in your `Guild Wars 2 Game Folder` which is `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players)
+
 ---
 
 ## License
@@ -308,9 +311,9 @@ For questions, feedback, or suggestions:
 
 ## Preset Previews
 
-| Mistburned Barrens | The Grove 4 | Lowland Shore 1 |
+| Mistburned Barrens | The Grove 4 | Auric Basin 2 |
 |-----------|-------------|---------------|
-| ![Mistburned Barrens](screenshots/MistburnedBarrens.png) | ![The Grove 4](screenshots/TheGrove4.png) | ![Lowland Shore 1](screenshots/LowlandShore1.png) |
+| ![Mistburned Barrens](screenshots/MistburnedBarrens.png) | ![The Grove 4](screenshots/TheGrove4.png) | ![Auric Basin 2](screenshots/AuricBasin2.png) |
 | Hoelbrak Sunset | Frostgorge Sound 1 | Desert Highlands |
 | ![Hoelbrak Sunset](screenshots/HoelbrakSunset.png) | ![Frostgorge Sound 1](screenshots/FrostgorgeSound1.png) | ![Desert Highlands](screenshots/DesertHighlands.png) |
 | Danala Claypool | Divinity's Reach 2 | Echovald Wilds 6 |
