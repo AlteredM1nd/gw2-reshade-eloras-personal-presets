@@ -1,0 +1,11 @@
+# ReShade log files
+ReShade.log
+d3d11.log
+dxgi.log
+
+# ReShade user preset list
+reshade-presets.ini
+
+# OS-specific files
+.DS_Store
+Thumbs.db

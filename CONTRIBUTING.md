@@ -22,20 +22,10 @@ This project and everyone participating in it is governed by the Contributor Cov
 ## How Can I Contribute?
 
 ### Reporting Bugs
-If you find a bug, visual artifact, or an issue with the documentation, please open an issue.
-
-When filing a bug report, please include as much detail as possible:
-- **Preset Version:** Which version of the preset are you using?
-- **Steps to Reproduce:** Clear steps on how to trigger the bug.
-- **Expected Behavior:** What did you expect to happen?
-- **Actual Behavior:** What actually happened?
-- **Screenshots:** A picture is worth a thousand words! Please include before/after screenshots if applicable.
-- **System Specs:** Your GPU, CPU, and ReShade version can be helpful.
+If you find a bug, visual artifact, or an issue with the documentation, please [open a bug report](https://github.com/alteredm1nd/gw2-reshade-eloras-personal-presets/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D+). We have a template that will guide you through the process of providing the necessary details.
 
 ### Suggesting Enhancements
-Have an idea for a new preset, a tweak to an existing one, or an improvement to the documentation? We'd love to hear it! Please open an issue to share your suggestion.
-
-Provide a clear and detailed explanation of the feature, why it would be useful, and any examples or mockups you might have.
+Have an idea for a new preset, a tweak to an existing one, or an improvement to the documentation? We'd love to hear it! Please [open a feature request](https://github.com/alteredm1nd/gw2-reshade-eloras-personal-presets/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=%5BFEATURE%5D+) to share your suggestion. The template will help you structure your idea.
 
 ### Submitting Pull Requests
 If you have a fix or enhancement you'd like to contribute directly, you can submit a Pull Request. Please follow the Pull Request Process below.
