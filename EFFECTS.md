@@ -250,6 +250,24 @@ Official and community shaders included with ReShade. [ReShade Shaders GitHub](h
 
 ---
 
+## ReshadeEffectShaderToggler Addon
+A ReShade 5+ addin that allows you to apply ReShade effects to specific render targets or shader groups based on a key press. Its primary purpose is to ensure that effect packages (like bloom, DOF, AO, etc.) are not rendered on top of the in-game UI, menus, or HUD elements, preserving UI clarity while keeping the visual enhancements for the game world.
+
+- **Purpose:** Prevents ReShade effects from affecting the UI by toggling effects only for the game world.
+- **How it works:**
+  - Lets you create toggle groups for shaders that draw the UI or HUD.
+  - When the UI is visible, the addon disables selected effects for those UI elements.
+  - Configuration is done in-game via the ReShade Addons tab, where you can mark shaders associated with the UI and assign them to toggle groups.
+  - Saves its configuration to `ReshadeEffectShaderToggler.ini` for reuse.
+- **Typical Use Case:**
+  - Open the ReShade overlay, go to the Addons tab, and use the Shader Toggler area to create a new toggle group.
+  - Mark shaders responsible for the UI using the provided hotkeys (see the addon's documentation for details).
+  - Assign a toggle key or let the addon automatically manage toggling based on UI visibility.
+  - Save the group to persist your settings.
+- **Reference:** [ReshadeEffectShaderToggler on GitHub](https://github.com/4lex4nder/ReshadeEffectShaderToggler)
+
+---
+
 ## Tips for Tweaking
 - **Performance:** Lower quality, radius, or sample count for AO and DOF effects to improve FPS.
 - **Visuals:** Increase bloom, vibrance, and color grading for a more stylized look.
