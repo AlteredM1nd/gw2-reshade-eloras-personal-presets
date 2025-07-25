@@ -13,7 +13,9 @@ This page provides a detailed breakdown of all the effect packages and shaders u
 2. [Zenteon Shaders](#zenteon-shaders)
 3. [prod80 Shaders](#prod80-shaders)
 4. [ReShade Repository Shaders](#reshade-repository-shaders)
-5. [Other Notable Shaders](#other-notable-shaders)
+5. [Nice Guy Shaders](#nice-guy-shaders)
+6. [Quark FX](#quark-fx)
+7. [ReshadeEffectShaderToggler Addon](#reshadeeffectshadertoggler-addon)
 
 ---
 
@@ -25,20 +27,23 @@ A suite of advanced post-processing effects designed for realism and cinematic v
 - **Key Settings:**
   - `Sample Radius`: How far AO spreads from edges.
   - `Sample Quality`: Higher = better quality, lower = faster.
-  - `AO Amount`: Strength of the effect.
-  - `Debug View`: Visualize AO mask.
-- **Tips:** Lower quality for performance, increase radius for softer AO.
+  - `AO Amount`: Strength of the ambient occlusion effect.
+  - `Indirect Lighting Amount`: Strength of the bounced light (Global Illumination).
+  - `Indirect Lighting Saturation`: Colorfulness of the bounced light.
+  - `Debug View`: Visualize the AO or indirect lighting mask.
+- **Tips:** Lower quality for performance, increase radius for softer AO. MXAO is a cornerstone for realistic depth.
 
 ### qUINT_dof.fx (DOF)
 - **Purpose:** Depth of Field, blurs background/foreground for a photographic look.
 - **Key Settings:**
   - `Focal Plane`: Where the image is sharpest.
   - `Blur Amount`: How strong the blur is.
+  - `Far Blur Curve`: Controls how quickly the background blurs. A key setting for separating subjects.
   - `Bokeh Shape/Quality`: Style and quality of out-of-focus highlights.
-- **Tips:** Lower quality for gameplay, increase for screenshots.
+- **Tips:** Lower quality for gameplay, increase for screenshots. Use the autofocus options to track a point on screen or set the focus plane manually for precise artistic control.
 
 ### MartysMods_LAUNCHPAD.fx
-- **Purpose:** Utility for managing and toggling qUINT effects.
+- **Purpose:** The central configuration hub for many qUINT effects, allowing you to manage them from one place.
 - **Key Settings:**
   - `Enable/Disable` toggles for various qUINT effects.
 - **Tips:** Use to quickly enable/disable qUINT suite features.
@@ -94,6 +99,18 @@ A set of high-quality color grading and bloom effects. [prod80 GitHub](https://g
 
 ---
 
+## Nice Guy Shaders
+A collection of shaders focusing on lighting and screen-space effects. [Nice Guy Shaders GitHub](https://github.com/mj-ehsan/NiceGuy-Shaders)
+
+### NGLighting.fx
+- **Purpose:** An advanced lighting shader that can simulate global illumination and other complex lighting phenomena for a more realistic and dynamic scene.
+- **Key Settings:**
+  - `Lighting Intensity`: Controls the overall strength of the lighting effect.
+  - `Light Color`: Tints the color of the simulated light.
+  - `Radius`: Defines the area of influence for the lighting calculations.
+
+---
+
 ## ReShade Repository Shaders
 Official and community shaders included with ReShade. [ReShade Shaders GitHub](https://github.com/crosire/reshade-shaders)
 
@@ -120,7 +137,8 @@ Official and community shaders included with ReShade. [ReShade Shaders GitHub](h
 ### Reinhard.fx
 - **Purpose:** Tone mapping for more natural highlights and shadows.
 - **Key Settings:**
-  - `Exposure`: Brightness control.
+  - `Exposure`: Overall brightness control.
+  - `White Point`: Sets the level at which whites are clipped, preventing blown-out highlights.
 - **Tips:** Use to prevent blown-out highlights.
 
 ### SmartDeNoise.fx
@@ -152,6 +170,8 @@ Official and community shaders included with ReShade. [ReShade Shaders GitHub](h
 - **Purpose:** Screen-space directional occlusion (advanced AO).
 - **Key Settings:**
   - `Quality`, `Radius`, `Intensity`.
+  - `FadeStart`: Distance from the camera where the effect begins to fade out.
+  - `FadeEnd`: Distance from the camera where the effect is completely faded out.
 - **Tips:** More realistic than basic AO, but more demanding.
 
 ### GloomAO.fx
@@ -168,16 +188,6 @@ Official and community shaders included with ReShade. [ReShade Shaders GitHub](h
 - **Purpose:** Enhances local contrast (see also ZN_LC.fx).
 - **Key Settings:**
   - `Strength`, `Radius`.
-
-### Quark_Local_Contrast.fx
-- **Purpose:** Another local contrast enhancer.
-- **Key Settings:**
-  - `Strength`, `Radius`.
-
-### Quark_Xenon_Bloom.fx
-- **Purpose:** Bloom effect variant.
-- **Key Settings:**
-  - `Threshold`, `Intensity`, `Radius`.
 
 ### BloomingHDR.fx
 - **Purpose:** High dynamic range bloom effect.
@@ -197,7 +207,7 @@ Official and community shaders included with ReShade. [ReShade Shaders GitHub](h
 ### pColors.fx
 - **Purpose:** Color grading and correction.
 - **Key Settings:**
-  - `Saturation`, `Contrast`, `Gamma`, `Lift`, `Gain`.
+  - `Brightness`, `Contrast`, `Saturation`.
 
 ### Shading.fx
 - **Purpose:** Adds stylized shading and lighting to enhance the painterly or cartoon-like look of the scene.
@@ -218,6 +228,21 @@ Official and community shaders included with ReShade. [ReShade Shaders GitHub](h
   - `FresnelMult`, `ReliefHeight`, `SampleCount`.
 - **Tips:** Use moderate values to avoid overly shiny or artificial surfaces.
 
+### GaussianBlur.fx
+- **Purpose:** Applies a soft blur to the image, useful for dreamy or atmospheric effects.
+- **Key Settings:**
+  - `BlurRadius`, `BlurStrength`.
+- **Tips:** Use sparingly to avoid loss of detail; great for soft focus or haze.
+
+### GBloom.fx
+- **Purpose:** Adds an additional bloom layer for glowing highlights and enhanced fantasy lighting.
+- **Key Settings:**
+  - `BloomIntensity`, `BloomSaturation`, `BlurRadius`, `LuminanceThreshold`.
+- **Tips:** Stack with other bloom effects for a magical, ethereal look.
+
+#### Anti-Aliasing Suite
+A collection of shaders to smooth jagged edges ("jaggies").
+
 ### cDLAA.fx (Contrast-aware Directionally Localized Anti-Aliasing)
 - **Purpose:** Advanced anti-aliasing technique for reducing jagged edges while preserving detail.
 - **Key Settings:**
@@ -236,22 +261,25 @@ Official and community shaders included with ReShade. [ReShade Shaders GitHub](h
   - `blendRate`, `mixRate`.
 - **Tips:** Combine with other AA for maximum smoothness.
 
-### GaussianBlur.fx
-- **Purpose:** Applies a soft blur to the image, useful for dreamy or atmospheric effects.
-- **Key Settings:**
-  - `BlurRadius`, `BlurStrength`.
-- **Tips:** Use sparingly to avoid loss of detail; great for soft focus or haze.
+---
 
-### GBloom.fx
-- **Purpose:** Adds an additional bloom layer for glowing highlights and enhanced fantasy lighting.
+## Quark FX
+A collection of effects by Zenteon. [Quark FX GitHub](https://github.com/Zenteon/QuarkFX)
+
+### Quark_Local_Contrast.fx
+- **Purpose:** Another local contrast enhancer.
 - **Key Settings:**
-  - `BloomIntensity`, `BloomSaturation`, `BlurRadius`, `LuminanceThreshold`.
-- **Tips:** Stack with other bloom effects for a magical, ethereal look.
+  - `Strength`, `Radius`.
+
+### Quark_Xenon_Bloom.fx
+- **Purpose:** Bloom effect variant.
+- **Key Settings:**
+  - `Threshold`, `Intensity`, `Radius`.
 
 ---
 
 ## ReshadeEffectShaderToggler Addon
-A ReShade 5+ addin that allows you to apply ReShade effects to specific render targets or shader groups based on a key press. Its primary purpose is to ensure that effect packages (like bloom, DOF, AO, etc.) are not rendered on top of the in-game UI, menus, or HUD elements, preserving UI clarity while keeping the visual enhancements for the game world.
+A ReShade 5+ add-on that allows you to prevent ReShade effects from applying to specific parts of the screen, like the UI. Its primary purpose is to ensure that effect packages (like bloom, DOF, AO, etc.) are not rendered on top of the in-game UI, menus, or HUD elements, preserving UI clarity while keeping the visual enhancements for the game world.
 
 - **Purpose:** Prevents ReShade effects from affecting the UI by toggling effects only for the game world.
 - **How it works:**
@@ -281,6 +309,7 @@ A ReShade 5+ addin that allows you to apply ReShade effects to specific render t
 - [qUINT by Marty McFly](https://github.com/martymcmodding/qUINT)
 - [prod80 Shaders](https://github.com/prod80/prod80-ReShade-Repository)
 - [Zenteon Shaders](https://github.com/Zenteon/Reshade-Shaders)
+- [Quark FX](https://github.com/Zenteon/QuarkFX)
 - [ReShade Shaders](https://github.com/crosire/reshade-shaders)
 
 ---
