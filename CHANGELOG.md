@@ -2,6 +2,16 @@
 
 All notable changes to these presets will be documented in this file.
 
+## [4.1.3] - 2025-07-27
+### Changed
+- Overhauled the **Photo Mode - Ultra** preset to fix shadow rendering artifacts and create a more natural, balanced visual presentation. Key adjustments include:
+  - Revised shadow and ambient occlusion settings for softer, more realistic depth.
+  - Tweaked color grading and bloom to reduce harshness and improve overall harmony.
+  - Rebalanced sharpening and denoising for enhanced clarity without introducing artifacts.
+
+### Added
+- Added new screenshots to the `README.md` to showcase the updated visuals of the **Photo Mode - Ultra** preset.
+
 ## [4.1.2] - 2025-07-20
 ### Added
 - Added two new pixel hashes to `ReshadeEffectShaderToggler.ini` to ensure that effect packages no longer render on top of NPC speech bubbles. This minor update further improves UI clarity during gameplay. 
