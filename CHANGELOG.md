@@ -2,6 +2,10 @@
 
 All notable changes to these presets will be documented in this file.
 
+## [4.1.4] - 2025-07-28
+### Added
+- Added a new pixel hash to `ReshadeEffectShaderToggler.ini` to prevent effects from rendering on top of ally/enemy nameplates and health bars, improving UI clarity during combat.
+
 ## [4.1.3] - 2025-07-27
 ### Changed
 - Overhauled the **Photo Mode - Ultra** preset to fix shadow rendering artifacts and create a more natural, balanced visual presentation. Key adjustments include:
