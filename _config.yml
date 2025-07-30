@@ -7,20 +7,21 @@ description: >-
   A collection of custom ReShade presets for Guild Wars 2, designed to deliver a cinematic,
   next-generation visual experience. Includes presets for Photo Mode and high-performance Always On gameplay.
 
-# GitHub Pages theme
-# Using a theme gives your site a consistent look and feel.
-# For a list of supported themes, see https://pages.github.com/themes/
-theme: jekyll-theme-cayman
-
-# Logo to display in the header
-# This path should be relative to the root of your repository.
-logo: /images/EPPBannerAlt3.png
-
-# Show a "View on GitHub" button that links to your repository.
-show_downloads: true
+# Use the Just the Docs theme via the remote_theme plugin
+remote_theme: just-the-docs/just-the-docs
 
 # Add plugins
 # jekyll-seo-tag adds metadata to your pages for better search engine results.
 plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
+
+# Just the Docs specific settings
+# For more options, see: https://just-the-docs.github.io/just-the-docs/docs/configuration/
+color_scheme: dark
+search_enabled: true
+
+# Auxiliary links for the header
+aux_links:
+  "View on GitHub":
+    - "https://github.com/alteredm1nd/gw2-reshade-eloras-personal-presets"
