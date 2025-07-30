@@ -1,8 +1,8 @@
 # _config.yml
 
-# Site settings
+# Site settings - These are used to personalize your new site.
 # These are used to personalize your new site.
-title: Elora's Personal Presets – Guild Wars 2 ReShade
+title: Elora's Personal Presets
 description: >-
   A collection of custom ReShade presets for Guild Wars 2, designed to deliver a cinematic,
   next-generation visual experience. Includes presets for Photo Mode and high-performance Always On gameplay.
@@ -18,9 +18,25 @@ plugins:
 
 # Just the Docs specific settings
 # For more options, see: https://just-the-docs.github.io/just-the-docs/docs/configuration/
-color_scheme: dark
+color_scheme: light
 search_enabled: true
 
 # Auxiliary links for the header
 aux_links:
   "View on GitHub": "https://github.com/alteredm1nd/gw2-reshade-eloras-personal-presets"
+
+# Footer content
+footer_content: "Copyright &copy; 2025 Elora/AlteredM1nd. Distributed by an <a href=\"https://github.com/alteredm1nd/gw2-reshade-eloras-personal-presets/blob/main/LICENSE\">MIT license.</a>"
+
+# Enable callouts
+# E.g., > Note: This is a note.
+callouts:
+  note:
+    title: Note
+    color: blue
+  warning:
+    title: Warning
+    color: yellow
+  danger:
+    title: Danger
+    color: red
