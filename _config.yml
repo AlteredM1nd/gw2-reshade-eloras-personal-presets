@@ -1,0 +1,26 @@
+# _config.yml
+
+# Site settings
+# These are used to personalize your new site.
+title: Elora's Personal Presets – Guild Wars 2 ReShade
+description: >-
+  A collection of custom ReShade presets for Guild Wars 2, designed to deliver a cinematic,
+  next-generation visual experience. Includes presets for Photo Mode and high-performance Always On gameplay.
+
+# GitHub Pages theme
+# Using a theme gives your site a consistent look and feel.
+# For a list of supported themes, see https://pages.github.com/themes/
+theme: jekyll-theme-cayman
+
+# Logo to display in the header
+# This path should be relative to the root of your repository.
+logo: /images/EPPBannerAlt3.png
+
+# Show a "View on GitHub" button that links to your repository.
+show_downloads: true
+
+# Add plugins
+# jekyll-seo-tag adds metadata to your pages for better search engine results.
+plugins:
+  - jekyll-seo-tag
+  - jekyll-remote-theme
