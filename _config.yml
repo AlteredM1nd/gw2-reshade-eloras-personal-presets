@@ -23,5 +23,4 @@ search_enabled: true
 
 # Auxiliary links for the header
 aux_links:
-  "View on GitHub":
-    - "https://github.com/alteredm1nd/gw2-reshade-eloras-personal-presets"
+  "View on GitHub": "https://github.com/alteredm1nd/gw2-reshade-eloras-personal-presets"
