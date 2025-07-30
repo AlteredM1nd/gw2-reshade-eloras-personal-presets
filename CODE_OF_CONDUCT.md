@@ -1,3 +1,8 @@
+---
+title: Code of Conduct
+nav_order: 5
+---
+
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge

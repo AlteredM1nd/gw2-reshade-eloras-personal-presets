@@ -1,3 +1,8 @@
+---
+title: Changelog
+nav_order: 2
+---
+
 # Changelog
 
 All notable changes to these presets will be documented in this file.

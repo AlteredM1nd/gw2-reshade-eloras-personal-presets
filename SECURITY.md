@@ -1,3 +1,8 @@
+---
+title: Security
+nav_order: 6
+---
+
 # Security Policy
 
 The maintainers of Elora's Personal Presets take the security of this project and its users seriously. While this project consists solely of configuration files (`.ini`) and documentation, and does not include any executable code, we believe in following security best practices.

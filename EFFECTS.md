@@ -1,3 +1,8 @@
+---
+title: Effects
+nav_order: 3
+---
+
 # Effect Packages & Shaders Explained
 
 This page provides a detailed breakdown of all the effect packages and shaders used in Elora's Personal Presets for Guild Wars 2 ReShade. For each effect package, you'll find:

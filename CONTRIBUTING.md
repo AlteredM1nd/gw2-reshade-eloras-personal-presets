@@ -1,3 +1,8 @@
+---
+title: Contributing
+nav_order: 4
+---
+
 # Contributing to Elora's GW2 ReShade Presets
 
 First off, thank you for considering contributing to this project! Your help is greatly appreciated. Whether you're reporting a bug, suggesting an improvement, or submitting a change, you're helping make these presets better for everyone.
