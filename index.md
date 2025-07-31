@@ -10,13 +10,15 @@ has_children: true
 {% endcapture %}
 
 {%- comment -%}
-Disable auto ToC on the homepage by stripping any generated ToC markup.
-Just the Docs can auto-generate a ToC based on headings; this removes a leading ToC block if present.
+Strip any auto-inserted ToC block that may appear at the end of the rendered README content.
+We remove the ToC heading and the entire following list/block via regex, and also hide any toc containers.
 {%- endcomment -%}
 {%- assign rendered = readme_content | markdownify -%}
-{%- assign rendered_no_toc = rendered
-  | replace: '<nav class="toc">','<nav class="toc" hidden>'
-  | replace: '<div class="toc">','<div class="toc" hidden>'
-  | replace: '<h2 id="table-of-contents">Table of contents</h2>',''
+{%- assign without_heading = rendered
+  | replace_regex: '(?is)<h2[^>]*>\\s*Table of contents\\s*</h2>\\s*(<ul[\\s\\S]*?</ul>|<ol[\\s\\S]*?</ol>|<div[^>]*class="toc"[^>]*>[\\s\\S]*?</div>)',''
 -%}
-{{ rendered_no_toc }}
+{%- assign without_containers = without_heading
+  | replace_regex: '(?is)<nav[^>]*class="toc"[^>]*>[\\s\\S]*?</nav>',''
+  | replace_regex: '(?is)<div[^>]*class="toc"[^>]*>[\\s\\S]*?</div>',''
+-%}
+{{ without_containers }}
