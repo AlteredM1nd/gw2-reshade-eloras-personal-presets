@@ -4,7 +4,7 @@ nav_order: 1
 parent: Sections
 ---
 
-{% capture __slice_raw %}{% include_relative ../README.md %}{% endcapture %}
+{% capture __slice_raw %}{% include_relative README.md %}{% endcapture %}
 {% assign __parts = __slice_raw | split: "<!-- SLICE: About This Preset start -->" %}
 {% if __parts.size > 1 %}
 {% assign __after = __parts[1] %}
