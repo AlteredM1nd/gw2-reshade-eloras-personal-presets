@@ -4,4 +4,4 @@ nav_order: 11
 parent: Sections
 ---
 
-{% include slice.md file="../README.md" start="<!-- SLICE: Preset Previews start -->" end="<!-- SLICE: Preset Previews end -->" %}
+{% include_relative ../_includes/slice.md file="../README.md" start="<!-- SLICE: Preset Previews start -->" end="<!-- SLICE: Preset Previews end -->" %}
