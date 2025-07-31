@@ -4,12 +4,48 @@ nav_order: 5
 parent: Sections
 ---
 
-{% capture __slice_raw %}{% include_relative README.md %}{% endcapture %}
-{% assign __parts = __slice_raw | split: "<!-- SLICE: In-Game Graphics Settings (Recommended) start -->" %}
-{% if __parts.size > 1 %}
-{% assign __after = __parts[1] %}
-{% assign __seg = __after | split: "<!-- SLICE: In-Game Graphics Settings (Recommended) end -->" | first %}
-{{ __seg | markdownify }}
-{% else %}
-<!-- slice: start marker not found for In-Game Graphics Settings (Recommended) -->
-{% endif %}
+## In-Game Graphics Settings (Recommended)
+
+For best results, match these settings as closely as possible:
+
+**Display**
+- Resolution: Windowed Fullscreen
+- Frame Limiter: Unlimited
+- Interface Size: Normal
+- DPI Scaling: Off
+- Full-Screen Gamma: 1.00
+
+**Advanced Settings**
+- Animation: High
+- Antialiasing: SMAA High
+- Environment: High
+- LOD Distance: Ultra
+- Reflections: All
+- Textures: High
+- Render Sampling: Supersample
+- Shadows: Ultra
+- Shaders: High
+- Character Model Limit: Highest
+- Character Model Quality: Highest
+- Best Texture Filtering: On
+- Effect LOD: Off
+- High-Res Character Textures: On
+- Vertical Sync: Off
+
+**Postprocessing**
+- Postprocessing Preset: None
+- Bloom: Off
+- Color Grading: Off
+- Color Tint: Off
+- Distortion: Off
+- Light Rays: Off
+- Selection Outline: Off
+- Ambient Occlusion: On
+- Depth Blur: Off
+- Light Adaptation: On
+- Motion Blur Power: Medium
+- Environment Zone Intensity: Maximum
+
+> Note: These settings are crucial for the preset to look as intended. Deviations may result in visual artifacts or reduced quality.
+
+---

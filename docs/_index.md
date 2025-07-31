@@ -4,4 +4,4 @@ nav_order: 1
 has_children: true
 ---
 
-High-level sections from the Home page.
+This section contains standalone pages inlined from the main README to avoid Liquid include issues on GitHub Pages safe mode.

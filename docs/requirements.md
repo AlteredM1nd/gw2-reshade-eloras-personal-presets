@@ -4,12 +4,10 @@ nav_order: 2
 parent: Sections
 ---
 
-{% capture __slice_raw %}{% include_relative README.md %}{% endcapture %}
-{% assign __parts = __slice_raw | split: "<!-- SLICE: Requirements start -->" %}
-{% if __parts.size > 1 %}
-{% assign __after = __parts[1] %}
-{% assign __seg = __after | split: "<!-- SLICE: Requirements end -->" | first %}
-{{ __seg | markdownify }}
-{% else %}
-<!-- slice: start marker not found for Requirements -->
-{% endif %}
+## Requirements
+
+- Guild Wars 2 (latest version)
+- ReShade 6.5.1 ([Download here](https://reshade.me/#download))
+- Windows 10/11
+
+---
