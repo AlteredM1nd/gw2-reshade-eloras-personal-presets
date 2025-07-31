@@ -1,0 +1,31 @@
+---
+---
+
+.preview-grid {
+  .row {
+    display: flex;
+    gap: 1rem; /* space between images */
+    margin-bottom: 1rem; /* space between rows */
+  }
+
+  a {
+    flex: 1;
+    min-width: 0; /* Fix for flexbox overflow */
+    display: block; /* Make the whole area clickable */
+    border: 1px solid #e1e4e8; /* A light border matching GitHub's style */
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.03);
+      box-shadow: 0 4px 12px rgba(27,31,35,.15);
+    }
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block; /* remove bottom space under image */
+  }
+}

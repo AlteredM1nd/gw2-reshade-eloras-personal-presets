@@ -343,6 +343,7 @@ For questions, feedback, or suggestions:
 
 <!-- SLICE: Preset Previews start -->
 ## Preset Previews
+<!-- PREVIEWS_START -->
 
 | Mistburned Barrens | The Grove 4 | Auric Basin 2 |
 |-----------|-------------|---------------|
@@ -361,6 +362,7 @@ For questions, feedback, or suggestions:
 | ![Skywatch Archipelago](screenshots/SkywatchArchipelago.png) | ![Homestead 2](screenshots/Homestead2.png) | ![Echovald Wilds 2](screenshots/EchovaldWilds2.png) |
 
 ---
+<!-- PREVIEWS_END -->
 
 <!-- SLICE: Preset Previews end -->
 
