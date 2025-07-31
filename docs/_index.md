@@ -1,7 +1,7 @@
 ---
 title: Sections
-nav_order: 1
-has_children: true
+nav_exclude: true
 ---
 
-This section contains standalone pages inlined from the main README to avoid Liquid include issues on GitHub Pages safe mode.
+<!-- Kept as a hidden index to prevent a top-level "Sections" item.
+All docs children are now nested under Home via `parent: Home`. -->

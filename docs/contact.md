@@ -1,7 +1,7 @@
 ---
 title: Contact
-nav_order: 10
-parent: Sections
+parent: Home
+nav_order: 12
 ---
 
 ## Contact

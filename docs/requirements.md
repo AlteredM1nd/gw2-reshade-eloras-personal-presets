@@ -1,7 +1,7 @@
 ---
 title: Requirements
+parent: Home
 nav_order: 2
-parent: Sections
 ---
 
 ## Requirements

@@ -30,6 +30,9 @@ search_enabled: true
 # By default, Just the Docs hides the home link unless this is true
 nav_enabled: true
 
+# Keep all docs pages nested under Home via front matter (parent: Home)
+# No special collection needed; this comment is informational.
+
 # Auxiliary links for the header
 aux_links:
   "View on GitHub": "https://github.com/alteredm1nd/gw2-reshade-eloras-personal-presets"

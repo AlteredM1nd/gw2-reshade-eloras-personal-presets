@@ -1,7 +1,7 @@
 ---
 title: About This Preset
+parent: Home
 nav_order: 1
-parent: Sections
 ---
 
 ## About This Preset

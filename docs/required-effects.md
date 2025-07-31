@@ -1,7 +1,7 @@
 ---
-title: Required Effect Packages/Add-ons
+title: Required Effect Packages/Shaders
+parent: Home
 nav_order: 3
-parent: Sections
 ---
 
 ## Required Effect Packages/Add-ons

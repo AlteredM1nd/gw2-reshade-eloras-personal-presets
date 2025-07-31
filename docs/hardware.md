@@ -1,7 +1,7 @@
 ---
 title: Hardware Recommendations & Performance
+parent: Home
 nav_order: 7
-parent: Sections
 ---
 
 ## Hardware Recommendations & Performance

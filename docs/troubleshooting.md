@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting & FAQ
+parent: Home
 nav_order: 8
-parent: Sections
 ---
 
 ## Troubleshooting & FAQ

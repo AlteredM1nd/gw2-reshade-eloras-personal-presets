@@ -1,7 +1,7 @@
 ---
 title: FOV & Camera Tips
+parent: Home
 nav_order: 6
-parent: Sections
 ---
 
 ## FOV & Camera Tips

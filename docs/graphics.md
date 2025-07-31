@@ -1,7 +1,7 @@
 ---
 title: In-Game Graphics Settings (Recommended)
+parent: Home
 nav_order: 5
-parent: Sections
 ---
 
 ## In-Game Graphics Settings (Recommended)

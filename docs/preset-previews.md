@@ -1,7 +1,7 @@
 ---
 title: Preset Previews
+parent: Home
 nav_order: 11
-parent: Sections
 ---
 
 ## Preset Previews

@@ -1,7 +1,7 @@
 ---
 title: Installation Instructions
+parent: Home
 nav_order: 4
-parent: Sections
 ---
 
 ## Installation Instructions
