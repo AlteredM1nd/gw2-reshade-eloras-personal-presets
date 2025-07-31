@@ -1,7 +1,7 @@
 ---
 title: License
 parent: Home
-nav_order: 13
+nav_order: 9
 ---
 
 ## License
