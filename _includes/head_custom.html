@@ -156,23 +156,32 @@ Applies to any anchor inside .preview-grid. Works on both homepage and docs page
       btnClose.addEventListener('click', function(){ closeLightbox(); });
 
       // Delegate from the main content area so it works on both homepage and docs pages
-      var scope = document.querySelector('main, .main-content') || document.body;
+      var scope = document.querySelector('main, .main-content, #main-content') || document.body;
 
+      // Use capture to ensure we intercept before theme handlers; also guard for left-click only
       scope.addEventListener('click', function(e){
-        var link = e.target.closest ? e.target.closest('.preview-grid a') : null;
+        // Some theme elements may overlay; use closest to find anchor inside preview grid
+        var link = e.target && e.target.closest ? e.target.closest('.preview-grid a') : null;
         if (!link) return;
 
-        // Preserve default behavior for new-tab/middle-click
+        // Left-click only, no modifiers; allow middle/ctrl/meta to open new tab
         if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
 
+        // If target has explicit target="_blank", still allow lightbox and preserve modifiers above
         var href = link.getAttribute('href') || '';
-        if (!/\.(png|jpe?g|gif|webp|avif)$/i.test(href)) return;
+        if (!href) return;
+
+        // Only lightbox direct image links
+        if (!/\.(png|jpe?g|gif|webp|avif)(\?.*)?$/i.test(href)) return;
 
         e.preventDefault();
-        var absolute = link.href; // resolves ../ paths on docs page
+
+        // Resolve relative paths (../ on docs) to absolute using the anchor's href
+        var absolute = link.href;
         var imgEl = link.querySelector('img');
-        openLightbox(absolute, imgEl ? imgEl.alt : '');
-      }, true); // capture to run before theme handlers
+        var alt = imgEl ? imgEl.alt : '';
+        openLightbox(absolute, alt);
+      }, true);
     });
   })();
 </script>
