@@ -4,12 +4,13 @@ nav_order: 10
 parent: Sections
 ---
 
-{% capture __slice_raw %}{% include_relative README.md %}{% endcapture %}
-{% assign __parts = __slice_raw | split: "<!-- SLICE: Contact start -->" %}
-{% if __parts.size > 1 %}
-{% assign __after = __parts[1] %}
-{% assign __seg = __after | split: "<!-- SLICE: Contact end -->" | first %}
-{{ __seg | markdownify }}
-{% else %}
-<!-- slice: start marker not found for Contact -->
-{% endif %}
+## Contact
+
+For questions, feedback, or suggestions:
+- Discord: alteredm1nd
+- Reddit: u/alteredm1nd
+- In Game: AlteredMind.3275
+- GitHub Issues
+- GitHub Discussions
+
+---
