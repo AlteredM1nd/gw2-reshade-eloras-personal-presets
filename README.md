@@ -1,7 +1,13 @@
+---
+title: Home
+nav_order: 0
+layout: default
+---
+
 ![Elora's Personal Presets Banner](images/EPPBannerAlt3.png)
 # Elora's Personal Presets – Guild Wars 2 ReShade (v6.5.1)
 
-[![License](https://img.shields.io/github/license/alteredm1nd/gw2-reshade-eloras-personal-presets)](./LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/alteredm1nd/gw2-reshade-eloras-personal-presets)](https://github.com/alteredm1nd/gw2-reshade-eloras-personal-presets/releases)
 
 Welcome! This guide will walk you through installing and using my custom ReShade preset for Guild Wars 2, updated for ReShade 6.5.1. It includes a full list of required effect packages, add-ons, recommended in-game graphics settings, and tips for best results.
