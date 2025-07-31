@@ -107,7 +107,7 @@ Lightbox CSS (overlay + image) kept tiny and inline to avoid extra file.
 
 {%- comment -%}
 Tiny vanilla JS lightbox: click thumbnails to open overlay; ESC/backdrop click to close.
-Applies to any anchor inside .preview-grid.
+Applies to any anchor inside .preview-grid. Works on both homepage and docs pages.
 {%- endcomment -%}
 <script>
   (function () {
@@ -134,14 +134,14 @@ Applies to any anchor inside .preview-grid.
       function openLightbox(src, alt){
         lastFocus = document.activeElement;
         img.src = src;
-        if (alt) img.alt = alt;
+        img.alt = alt || '';
         overlay.setAttribute('aria-hidden','false');
         content.focus();
         document.addEventListener('keydown', onKey);
       }
       function closeLightbox(){
         overlay.setAttribute('aria-hidden','true');
-        img.src = '';
+        img.removeAttribute('src');
         document.removeEventListener('keydown', onKey);
         if (lastFocus && typeof lastFocus.focus === 'function') { lastFocus.focus(); }
       }
@@ -155,26 +155,24 @@ Applies to any anchor inside .preview-grid.
       });
       btnClose.addEventListener('click', function(){ closeLightbox(); });
 
-      // Delegate clicks from any .preview-grid img link
-      document.addEventListener('click', function(e){
-        var link = e.target.closest && e.target.closest('.preview-grid a');
+      // Delegate from the main content area so it works on both homepage and docs pages
+      var scope = document.querySelector('main, .main-content') || document.body;
+
+      scope.addEventListener('click', function(e){
+        var link = e.target.closest ? e.target.closest('.preview-grid a') : null;
         if (!link) return;
-        // Only intercept left-click without modifier keys
-        if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
 
-        var href = link.getAttribute('href');
-        var imgEl = link.querySelector('img');
-        if (!href) return;
+        // Preserve default behavior for new-tab/middle-click
+        if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
 
-        // If link target is an image path, open lightbox instead of navigating
-        var isImage = /\.(png|jpe?g|gif|webp|avif)$/i.test(href);
-        if (!isImage) return;
+        var href = link.getAttribute('href') || '';
+        if (!/\.(png|jpe?g|gif|webp|avif)$/i.test(href)) return;
 
         e.preventDefault();
-        var absolute = link.href; // resolve relative to page
-        var alt = imgEl ? imgEl.alt : '';
-        openLightbox(absolute, alt);
-      });
+        var absolute = link.href; // resolves ../ paths on docs page
+        var imgEl = link.querySelector('img');
+        openLightbox(absolute, imgEl ? imgEl.alt : '');
+      }, true); // capture to run before theme handlers
     });
   })();
 </script>
