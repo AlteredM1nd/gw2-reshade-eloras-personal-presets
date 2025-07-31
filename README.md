@@ -8,7 +8,7 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 
 > **Changelog:** See [CHANGELOG.md](./CHANGELOG.md) for recent updates and version history.
 
----
+<!-- SLICE: Table of Contents start -->
 
 ## Table of Contents
 
@@ -26,6 +26,9 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 
 ---
 
+<!-- SLICE: Table of Contents end -->
+
+<!-- SLICE: About This Preset start -->
 ## About This Preset
 
 **Preset Version:** 4.1.4 (see [CHANGELOG.md](./CHANGELOG.md))
@@ -59,6 +62,9 @@ This collection now includes two main preset types:
 
 ---
 
+<!-- SLICE: About This Preset end -->
+
+<!-- SLICE: Requirements start -->
 ## Requirements
 
 - **Guild Wars 2** (latest version)
@@ -67,6 +73,9 @@ This collection now includes two main preset types:
 
 ---
 
+<!-- SLICE: Requirements end -->
+
+<!-- SLICE: Required Effect Packages/Add-ons start -->
 ## Required Effect Packages/Add-ons
 
 Below is the exact list of .fx files and .addon files required by this preset, as referenced in the preset's Techniques (.fx files) and referenced by all ReShade add-ons currently in use. **These effect packages and add-ons can be installed during the standard setup/installation wizard for ReShade.** Ensure these .fx files are present in your `Guild Wars 2\reshade-shaders\Shaders` folder and that the .addon files are present in your `Guild Wars 2 Game Folder` (`C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players)):
@@ -117,6 +126,9 @@ Below is the exact list of .fx files and .addon files required by this preset, a
 
 ---
 
+<!-- SLICE: Required Effect Packages/Add-ons end -->
+
+<!-- SLICE: Installation Instructions start -->
 ## Installation Instructions
 
 1. **Download Presets**
@@ -155,6 +167,9 @@ Below is the exact list of .fx files and .addon files required by this preset, a
 
 ---
 
+<!-- SLICE: Installation Instructions end -->
+
+<!-- SLICE: In-Game Graphics Settings (Recommended) start -->
 ## In-Game Graphics Settings (Recommended)
 
 For best results, match these settings as closely as possible:
@@ -201,6 +216,9 @@ For best results, match these settings as closely as possible:
 
 ---
 
+<!-- SLICE: In-Game Graphics Settings (Recommended) end -->
+
+<!-- SLICE: FOV & Camera Tips start -->
 ## FOV & Camera Tips
 
 - **Field of View (FOV):** When taking screenshots of people I personally switch my FOV all the way to the left (zoomed in), and when taking screenshots of landscapes I'll adjust the FOV slider until it suits my desired composition. Feel free to play around with this and find what works best for you.
@@ -213,6 +231,9 @@ For best results, match these settings as closely as possible:
 
 ---
 
+<!-- SLICE: FOV & Camera Tips end -->
+
+<!-- SLICE: Hardware Recommendations & Performance start -->
 ## Hardware Recommendations & Performance
 
 **Photo Mode Presets Performance & Recommendations:**
@@ -260,6 +281,9 @@ All Always On presets deliver high visual quality with a focus on smooth gamepla
 
 ---
 
+<!-- SLICE: Hardware Recommendations & Performance end -->
+
+<!-- SLICE: Troubleshooting & FAQ start -->
 ## Troubleshooting & FAQ
 
 **Q: The preset looks wrong, or some effects are missing!**
@@ -292,12 +316,18 @@ All Always On presets deliver high visual quality with a focus on smooth gamepla
 
 ---
 
+<!-- SLICE: Troubleshooting & FAQ end -->
+
+<!-- SLICE: License start -->
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](./LICENSE) for details. You are free to use, modify, and share these presets, but please credit Elora/AlteredM1nd if redistributing or showcasing them.
 
 ---
 
+<!-- SLICE: License end -->
+
+<!-- SLICE: Contact start -->
 ## Contact
 
 For questions, feedback, or suggestions:
@@ -309,6 +339,9 @@ For questions, feedback, or suggestions:
 
 ---
 
+<!-- SLICE: Contact end -->
+
+<!-- SLICE: Preset Previews start -->
 ## Preset Previews
 
 | Mistburned Barrens | The Grove 4 | Auric Basin 2 |
@@ -328,5 +361,7 @@ For questions, feedback, or suggestions:
 | ![Skywatch Archipelago](screenshots/SkywatchArchipelago.png) | ![Homestead 2](screenshots/Homestead2.png) | ![Echovald Wilds 2](screenshots/EchovaldWilds2.png) |
 
 ---
+
+<!-- SLICE: Preset Previews end -->
 
 Enjoy your enhanced Guild Wars 2 visuals!
