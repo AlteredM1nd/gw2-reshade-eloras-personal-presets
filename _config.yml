@@ -1,11 +1,16 @@
 # _config.yml
 
 # Site settings - These are used to personalize your new site.
-# These are used to personalize your new site.
 title: Elora's Personal Presets
 description: >-
   A collection of custom ReShade presets for Guild Wars 2, designed to deliver a cinematic,
   next-generation visual experience. Includes presets for Photo Mode and high-performance Always On gameplay.
+
+# Production URL settings for absolute links in SEO/social tags
+# url should be the site origin without trailing slash
+# baseurl should be the repo path starting with a slash
+url: https://alteredm1nd.github.io
+baseurl: /gw2-reshade-eloras-personal-presets
 
 # Use the Just the Docs theme via the remote_theme plugin
 remote_theme: just-the-docs/just-the-docs
@@ -18,8 +23,12 @@ plugins:
 
 # Just the Docs specific settings
 # For more options, see: https://just-the-docs.github.io/just-the-docs/docs/configuration/
-color_scheme: light
+color_scheme: dark
 search_enabled: true
+
+# Show the homepage (README rendered as index) in the primary navigation
+# By default, Just the Docs hides the home link unless this is true
+nav_enabled: true
 
 # Auxiliary links for the header
 aux_links:
@@ -40,3 +49,6 @@ callouts:
   danger:
     title: Danger
     color: red
+
+# Optional: default SEO image override (lets pages inherit without setting front matter)
+# og_image: "{{ site.url }}{{ site.baseurl }}/images/EPPBannerAlt3.png"

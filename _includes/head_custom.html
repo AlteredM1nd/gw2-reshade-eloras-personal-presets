@@ -1,0 +1,56 @@
+{%- comment -%}
+Custom head additions for Open Graph and Twitter cards.
+This file is automatically included by the Just the Docs theme if present.
+See: https://just-the-docs.github.io/just-the-docs/docs/customization/#custom-head
+{%- endcomment -%}
+
+{%- assign site_url = site.url | default: "https://alteredm1nd.github.io" -%}
+{%- assign site_baseurl = site.baseurl | default: "/gw2-reshade-eloras-personal-presets" -%}
+{%- assign canonical = page.url | absolute_url -%}
+
+{%- comment -%}
+Title precedence: page.title -> site.title
+{%- endcomment -%}
+{%- assign meta_title = page.title | default: site.title | default: "Elora's Personal Presets" -%}
+
+{%- comment -%}
+Description precedence: page.description -> site.description -> fallback
+{%- endcomment -%}
+{%- assign meta_description = page.description | default: site.description | default: "High-quality ReShade presets for Guild Wars 2." -%}
+
+{%- comment -%}
+Image precedence: page.og_image -> site.og_image -> explicit default banner
+Always use absolute URL for social scrapers.
+{%- endcomment -%}
+{%- assign default_image = site_url | append: site_baseurl | append: "/images/EPPBannerAlt3.png" -%}
+{%- assign meta_image = page.og_image | default: site.og_image | default: default_image -%}
+
+{%- comment -%}
+Open Graph
+{%- endcomment -%}
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ meta_title | escape }}">
+<meta property="og:description" content="{{ meta_description | strip_newlines | escape }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:image" content="{{ meta_image }}">
+<meta property="og:image:alt" content="Elora's Personal Presets banner">
+<meta property="og:site_name" content="{{ site.title | default: 'Elora's Personal Presets' }}">
+
+{%- comment -%}
+Optionally hint dimensions (typical 1200x630). Not required but helpful.
+{%- endcomment -%}
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+{%- comment -%}
+Twitter Card
+{%- endcomment -%}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ meta_title | escape }}">
+<meta name="twitter:description" content="{{ meta_description | strip_newlines | escape }}">
+<meta name="twitter:image" content="{{ meta_image }}">
+
+{%- comment -%}
+Canonical (in case theme does not set it)
+{%- endcomment -%}
+<link rel="canonical" href="{{ canonical }}">
