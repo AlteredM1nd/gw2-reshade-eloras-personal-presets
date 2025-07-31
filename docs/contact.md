@@ -12,5 +12,3 @@ For questions, feedback, or suggestions:
 - In Game: AlteredMind.3275
 - GitHub Issues
 - GitHub Discussions
-
----

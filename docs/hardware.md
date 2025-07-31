@@ -48,5 +48,3 @@ nav_order: 7
   - Performance Target: 1080p @ 90–100+ FPS (approx. 20–40 more FPS than High)
 
 All Always On presets deliver high visual quality with a focus on smooth gameplay. Choose the tier that best matches your hardware and FPS goals.
-
----

@@ -47,5 +47,3 @@ For best results, match these settings as closely as possible:
 - Environment Zone Intensity: Maximum
 
 > Note: These settings are crucial for the preset to look as intended. Deviations may result in visual artifacts or reduced quality.
-
----

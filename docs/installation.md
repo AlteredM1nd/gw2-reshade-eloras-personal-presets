@@ -39,5 +39,3 @@ nav_order: 4
 
 > Note:
 > - Additional information on each effect package along with tips for tweaking them yourself (should you choose to do so) can be found in [EFFECTS.md](../EFFECTS.md).
-
----
