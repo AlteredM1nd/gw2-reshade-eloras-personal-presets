@@ -1,9 +1,3 @@
----
-title: Home
-nav_order: 0
-layout: default
----
-
 ![Elora's Personal Presets Banner](images/EPPBannerAlt3.png)
 # Elora's Personal Presets – Guild Wars 2 ReShade (v6.5.1)
 
