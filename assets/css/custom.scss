@@ -1,43 +1,44 @@
 ---
 ---
 
-/* Fix clickability issues potentially caused by theme overlays */
+/* Match the grid styling used on docs/preset-previews.md */
 .preview-grid {
   .row {
     display: flex;
-    gap: 1rem; /* space between images */
-    margin-bottom: 1rem; /* space between rows */
+    gap: 12px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
   }
 
+  /* Keep anchors simple like the docs page: inline-block thumbnails */
   a {
-    flex: 1;
-    min-width: 0; /* Fix for flexbox overflow */
-    display: block; /* Make the whole area clickable */
-    border: 1px solid #e1e4e8; /* A light border matching GitHub's style */
-    border-radius: 6px;
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    display: inline-block;
 
-    /* Ensure anchors are clickable above any overlay */
+    /* Ensure anchors are clickable above any overlay (defensive) */
     position: relative;
     z-index: 1;
     pointer-events: auto;
-
-    &:hover {
-      transform: scale(1.03);
-      box-shadow: 0 4px 12px rgba(27,31,35,.15);
-    }
   }
 
+  /* Thumbnail style to match docs inline <style> */
   img {
-    width: 100%;
-    height: auto;
-    display: block; /* remove bottom space under image */
-    pointer-events: auto; /* guard in case images are globally disabled */
+    height: 140px; /* thumbnail height */
+    width: auto;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.25);
+    transition: transform .1s ease-in-out, box-shadow .1s ease-in-out;
+    display: block;
+    pointer-events: auto;
+  }
+
+  a:hover img,
+  img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0,0,0,.35);
   }
 }
 
-/* Defensive: if any container above is intercepting clicks, disable it within our grid */
+/* Defensive: do not allow upstream containers to swallow clicks inside grid */
 .preview-grid, .preview-grid * {
   pointer-events: auto;
 }

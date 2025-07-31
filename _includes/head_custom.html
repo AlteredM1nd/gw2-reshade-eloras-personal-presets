@@ -59,3 +59,122 @@ Canonical (in case theme does not set it)
 Load site-specific custom CSS compiled by Jekyll from assets/css/custom.scss.
 {%- endcomment -%}
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+{%- comment -%}
+Lightbox CSS (overlay + image) kept tiny and inline to avoid extra file.
+{%- endcomment -%}
+<style>
+  .lightbox-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.9);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  .lightbox-overlay[aria-hidden="false"] {
+    display: flex;
+  }
+  .lightbox-content {
+    position: relative;
+    max-width: 95vw;
+    max-height: 95vh;
+    outline: none;
+  }
+  .lightbox-content img {
+    max-width: 95vw;
+    max-height: 95vh;
+    width: auto;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.6);
+  }
+  .lightbox-close {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: rgba(0,0,0,.7);
+    color: #fff;
+    border: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+</style>
+
+{%- comment -%}
+Tiny vanilla JS lightbox: click thumbnails to open overlay; ESC/backdrop click to close.
+Applies to any anchor inside .preview-grid.
+{%- endcomment -%}
+<script>
+  (function () {
+    function ready(fn){ if(document.readyState!=='loading'){ fn(); } else { document.addEventListener('DOMContentLoaded', fn); } }
+    ready(function(){
+      // Create overlay once
+      var overlay = document.createElement('div');
+      overlay.className = 'lightbox-overlay';
+      overlay.setAttribute('role','dialog');
+      overlay.setAttribute('aria-modal','true');
+      overlay.setAttribute('aria-hidden','true');
+      overlay.innerHTML = '' +
+        '<div class="lightbox-content" tabindex="-1">' +
+        '  <button class="lightbox-close" aria-label="Close">&times;</button>' +
+        '  <img alt="Full-size preview">' +
+        '</div>';
+      document.body.appendChild(overlay);
+
+      var content = overlay.querySelector('.lightbox-content');
+      var img = overlay.querySelector('img');
+      var btnClose = overlay.querySelector('.lightbox-close');
+      var lastFocus = null;
+
+      function openLightbox(src, alt){
+        lastFocus = document.activeElement;
+        img.src = src;
+        if (alt) img.alt = alt;
+        overlay.setAttribute('aria-hidden','false');
+        content.focus();
+        document.addEventListener('keydown', onKey);
+      }
+      function closeLightbox(){
+        overlay.setAttribute('aria-hidden','true');
+        img.src = '';
+        document.removeEventListener('keydown', onKey);
+        if (lastFocus && typeof lastFocus.focus === 'function') { lastFocus.focus(); }
+      }
+      function onKey(e){
+        if (e.key === 'Escape') { e.preventDefault(); closeLightbox(); }
+      }
+
+      // Close on backdrop click
+      overlay.addEventListener('click', function(e){
+        if (e.target === overlay) closeLightbox();
+      });
+      btnClose.addEventListener('click', function(){ closeLightbox(); });
+
+      // Delegate clicks from any .preview-grid img link
+      document.addEventListener('click', function(e){
+        var link = e.target.closest && e.target.closest('.preview-grid a');
+        if (!link) return;
+        // Only intercept left-click without modifier keys
+        if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+
+        var href = link.getAttribute('href');
+        var imgEl = link.querySelector('img');
+        if (!href) return;
+
+        // If link target is an image path, open lightbox instead of navigating
+        var isImage = /\.(png|jpe?g|gif|webp|avif)$/i.test(href);
+        if (!isImage) return;
+
+        e.preventDefault();
+        var absolute = link.href; // resolve relative to page
+        var alt = imgEl ? imgEl.alt : '';
+        openLightbox(absolute, alt);
+      });
+    });
+  })();
+</script>
