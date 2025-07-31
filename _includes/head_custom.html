@@ -54,3 +54,8 @@ Twitter Card
 Canonical (in case theme does not set it)
 {%- endcomment -%}
 <link rel="canonical" href="{{ canonical }}">
+
+{%- comment -%}
+Load site-specific custom CSS compiled by Jekyll from assets/css/custom.scss.
+{%- endcomment -%}
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
