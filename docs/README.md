@@ -1,8 +1,14 @@
-<!--
-This is a synced copy of the repository root README.md.
-GitHub Pages safe-mode forbids {% include_relative ../README.md %} from docs/*,
-so docs pages include this local copy instead. Update this file whenever the root README.md changes.
--->
+---
+title: Sections (Mirror)
+nav_order: 2
+---
+
+This page is a placeholder. The documentation has been split into standalone pages under the “Sections” navigation.
+
+- For the main overview, see the Home page.
+- Browse the individual topics in the sidebar under “Sections”.
+
+If you reached this page from a bookmark expecting the old mirrored README content, use the sidebar to navigate to the specific section you need.
 
 ![Elora's Personal Presets Banner](images/EPPBannerAlt3.png)
 # Elora's Personal Presets – Guild Wars 2 ReShade (v6.5.1)
