@@ -1,6 +1,7 @@
 ---
 ---
 
+/* Fix clickability issues potentially caused by theme overlays */
 .preview-grid {
   .row {
     display: flex;
@@ -17,6 +18,11 @@
     overflow: hidden;
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 
+    /* Ensure anchors are clickable above any overlay */
+    position: relative;
+    z-index: 1;
+    pointer-events: auto;
+
     &:hover {
       transform: scale(1.03);
       box-shadow: 0 4px 12px rgba(27,31,35,.15);
@@ -27,5 +33,11 @@
     width: 100%;
     height: auto;
     display: block; /* remove bottom space under image */
+    pointer-events: auto; /* guard in case images are globally disabled */
   }
+}
+
+/* Defensive: if any container above is intercepting clicks, disable it within our grid */
+.preview-grid, .preview-grid * {
+  pointer-events: auto;
 }
