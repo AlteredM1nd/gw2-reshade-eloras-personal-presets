@@ -4,4 +4,12 @@ nav_order: 3
 parent: Sections
 ---
 
-{% include_relative ../_includes/slice.md file="../README.md" start="<!-- SLICE: Required Effect Packages/Add-ons start -->" end="<!-- SLICE: Required Effect Packages/Add-ons end -->" %}
+{% capture __slice_raw %}{% include_relative ../README.md %}{% endcapture %}
+{% assign __parts = __slice_raw | split: "<!-- SLICE: Required Effect Packages/Add-ons start -->" %}
+{% if __parts.size > 1 %}
+{% assign __after = __parts[1] %}
+{% assign __seg = __after | split: "<!-- SLICE: Required Effect Packages/Add-ons end -->" | first %}
+{{ __seg | markdownify }}
+{% else %}
+<!-- slice: start marker not found for Required Effect Packages/Add-ons -->
+{% endif %}

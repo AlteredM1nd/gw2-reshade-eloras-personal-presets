@@ -4,4 +4,12 @@ nav_order: 2
 parent: Sections
 ---
 
-{% include_relative ../_includes/slice.md file="../README.md" start="<!-- SLICE: Requirements start -->" end="<!-- SLICE: Requirements end -->" %}
+{% capture __slice_raw %}{% include_relative ../README.md %}{% endcapture %}
+{% assign __parts = __slice_raw | split: "<!-- SLICE: Requirements start -->" %}
+{% if __parts.size > 1 %}
+{% assign __after = __parts[1] %}
+{% assign __seg = __after | split: "<!-- SLICE: Requirements end -->" | first %}
+{{ __seg | markdownify }}
+{% else %}
+<!-- slice: start marker not found for Requirements -->
+{% endif %}

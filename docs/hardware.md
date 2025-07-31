@@ -4,4 +4,12 @@ nav_order: 7
 parent: Sections
 ---
 
-{% include_relative ../_includes/slice.md file="../README.md" start="<!-- SLICE: Hardware Recommendations & Performance start -->" end="<!-- SLICE: Hardware Recommendations & Performance end -->" %}
+{% capture __slice_raw %}{% include_relative ../README.md %}{% endcapture %}
+{% assign __parts = __slice_raw | split: "<!-- SLICE: Hardware Recommendations & Performance start -->" %}
+{% if __parts.size > 1 %}
+{% assign __after = __parts[1] %}
+{% assign __seg = __after | split: "<!-- SLICE: Hardware Recommendations & Performance end -->" | first %}
+{{ __seg | markdownify }}
+{% else %}
+<!-- slice: start marker not found for Hardware Recommendations & Performance -->
+{% endif %}
