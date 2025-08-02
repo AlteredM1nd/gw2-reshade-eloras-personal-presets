@@ -36,6 +36,7 @@ nav_enabled: true
 # Auxiliary links for the header
 aux_links:
   "View on GitHub": "https://github.com/alteredm1nd/gw2-reshade-eloras-personal-presets"
+  "Download Latest Release": "https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/releases"
 
 # Footer content
 footer_content: "Copyright &copy; 2025 Elora/AlteredM1nd. Distributed by an <a href=\"https://github.com/alteredm1nd/gw2-reshade-eloras-personal-presets/blob/main/LICENSE\">MIT license.</a>"
