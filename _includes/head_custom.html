@@ -184,4 +184,60 @@ Applies to any anchor inside .preview-grid. Works on both homepage and docs page
       }, true);
     });
   })();
+<!-- External-links: open in new tab, keep internal/anchor links same-tab -->
+<script>
+  (function () {
+    function ready(fn){ if(document.readyState!=='loading'){ fn(); } else { document.addEventListener('DOMContentLoaded', fn); } }
+    ready(function(){
+      var origin = window.location.origin;
+      var baseurl = "{{ site.baseurl | default: '' }}";
+      // Normalize trailing slash
+      if (baseurl.length > 1 && baseurl.endsWith('/')) { baseurl = baseurl.slice(0, -1); }
+
+      // Consider these as internal prefixes
+      var internalPrefixes = [
+        origin + baseurl + '/',   // absolute internal links
+        origin + baseurl,         // absolute without trailing slash
+        baseurl + '/',            // site-relative internal
+        baseurl,                  // site-relative root
+        '/',                      // root-relative internal
+      ];
+
+      function isExternal(href) {
+        if (!href) return false;
+        // Skip anchors, javascript:, mailto:, tel:
+        if (href.startsWith('#')) return false;
+        if (/^(javascript:|mailto:|tel:)/i.test(href)) return false;
+
+        // Absolute URLs: if they start with http(s) and are not our origin+baseurl, treat as external
+        if (/^https?:\/\//i.test(href)) {
+          return !href.startsWith(origin + baseurl);
+        }
+
+        // Protocol-relative //example.com => external unless matches our origin
+        if (href.startsWith('//')) {
+          return !(window.location.protocol + href).startsWith(origin);
+        }
+
+        // For relative paths, treat as internal
+        // That includes ./, ../, and root-relative starting with /
+        return false;
+      }
+
+      // Upgrade external links
+      var anchors = document.querySelectorAll('a[href]');
+      anchors.forEach(function(a){
+        var href = a.getAttribute('href') || '';
+        if (isExternal(href)) {
+          // Preserve explicit targets if author set one; otherwise set _blank
+          if (!a.hasAttribute('target')) a.setAttribute('target', '_blank');
+          var rel = (a.getAttribute('rel') || '').split(/\s+/).filter(Boolean);
+          if (rel.indexOf('noopener') === -1) rel.push('noopener');
+          if (rel.indexOf('noreferrer') === -1) rel.push('noreferrer');
+          a.setAttribute('rel', rel.join(' '));
+        }
+      });
+    });
+  })();
+</script>
 </script>

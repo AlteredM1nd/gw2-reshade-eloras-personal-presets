@@ -1,6 +1,64 @@
 ---
 ---
 
+/* Sticky top header for Just the Docs
+   Keeps the top bar (logo/title, search, aux_links) fixed while scrolling.
+   Also offsets the main content so it doesn't slide under the fixed header. */
+
+/* Header container used by Just the Docs */
+.site-header,
+.header-wrapper,
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* above content, below any modal/lightbox at 9999 */
+  background: var(--body-background, #0b0b0c); /* fallback for dark scheme */
+  /* Add a subtle border/shadow to distinguish from content while scrolling */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .35);
+}
+
+/* In some theme versions, the actual fixed area is .site-header only.
+   Keep it sticky and ensure inner flex bar inherits visuals. */
+.site-header {
+  position: sticky;
+  top: 0;
+}
+
+/* Compensate for the header height so content doesn't get hidden underneath.
+   Typical Just the Docs header is ~64px tall at desktop; adjust as needed. */
+:root {
+  --jtd-sticky-header-height: 64px;
+}
+
+/* Push down the main content area */
+.main-content,
+#main-content,
+main {
+  padding-top: var(--jtd-sticky-header-height);
+}
+
+/* Also shift the in-page ToC/anchor offset so anchored links scroll correctly */
+:target::before {
+  content: "";
+  display: block;
+  height: var(--jtd-sticky-header-height);
+  margin-top: calc(-1 * var(--jtd-sticky-header-height));
+  visibility: hidden;
+}
+
+/* Improve stacking for the search panel and autocomplete dropdowns if present */
+.search-input,
+.search,
+.search .autocomplete-suggestions,
+.search .search-results {
+  position: relative;
+  z-index: 1001; /* above sticky header background */
+}
+
+/* Preserve your existing preview grid styles below */
+---
+---
+
 /* Match the grid styling used on docs/preset-previews.md */
 .preview-grid {
   .row {
