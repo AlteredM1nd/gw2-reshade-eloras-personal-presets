@@ -2,6 +2,7 @@
 title: FOV & Camera Tips
 parent: Home
 nav_order: 6
+permalink: /gw2-reshade-eloras-personal-presets/#fov--camera-tips
 ---
 
 ## FOV & Camera Tips

@@ -2,6 +2,7 @@
 title: Installation Instructions
 parent: Home
 nav_order: 4
+permalink: /gw2-reshade-eloras-personal-presets/#installation-instructions
 ---
 
 ## Installation Instructions

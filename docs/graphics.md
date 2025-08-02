@@ -2,6 +2,7 @@
 title: In-Game Graphics Settings (Recommended)
 parent: Home
 nav_order: 5
+permalink: /gw2-reshade-eloras-personal-presets/#in-game-graphics-settings-recommended
 ---
 
 ## In-Game Graphics Settings (Recommended)

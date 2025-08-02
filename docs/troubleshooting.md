@@ -2,6 +2,7 @@
 title: Troubleshooting & FAQ
 parent: Home
 nav_order: 8
+permalink: /gw2-reshade-eloras-personal-presets/#troubleshooting--faq
 ---
 
 ## Troubleshooting & FAQ

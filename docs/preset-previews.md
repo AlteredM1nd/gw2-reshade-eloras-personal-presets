@@ -2,6 +2,7 @@
 title: Preset Previews
 parent: Home
 nav_order: 11
+permalink: /gw2-reshade-eloras-personal-presets/#preset-previews
 ---
 
 ## Preset Previews

@@ -2,6 +2,7 @@
 title: Requirements
 parent: Home
 nav_order: 2
+permalink: /gw2-reshade-eloras-personal-presets/#requirements
 ---
 
 ## Requirements

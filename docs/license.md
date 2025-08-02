@@ -2,6 +2,7 @@
 title: License
 parent: Home
 nav_order: 9
+permalink: /gw2-reshade-eloras-personal-presets/#license
 ---
 
 ## License

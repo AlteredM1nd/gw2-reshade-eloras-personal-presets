@@ -2,6 +2,7 @@
 title: Contact
 parent: Home
 nav_order: 10
+permalink: /gw2-reshade-eloras-personal-presets/#contact
 ---
 
 ## Contact
