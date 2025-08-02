@@ -1,55 +1,40 @@
-/* Sticky top header for Just the Docs
-   Keeps the top bar (logo/title, search, aux_links) fixed while scrolling.
-   Also offsets the main content so it doesn't slide under the fixed header. */
-
-/* Header container used by Just the Docs */
-.site-header,
-.header-wrapper,
-.site-nav {
-  position: sticky;
-  top: 0;
-  z-index: 1000; /* above content, below any modal/lightbox at 9999 */
-  background: var(--body-background, #0b0b0c); /* fallback for dark scheme */
-  /* Add a subtle border/shadow to distinguish from content while scrolling */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, .35);
-}
-
-/* In some theme versions, the actual fixed area is .site-header only.
-   Keep it sticky and ensure inner flex bar inherits visuals. */
+/* Sticky top header for Just the Docs - Simplified approach */
 .site-header {
   position: sticky;
   top: 0;
+  z-index: 100;
+  background: var(--body-background, #0b0b0c);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Compensate for the header height so content doesn't get hidden underneath.
-   Typical Just the Docs header is ~64px tall at desktop; adjust as needed. */
-:root {
-  --jtd-sticky-header-height: 64px;
+/* Ensure content doesn't hide under sticky header */
+.main-content {
+  padding-top: 0 !important;
 }
 
-/* Push down the main content area */
-.main-content,
-#main-content,
-main {
-  padding-top: var(--jtd-sticky-header-height);
-}
-
-/* Also shift the in-page ToC/anchor offset so anchored links scroll correctly */
+/* Remove problematic offset calculations */
 :target::before {
-  content: "";
-  display: block;
-  height: var(--jtd-sticky-header-height);
-  margin-top: calc(-1 * var(--jtd-sticky-header-height));
-  visibility: hidden;
+  display: none;
 }
 
-/* Improve stacking for the search panel and autocomplete dropdowns if present */
-.search-input,
-.search,
-.search .autocomplete-suggestions,
-.search .search-results {
+/* Keep search functionality intact */
+.search-input {
   position: relative;
-  z-index: 1001; /* above sticky header background */
+  z-index: 101;
+}
+
+/* External link indicator */
+a[target="_blank"]:not(.preview-link):not(.btn):not(.nav-list-link) {
+  &::after {
+    content: " ↗";
+    font-size: 0.8em;
+    opacity: 0.7;
+  }
+}
+
+/* Ensure preview grid links don't get external link styling */
+.preview-grid a[target="_blank"]::after {
+  display: none;
 }
 
 /* Preserve your existing preview grid styles below */
