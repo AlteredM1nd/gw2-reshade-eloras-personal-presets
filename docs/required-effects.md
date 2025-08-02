@@ -2,7 +2,7 @@
 title: Required Effect Packages/Shaders
 parent: Home
 nav_order: 3
-permalink: /gw2-reshade-eloras-personal-presets/#required-effect-packagesadd-ons
+permalink: /#required-effect-packagesadd-ons
 ---
 
 ## Required Effect Packages/Add-ons

@@ -2,7 +2,7 @@
 title: Hardware Recommendations & Performance
 parent: Home
 nav_order: 7
-permalink: /gw2-reshade-eloras-personal-presets/#hardware-recommendations--performance
+permalink: /#hardware-recommendations--performance
 ---
 
 ## Hardware Recommendations & Performance

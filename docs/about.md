@@ -2,7 +2,7 @@
 title: About This Preset
 parent: Home
 nav_order: 1
-permalink: /gw2-reshade-eloras-personal-presets/#about-this-preset
+permalink: /#about-this-preset
 ---
 
 ## About This Preset
