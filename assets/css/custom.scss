@@ -1,6 +1,3 @@
----
----
-
 /* Sticky top header for Just the Docs
    Keeps the top bar (logo/title, search, aux_links) fixed while scrolling.
    Also offsets the main content so it doesn't slide under the fixed header. */
@@ -56,8 +53,6 @@ main {
 }
 
 /* Preserve your existing preview grid styles below */
----
----
 
 /* Match the grid styling used on docs/preset-previews.md */
 .preview-grid {
