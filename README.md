@@ -1,12 +1,12 @@
 ![Elora's Personal Presets Banner](images/EPPBannerAlt3.png)
 # Elora's Personal Presets – Guild Wars 2 ReShade (v6.5.1)
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/blob/main/LICENSE)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/alteredm1nd/gw2-reshade-eloras-personal-presets)](https://github.com/alteredm1nd/gw2-reshade-eloras-personal-presets/releases)
 
 Welcome! This guide will walk you through installing and using my custom ReShade preset for Guild Wars 2, updated for ReShade 6.5.1. It includes a full list of required effect packages, add-ons, recommended in-game graphics settings, and tips for best results.
 
-> **Changelog:** See [CHANGELOG.md](./CHANGELOG.md) for recent updates and version history.
+> **Changelog:** See [CHANGELOG.md](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/blob/main/CHANGELOG.md) for recent updates and version history.
 
 <!-- SLICE: Table of Contents start -->
 
@@ -31,7 +31,7 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 <!-- SLICE: About This Preset start -->
 ## About This Preset
 
-**Preset Version:** 4.1.4 (see [CHANGELOG.md](./CHANGELOG.md))
+**Preset Version:** 4.1.4 (see [CHANGELOG.md](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/blob/main/CHANGELOG.md))
 
 This preset was designed to deliver a cinematic, next-generation visual experience in Guild Wars 2. Whether you're a content creator or an everyday player, it enables you to capture eye-catching screenshots, breathtaking videos, and enjoy a more immersive gameplay experience—elevating the standard of in-game visuals for everyone.
 
@@ -122,7 +122,7 @@ Below is the exact list of .fx files and .addon files required by this preset, a
 > - The list above is derived directly from the preset's Techniques line. Some techniques may reference the same .fx file with different technique names.
 > - If you are missing any of these, you can download them from the official ReShade repositories or the shader authors' GitHubs. Some may be in optional or third-party packs.
 > - When installing ReShade, you can select these effect packages during the setup process, personally, I install all available effect packages to give myself room to experiment.
-> - Additional information on each effect package along with tips for tweaking them yourself (should you choose to do so) can be found in [EFFECTS.md](./EFFECTS.md).
+> - Additional information on each effect package along with tips for tweaking them yourself (should you choose to do so) can be found in [EFFECTS.md](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/blob/main/EFFECTS.md).
 
 ---
 
@@ -163,7 +163,7 @@ Below is the exact list of .fx files and .addon files required by this preset, a
    - If you like how I have things set up then you can skip this, but if you'd like to simply use my preset as a foundation for more changes you're more than welcome to do that. At the end of the day, this is your game, you should enjoy the way that it looks, and it should suit your preferences. Modify sliders and toggle effects until everything is just right for you. If you need to revert back, you can always just download this preset again. Alternatively, you can create a new preset based on mine using the `Add A New Preset` (Plus Icon) button in the top right hand corner of the `Reshade Menu` and put a checkmark in the `Inherit Current Preset` checkbox - this way the original preset remains untouched and you get a brand new copy to modify to your heart's content!
 
  > **Note:**
- > - Additional information on each effect package along with tips for tweaking them yourself (should you choose to do so) can be found in [EFFECTS.md](./EFFECTS.md).
+ > - Additional information on each effect package along with tips for tweaking them yourself (should you choose to do so) can be found in [EFFECTS.md](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/blob/main/EFFECTS.md).
 
 ---
 
@@ -321,7 +321,7 @@ All Always On presets deliver high visual quality with a focus on smooth gamepla
 <!-- SLICE: License start -->
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](./LICENSE) for details. You are free to use, modify, and share these presets, but please credit Elora/AlteredM1nd if redistributing or showcasing them.
+This project is licensed under the MIT License. See [LICENSE](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/blob/main/LICENSE) for details. You are free to use, modify, and share these presets, but please credit Elora/AlteredM1nd if redistributing or showcasing them.
 
 ---
 
