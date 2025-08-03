@@ -131,6 +131,10 @@ Below is the exact list of .fx files and .addon files required by this preset, a
 <!-- SLICE: Installation Instructions start -->
 ## Installation Instructions
 
+Please follow the steps below carefully in order to install ReShade, the ReShade Effect Shader Toggler, the required effect packages, as well as all of my current presets. Alternatively, if you would prefer to watch a video guide, a video guide is also available.
+
+[![Watch the video](https://img.youtube.com/vi/0TiUlbCXWzY/hqdefault.jpg)](https://www.youtube.com/watch?v=0TiUlbCXWzY)
+
 1. **Download Presets**
    - Download the latest release from [My Release Page](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/releases).
    - You can either download the `.ini files` beginning with `Elora's Personal Presets` from the `Assets` section of the latest release by clicking on them individually along with the `ReshadeEffectShaderToggler.ini` or click `Source code (zip)` to download my entire repository as a `.zip file` containing everything which you will then have to extract (unzip) by clicking on the `.zip` file in your `File Explorer`, clicking on the `Extract All` button, and then clicking on the `Extract` button.
