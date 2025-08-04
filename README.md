@@ -14,7 +14,7 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 
 1. [About This Preset](#about-this-preset)
 2. [Requirements](#requirements)
-3. [Required Effect Packages/Shaders (.fx files)](#required-effect-packagesadd-ons)
+3. [Required Effect Packages/Add-ons](#required-effect-packagesadd-ons)
 4. [Installation Instructions](#installation-instructions)
 5. [In-Game Graphics Settings (Recommended)](#in-game-graphics-settings-recommended)
 6. [FOV & Camera Tips](#fov--camera-tips)

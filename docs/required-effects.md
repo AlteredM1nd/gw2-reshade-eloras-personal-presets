@@ -1,5 +1,5 @@
 ---
-title: Required Effect Packages/Shaders
+title: Required Effect Packages/Add-Ons
 parent: Home
 nav_order: 3
 permalink: /#required-effect-packagesadd-ons
