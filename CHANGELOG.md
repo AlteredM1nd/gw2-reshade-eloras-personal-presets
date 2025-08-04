@@ -7,6 +7,13 @@ nav_order: 2
 
 All notable changes to these presets will be documented in this file.
 
+## [4.1.5] - 2025-08-03
+### Changed
+- Refined **Photo Mode - First Person** and **Photo Mode - Third Person** presets to align them more closely with the visual philosophy of the newer **Photo Mode - Ultra** preset.
+  - Adjusted color grading and bloom settings for a more balanced and cinematic look, reducing harsh highlights and improving color harmony.
+  - Tweaked ambient occlusion parameters to provide softer, more natural-looking contact shadows and depth.
+  - These changes enhance visual quality while maintaining the original performance profile and the distinct Depth of Field characteristics of each preset.
+
 ## [4.1.4] - 2025-07-28
 ### Added
 - Added a new pixel hash to `ReshadeEffectShaderToggler.ini` to prevent effects from rendering on top of ally/enemy nameplates and health bars, improving UI clarity during combat.

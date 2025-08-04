@@ -31,7 +31,7 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 <!-- SLICE: About This Preset start -->
 ## About This Preset
 
-**Preset Version:** 4.1.4 (see [CHANGELOG.md](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/blob/main/CHANGELOG.md))
+**Preset Version:** 4.1.5 (see [CHANGELOG.md](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/blob/main/CHANGELOG.md))
 
 This preset was designed to deliver a cinematic, next-generation visual experience in Guild Wars 2. Whether you're a content creator or an everyday player, it enables you to capture eye-catching screenshots, breathtaking videos, and enjoy a more immersive gameplay experience—elevating the standard of in-game visuals for everyone.
 
