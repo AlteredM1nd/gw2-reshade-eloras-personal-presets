@@ -1,6 +1,7 @@
 ---
 title: Sections (Mirror)
 nav_exclude: true
+search_exclude: true
 ---
 
 ![Elora's Personal Presets Banner](images/EPPBannerAlt3.png)

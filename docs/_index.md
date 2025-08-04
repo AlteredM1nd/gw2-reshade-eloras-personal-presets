@@ -1,6 +1,7 @@
 ---
 title: Sections
 nav_exclude: true
+search_exclude: true
 ---
 
 <!-- Kept as a hidden index to prevent a top-level "Sections" item.
