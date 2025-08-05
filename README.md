@@ -157,7 +157,7 @@ Please follow the steps below carefully in order to install ReShade, the ReShade
 <!-- SLICE: In-Game Graphics Settings (Recommended) start -->
 ## In-Game Graphics Settings (Recommended)
 
-For best results, match these settings as closely as possible:
+If you'd like to recreate the same look and feel present in my Screenshots of the Beautiful World of Tyria posts, these are the current settings in my Client:
 
 **Display**
 - Resolution: Windowed Fullscreen
@@ -197,7 +197,7 @@ For best results, match these settings as closely as possible:
 - Motion Blur Power: Medium
 - Environment Zone Intensity: Maximum
 
-> **Note:** These settings are crucial for the preset to look as intended. Deviations may result in visual artifacts or reduced quality.
+> **Note:** If attempting to recreate the look of my preset previews and Screenshots of the Beautiful World of Tyria posts, match these settings as closely as possible. Deviations may result in visual artifacts or reduced visual fidelity.
 
 ---
 
