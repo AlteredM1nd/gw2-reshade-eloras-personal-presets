@@ -184,7 +184,7 @@ If you'd like to recreate the same look and feel present in my Screenshots of th
 - Vertical Sync: Off
 
 **Postprocessing**
-- Postprocessing Preset: None
+- Postprocessing Preset: Custom
 - Bloom: Off
 - Color Grading: Off
 - Color Tint: Off
@@ -193,7 +193,7 @@ If you'd like to recreate the same look and feel present in my Screenshots of th
 - Selection Outline: Off
 - Ambient Occlusion: On
 - Depth Blur: Off
-- Light Adaptation: On
+- Light Adaptation: Off
 - Motion Blur Power: Medium
 - Environment Zone Intensity: Maximum
 
