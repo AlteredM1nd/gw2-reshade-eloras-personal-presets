@@ -323,7 +323,8 @@ This project is licensed under the MIT License. See [LICENSE](https://github.com
 
 For questions, feedback, or suggestions:
 - Discord: alteredm1nd
-- Reddit: u/alteredm1nd
+- Reddit: [u/alteredm1nd](https://www.reddit.com/user/AlteredM1nd)
+- Youtube: [AlteredM1nd](https://www.youtube.com/@AlteredM1nd)
 - In Game: AlteredMind.3275
 - GitHub Issues
 - GitHub Discussions
