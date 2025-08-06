@@ -78,7 +78,7 @@ This collection now includes two main preset types:
 <!-- SLICE: Required Effect Packages/Add-ons start -->
 ## Required Effect Packages/Add-ons
 
-Below is the complete list of shaders and add-ons required by the presets. **These can be installed during the standard ReShade setup wizard.** Ensure the `.fx` files are in your `reshade-shaders\Shaders` folder and the `.addon` file is in your main Guild Wars 2 game folder.
+Below is the complete list of shaders and add-ons required by the presets. **These can be installed during the standard ReShade setup wizard.** Ensure the `.fx` files are in your `reshade-shaders\Shaders` folder and the `.addon` file is in your main `Guild Wars 2 Game Folder` which is `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players).
 
 ### Effect Packages/Shaders (.fx files)
 
@@ -298,6 +298,12 @@ All Always On presets deliver high visual quality with a focus on smooth gamepla
 
 **Q: Why is everything except the UI very dark?**
 - This will happen when using `ReshadeEffectShaderToggler.ini` files designed for other presets that don't utilize the same effect packages or for older versions of ReShade - my preset has it's own `ReshadeEffectShaderToggler.ini` that has been configured for my current effect package load order and won't cause this issue. Please download the `ReshadeEffectShaderToggler.ini` from my repo and replace it with the `ReshadeEffectShaderToggler.ini` that is currently in your `Guild Wars 2 Game Folder` which is `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players)
+
+**Q: Is this compatible with Blish Hud?**
+- Yes! After following the [Installation Instructions](#installation-instructions) simply download and extract [Blish HUD](https://blishhud.com) and run the `Blish HUD.exe` file and start Guild Wars 2!
+
+**Q: Is this compatible with arcdps?**
+- Yes! After following the [Installation Instructions](#installation-instructions) download [arcdps](https://www.deltaconnected.com/arcdps/x64), rename the `d3d11.dll` file from arcdps to `dxgi.dll` and place it into your `Guild Wars 2 Game Folder` which is `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players).
 
 ---
 
