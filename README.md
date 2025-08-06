@@ -299,7 +299,7 @@ All Always On presets deliver high visual quality with a focus on smooth gamepla
 **Q: Why is everything except the UI very dark?**
 - This will happen when using `ReshadeEffectShaderToggler.ini` files designed for other presets that don't utilize the same effect packages or for older versions of ReShade - my preset has it's own `ReshadeEffectShaderToggler.ini` that has been configured for my current effect package load order and won't cause this issue. Please download the `ReshadeEffectShaderToggler.ini` from my repo and replace it with the `ReshadeEffectShaderToggler.ini` that is currently in your `Guild Wars 2 Game Folder` which is `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players)
 
-**Q: Is this compatible with Blish Hud?**
+**Q: Is this compatible with Blish HUD?**
 - Yes! After following the [Installation Instructions](#installation-instructions) simply download and extract [Blish HUD](https://blishhud.com) and run the `Blish HUD.exe` file and start Guild Wars 2!
 
 **Q: Is this compatible with arcdps?**
