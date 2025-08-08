@@ -7,6 +7,32 @@ nav_order: 2
 
 All notable changes to these presets will be documented in this file.
 
+## [5.0.0] - 2025-08-08
+### Added
+- **New Photo Mode - Cinematic Preset**: Introduced a new preset specifically designed for high-quality cinematic screenshots and videos, offering enhanced visual fidelity and artistic control for content creators.
+- **Comprehensive Shader Bundling**: Now bundles all effect packages and shaders that have permissive licenses, ensuring users get every required effect package automatically without manual installation.
+- **Updated Third-Party Licenses Section**: Added comprehensive documentation of all bundled and non-bundled shaders with their respective licenses and attribution requirements.
+
+### Changed
+- **Installation Process Overhaul**: Updated installation instructions to reflect the new bundled approach, ensuring guaranteed compatibility and visual fidelity as intended.
+- **Effect Package Management**: Streamlined the effect package selection by removing deprecated shaders (QuarkFX, ZN_FX) and replacing them with modern alternatives that maintain or improve visual quality.
+- **All Presets Updated**: Every preset has been refined and optimized to work seamlessly with the new bundled shader approach while maintaining their distinct visual characteristics.
+- **Repository Optimization**: Deleted unused screenshots to significantly reduce repository file size while preserving all referenced images.
+
+### Removed
+- **Deprecated Shader Suites**: Removed QuarkFX and ZN_FX shader suites due to licensing restrictions and deprecation, replacing them with modern, actively maintained alternatives.
+- **Unused Screenshots**: Cleaned up the screenshots directory by removing unreferenced images to reduce repository size and improve maintainability.
+
+### Technical
+- **License Compliance**: Ensured full compliance with all third-party shader licenses, including proper attribution and redistribution permissions.
+- **Installation Reliability**: The new bundling approach guarantees that users will have all required effects, eliminating potential missing shader issues.
+- **Performance Optimization**: Replaced deprecated effects with modern alternatives that offer better performance and visual quality.
+
+### Notes
+- **Breaking Change**: This version represents a significant change in how shaders are distributed and installed. Users should follow the updated installation instructions carefully.
+- **Visual Fidelity**: Despite removing some deprecated effects, all presets maintain or improve their visual quality through the use of modern, actively maintained shader alternatives.
+- **Future Compatibility**: The new approach ensures better long-term compatibility and easier maintenance going forward.
+
 ## [4.1.5] - 2025-08-03
 ### Changed
 - Refined **Photo Mode - First Person** and **Photo Mode - Third Person** presets to align them more closely with the visual philosophy of the newer **Photo Mode - Ultra** preset.

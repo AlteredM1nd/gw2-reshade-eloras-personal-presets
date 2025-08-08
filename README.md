@@ -21,8 +21,9 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 7. [Hardware Recommendations & Performance](#hardware-recommendations--performance)
 8. [Troubleshooting & FAQ](#troubleshooting--faq)
 9. [License](#license)
-10. [Contact](#contact)
-11. [Preset Previews](#preset-previews)
+10. [Third‑Party Licenses and Attributions](#third‑party-licenses-and-attributions)
+11. [Contact and Links](#contact)
+12. [Preset Previews](#preset-previews)
 
 ---
 
@@ -31,7 +32,7 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 <!-- SLICE: About This Preset start -->
 ## About This Preset
 
-**Preset Version:** 4.1.5 (see [CHANGELOG.md](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/blob/main/CHANGELOG.md))
+**Preset Version:** 5.0.0 (see [CHANGELOG.md](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/blob/main/CHANGELOG.md))
 
 This preset was designed to deliver a cinematic, next-generation visual experience in Guild Wars 2. Whether you're a content creator or an everyday player, it enables you to capture eye-catching screenshots, breathtaking videos, and enjoy a more immersive gameplay experience—elevating the standard of in-game visuals for everyone.
 
@@ -83,22 +84,20 @@ Below is the complete list of shaders and add-ons required by the presets. **The
 ### Effect Packages/Shaders (.fx files)
 
 - **qUINT by Marty McFly** [(GitHub)](https://github.com/martymcmodding/qUINT)
-  - `MartysMods_MXAO.fx`, `qUINT_dof.fx`
+  - `MartysMods_MXAO.fx`, `qUINT_dof.fx` (available via the ReShade installer; not bundled here)
 - **prod80 Shaders** [(GitHub)](https://github.com/prod80/prod80-ReShade-Repository)
-  - `PD80_02_Bloom.fx`, `PD80_04_Color_Temperature.fx`
-- **Zenteon Shaders** [(GitHub)](https://github.com/Zenteon/Reshade-Shaders)
-  - `Zenteon_Sharpen.fx`, `Zenteon_XenonBloom.fx`
-- **ZN FX by Zenteon** [(GitHub)](https://github.com/Zenteon/ZN_FX)
-  - `ZN_LC.fx`
-- **Quark FX by Zenteon** [(GitHub)](https://github.com/Zenteon/QuarkFX)
-  - `Quark_Local_Contrast.fx`, `Quark_Xenon_Bloom.fx`
+  - `PD80_02_Bloom.fx`, `PD80_03_Filmic_Adaptation.fx`, `PD80_04_Color_Temperature.fx`
+- **Zenteon Shaders** [(GitHub)](https://github.com/Zenteon/ZenteonFX)
+  - `Zenteon_LocalContrast.fx`, `Zenteon_Sharpen.fx`, `Zenteon_XenonBloom.fx` (available via the ReShade installer; not bundled here)
 - **Nice Guy Shaders** [(GitHub)](https://github.com/mj-ehsan/NiceGuy-Shaders)
-  - `NGLighting.fx`
+  - `NGLighting.fx`, `VolumetricFog.fx`
 - **ReShade Repository** [(GitHub)](https://github.com/crosire/reshade-shaders)
-  - `AmbientLight.fx`, `BloomingHDR.fx`, `CAS.fx`, `cDLAA.fx`, `DFTAA.fx`, `DTAA.fx`, `FGFXLargeScalePerceptualObscuranceIrradiance.fx`, `GaussianBlur.fx`, `GBloom.fx`, `GloomAO.fx`, `HexLensFlare.fx`, `lilium__rcas_hdr.fx`, `LocalContrast.fx`, `MagicBloom.fx`, `NeoSSAO.fx`, `pCamera.fx`, `PPFX_SSDO.fx`, `ReflectiveBumpMapping.fx`, `Reinhard.fx`, `Shading.fx`, `SmartDeNoise.fx`, `Vibrance.fx`, `VolumetricFog.fx`
+  - `AmbientLight.fx`, `BloomingHDR.fx`, `Border.fx`, `CAS.fx`, `cDLAA.fx`, `DFTAA.fx`, `DTAA.fx`, `FGFXLargeScalePerceptualObscuranceIrradiance.fx`, `GaussianBlur.fx`, `GBloom.fx`, `GloomAO.fx`, `HexLensFlare.fx`, `lilium__rcas_hdr.fx`, `LocalContrast.fx`, `MagicBloom.fx`, `NeoSSAO.fx`, `pCamera.fx`, `PPFX_SSDO.fx`, `ReflectiveBumpMapping.fx`, `Reinhard.fx`, `Shading.fx`, `SmartDeNoise.fx`, `Vibrance.fx`, `Vignette.fx`
+- **SHADERDECK by TreyM** [(GitHub)](https://github.com/IAmTreyM/SHADERDECK)
+  - `FILMDECK.fx` (available via the ReShade installer; not bundled here)
 
 ### Add-ons (.addon files)
-- **ReshadeEffectShaderToggler** (REST) by 4lex4nder [(Github)](https://github.com/4lex4nder/ReshadeEffectShaderToggler)
+- **ReshadeEffectShaderToggler** (REST) by 4lex4nder [(Github)](https://github.com/4lex4nder/ReshadeEffectShaderToggler) (available via the ReShade installer; not bundled here)
   - `ReshadeEffectShaderToggler.addon`
 
 > **Note:**
@@ -117,16 +116,16 @@ Below is the complete list of shaders and add-ons required by the presets. **The
 Please follow the steps below carefully in order to install ReShade, the ReShade Effect Shader Toggler addon, the required effect packages, as well as all of my current presets. Alternatively, if you would prefer to watch a video guide, a video guide is also available [here](https://www.youtube.com/watch?v=0TiUlbCXWzY).
 
 1. **Download Presets**
-   - Download the latest release from [My Release Page](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/releases).
-   - You can either download the `.ini files` beginning with `Elora's Personal Presets` from the `Assets` section of the latest release by clicking on them individually along with the `ReshadeEffectShaderToggler.ini` or click `Source code (zip)` to download my entire repository as a `.zip file` containing everything which you will then have to extract (unzip) by clicking on the `.zip` file in your `File Explorer`, clicking on the `Extract All` button, and then clicking on the `Extract` button.
-   - Copy all files beginning with `Elora's Personal Presets` along with `ReshadeEffectShaderToggler.ini` into your Guild Wars 2 game folder `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players).
+   - Navigate to my [Latest Release Page](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/releases).
+   - From the Release Page, click `Source code (zip)` to download my entire repository as a `.zip file` containing everything, which you will then have to `extract (unzip)` by clicking on the `.zip` file in your `File Explorer`, clicking on the `Extract All` button, and then clicking on the `Extract` button.
+   - Copy all files beginning with `Elora's Personal Presets`, the `ReshadeEffectShaderToggler.ini`, along with the entire `reshade-shaders` folder into your Guild Wars 2 game folder `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players).
 
 2. **Download and Install ReShade 6.5.1**
    - Download the latest version of the ReShade installer (ReShade 6.5.1 with full add-on support) and run it. ([Download here](https://reshade.me/#download))
    - Select your `Gw2-64.exe` (Guild Wars 2 executable), it may not appear on the default list of applications, and if so, click `Browse...` and navigate to the Guild Wars 2 folder and select it `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players) and then click `Next`.
    - Choose `Microsoft DirectX 10/11/12` and then click `Next`.
    - Choose `Install ReShade and effects` and then click `Next`.
-   - Click `Browse...`, navigate to and select `Elora's Personal Presets - Photo Mode - Ultra.ini` (since this uses the most effect packages, it will install all the effect packages used in all my presets) and then click `Open`.
+   - Click `Browse...`, navigate to and select `Elora's Personal Presets - Photo Mode - Cinematic.ini` (since this uses the most effect packages, it will install all the effect packages used in all my presets) and then click `Open`.
    - It will automatically select all of the effect packages used by my presets for installation, if this is sufficient for you, then you can click `Next` and it will begin downloading the required effect packages. If you would like to give yourself more options for experimenting, you can instead click `Uncheck All` and then click `Check All`, this will install every available effect package in the ReShade repository which will give you a lot of room for experimenting with new effect packages.
    - On the `Select add-ons to install:` screen, select `ReshadeEffectShaderToggler (REST) by 4lex4nder` and click `Next`
    - Click `Finish`.
@@ -312,14 +311,45 @@ All Always On presets deliver high visual quality with a focus on smooth gamepla
 <!-- SLICE: License start -->
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/blob/main/LICENSE) for details. You are free to use, modify, and share these presets, but please credit Elora/AlteredM1nd if redistributing or showcasing them.
+The presets, documentation, and configuration files in this repository are licensed under the MIT License. See [LICENSE](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/blob/main/LICENSE) for details. Please credit Elora/AlteredM1nd if redistributing or showcasing them.
+
+This repository also packages third-party shaders and textures, which remain under their respective licenses. Original license headers are preserved in the source files. See the section below for a concise attribution matrix and license links.
+
+## Third‑Party Licenses and Attributions
+
+The following shader packs and files are included and are subject to their own licenses. If you redistribute this repository (e.g., forks or releases), you must preserve the license headers inside the shader files and the attributions below.
+
+- ReShade repository shaders by crosire & contributors — MIT (various files such as `AmbientLight.fx`, `MagicBloom.fx`, `Deband.fx`, `GaussianBlur.fx`, `Vibrance.fx`, `SMAA.fxh`, `UIMask.fx`, etc.). License notices are in-file. Reference: `reshade-shaders/Shaders/*`.
+- AMD FidelityFX/CAS/RCAS code (AMD) — MIT-like (in-file notices), e.g., `SweetFX/CAS.fx`, `ReShade_HDR_shaders/lilium__include/{cas,rcas}.fxh`.
+- Microsoft tone mapping utilities — MIT-like (in-file notices), e.g., `CShade/shared/{cTonemap.fxh,cMath.fxh}`.
+- PD80 shaders by prod80 — MIT (in-file), e.g., `PD80_02_Bloom.fx`, `PD80_03_Filmic_Adaptation.fx`, `PD80_04_Color_Temperature.fx`.
+- Barbatos shaders — MIT (in-file), e.g., `Barbatos/{GBloom.fx,NeoSSAO.fx,Shading.fx,DTAA.fx,UFakeHDR.fx}`.
+- FXShaders — MIT and Public Domain components (see in-file notices), e.g., `FXShaders/ACES.fxh` (MIT), `FXShaders/CRT_Lottes.fxh` (public domain dedication in-file).
+- GShade-Shaders — mixed:
+  - DropShadow.fxh — MIT (in-file)
+  - Spotlight.fxh — MIT (in-file)
+  - SmartDeNoise.fx — BSD 2‑Clause (in-file)
+  - StageDepth.fxh — WTFPL v2 (in-file)
+- SHADERDECK by TreyM — All Rights Reserved. (installed via the ReShade installer; not bundled here)
+- ZenteonFX by Daniel Oren‑Ibarra — All Rights Reserved. (installed via the ReShade installer; not bundled here)
+- AstrayFX — Creative Commons licenses:
+  - BloomingHDR.fx — CC BY‑SA 4.0. If you adapt/modify, you must attribute and share alike. Link: [CC BY‑SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+  - GloomAO.fx — CC BY‑ND 4.0. You may redistribute unmodified; derivatives may not be distributed. Link: [CC BY‑ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)
+- NiceGuy‑Shaders — contains embedded snippets under MIT and a Shadertoy snippet by Nikos Papadopoulos (4rknova) under CC BY‑NC‑SA 3.0; attribution retained in-file. Link: [CC BY‑NC‑SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/)
+- REST (Reshade Effect Shader Toggler) — MIT; license file included at `reshade-shaders/Shaders/REST/LICENSE`.
+- NVIDIA FXAA (`SweetFX/FXAA.fxh`) — NVIDIA permissive license; retain the in-file notice verbatim.
+
+General guidance:
+- Preserve all original file headers and this section when redistributing.
+- For CC‑licensed files, provide attribution, link the license, and indicate if changes were made. Unless stated otherwise here, files are included unmodified.
+- If you are an author listed above and would like attribution wording adjusted, please open an issue.
 
 ---
 
 <!-- SLICE: License end -->
 
 <!-- SLICE: Contact start -->
-## Contact
+## Contact and Links
 
 For questions, feedback, or suggestions:
 - Discord: alteredm1nd
@@ -328,6 +358,12 @@ For questions, feedback, or suggestions:
 - In Game: AlteredMind.3275
 - GitHub Issues
 - GitHub Discussions
+
+If you would like to learn more about this project:
+- Github Repository: https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets
+- Github Pages Site: https://alteredm1nd.github.io/gw2-reshade-eloras-personal-presets
+- YouTube Channel: https://www.youtube.com/@AlteredM1nd
+- Preset Installation Video Guide: https://www.youtube.com/watch?v=0TiUlbCXWzY
 
 ---
 
