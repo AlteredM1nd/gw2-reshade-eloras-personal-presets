@@ -2,7 +2,7 @@
 title: Contact and Links
 parent: Home
 nav_order: 11
-permalink: /#contact
+permalink: /#contact-and-links
 ---
 
 ## Contact

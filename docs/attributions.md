@@ -2,7 +2,7 @@
 title: Third Party Licenses and Attributions
 parent: Home
 nav_order: 10
-permalink: /#third‑party-licenses-and-attributions
+permalink: /#thirdparty-licenses-and-attributions
 ---
 
 ## Third Party Licenses and Attributions

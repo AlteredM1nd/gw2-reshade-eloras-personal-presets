@@ -21,8 +21,8 @@ Welcome! This guide will walk you through installing and using my custom ReShade
 7. [Hardware Recommendations & Performance](#hardware-recommendations--performance)
 8. [Troubleshooting & FAQ](#troubleshooting--faq)
 9. [License](#license)
-10. [Third‑Party Licenses and Attributions](#third‑party-licenses-and-attributions)
-11. [Contact and Links](#contact)
+10. [Third‑Party Licenses and Attributions](#thirdparty-licenses-and-attributions)
+11. [Contact and Links](#contact-and-links)
 12. [Preset Previews](#preset-previews)
 
 ---
