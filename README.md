@@ -48,6 +48,12 @@ This collection now includes two main preset types:
 
       ![Dragonall Transition HD](images/DragonfallTransitionHD-Optimized.gif)
 
+    - **Photo Mode - Cinematic**
+
+      Photo Mode - Cinematic is a sophisticated preset designed specifically for high-quality cinematic screenshots and videos, offering enhanced visual fidelity and artistic control for content creators. It features advanced depth of field with autofocus, film-grade color grading, multiple bloom layers, volumetric atmosphere, and professional anti-aliasing. Cinematic is intended for users who want professional-grade cinematic visuals and storytelling capabilities. It is more demanding than the other presets found in this collection and is not recommended for regular gameplay, but is perfect for capturing dramatic scenes, character portraits, and cinematic storytelling moments in Guild Wars 2.
+
+      ![Elora Divinity's Reach Transition HD](images/EloraDivinitysReachTransitionHD-Optimized.gif)
+
 - **Always On Presets**: Now available in High, Medium, and Low performance tiers, each with DOF (Depth of Field) and No DOF variants. These are designed for everyday gameplay, offering a range of performance and visual fidelity options for all types of hardware:
 
   - **Always On - High - DOF** (Depth of Field enabled)
@@ -400,7 +406,5 @@ If you would like to learn more about this project:
 
 ---
 <!-- PREVIEWS_END -->
-
-<!-- SLICE: Preset Previews end -->
 
 Enjoy your enhanced Guild Wars 2 visuals!
