@@ -310,6 +310,7 @@ All Always On presets deliver high visual quality with a focus on smooth gamepla
   - RESHADE_DEPTH_INPUT_IS_UPSIDE_DOWN | 0
   - RESHADE_DEPTH_INPUT_IS_REVERSED | 0
   - RESHADE_DEPTH_INPUT_IS_LOGARITHMIC | 0
+  
 ---
 
 <!-- SLICE: Troubleshooting & FAQ end -->
@@ -320,6 +321,8 @@ All Always On presets deliver high visual quality with a focus on smooth gamepla
 The presets, documentation, and configuration files in this repository are licensed under the MIT License. See [LICENSE](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/blob/main/LICENSE) for details. Please credit Elora/AlteredM1nd if redistributing or showcasing them.
 
 This repository also packages third-party shaders and textures, which remain under their respective licenses. Original license headers are preserved in the source files. See the section below for a concise attribution matrix and license links.
+
+---
 
 ## Third‑Party Licenses and Attributions
 
