@@ -304,6 +304,12 @@ All Always On presets deliver high visual quality with a focus on smooth gamepla
 **Q: Is this compatible with arcdps?**
 - Yes! After following the [Installation Instructions](#installation-instructions) download [arcdps](https://www.deltaconnected.com/arcdps/x64), rename the `d3d11.dll` file from arcdps to `dxgi.dll`, place it into your `Guild Wars 2 Game Folder` which is `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players), and then start Guild Wars 2!
 
+**Q: Is this compatible with Nexus?**
+- Yes! After following the [Installation Instructions](#installation-instructions) download [Nexus](https://raidcore.gg/Nexus) using the "More advanced users can download the .DLL directly [here](https://api.raidcore.gg/d3d11.dll)" link, rename the `d3d11.dll` file you renamed in the installation instructions back to `dxgi.dll`, copy and paste the `d3d11.dll` file from `Nexus` into the `Guild Wars 2 Game Folder`, and then copy the `dxgi.dll` file and put it in the `\bin64\cef folder`. If you would like to use `REST` then you will need to also copy and paste the `ReshadeEffectShaderToggler.addon64` and `ReshadeEffectShaderToggler.ini` into your `\bin64\cef` folder as well. Start the game, however, when it runs it will treat it like a new ReShade installation, open the `ReShade Menu` (Home key by default) and in the `Settings Tab` change your `Effects Search Paths` to `C:\Program Files\Guild Wars 2\**` (modify this appropriately if you're running Steam) and your `Texture Search Paths` to `C:\Program Files\Guild Wars 2\**` (modify this appropriately if you're running steam), navigate back to the `Home tab`, click the `Reload` button at the bottom, open the `Preset Selector` at the top of the screen, navigate up two levels by clicking on `..` twice, your list of presets should appear, `select the desired preset`. Since this is considered a new installation of ReShade it will lose all the Global Preprocessor Definitions normally included, so from the `ReShade Menu` click on the blue `Edit global preprocessor definitions` button and add the following and then click the `Apply` button:
+  - RESHADE_DEPTH_LINEARIZATION_FAR_PLANE | 1000.0
+  - RESHADE_DEPTH_INPUT_IS_UPSIDE_DOWN | 0
+  - RESHADE_DEPTH_INPUT_IS_REVERSED | 0
+  - RESHADE_DEPTH_INPUT_IS_LOGARITHMIC | 0
 ---
 
 <!-- SLICE: Troubleshooting & FAQ end -->
