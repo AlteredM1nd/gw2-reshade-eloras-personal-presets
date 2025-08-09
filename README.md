@@ -48,7 +48,7 @@ This collection now includes two main preset types:
 
       ![Dragonall Transition HD](images/DragonfallTransitionHD-Optimized.gif)
 
-    - **Photo Mode - Cinematic**
+   - **Photo Mode - Cinematic**
 
       Photo Mode - Cinematic is a sophisticated preset designed specifically for high-quality cinematic screenshots and videos, offering enhanced visual fidelity and artistic control for content creators. It features advanced depth of field with autofocus, film-grade color grading, multiple bloom layers, volumetric atmosphere, and professional anti-aliasing. Cinematic is intended for users who want professional-grade cinematic visuals and storytelling capabilities. It is more demanding than the other presets found in this collection and is not recommended for regular gameplay, but is perfect for capturing dramatic scenes, character portraits, and cinematic storytelling moments in Guild Wars 2.
 
