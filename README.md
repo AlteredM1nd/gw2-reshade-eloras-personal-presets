@@ -40,7 +40,7 @@ This collection now includes two main preset types:
 
 - **Photo Mode Presets**: Formerly known as "Standard - First Person Photos" and "Standard - Third Person Photos," now renamed to **Photo Mode - First Person** and **Photo Mode - Third Person**. These are designed for high-quality screenshots, with a focus on maximum visual fidelity. The main difference between them is the far blur curve setting in the `qUINT_dof.fx` effect package which modifies how wide the plane of focus is.
 
-![Elora Grove Transition HD](images/EloraGroveTransitionHD-Optimized.gif)
+  ![Elora Grove Transition HD](images/EloraGroveTransitionHD-Optimized.gif)
 
    - **Photo Mode - Ultra**
 
