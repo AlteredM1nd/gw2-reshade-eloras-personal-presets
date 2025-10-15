@@ -1,10 +1,10 @@
 ![Elora's Personal Presets Banner](images/EPPBannerAlt3.png)
-# Elora's Personal Presets – Guild Wars 2 ReShade (v6.5.1)
+# Elora's Personal Presets – Guild Wars 2 ReShade (v6.6.1)
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/blob/main/LICENSE)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/alteredm1nd/gw2-reshade-eloras-personal-presets)](https://github.com/alteredm1nd/gw2-reshade-eloras-personal-presets/releases)
 
-Welcome! This guide will walk you through installing and using my custom ReShade preset for Guild Wars 2, updated for ReShade 6.5.1. It includes a full list of required effect packages, add-ons, recommended in-game graphics settings, and tips for best results.
+Welcome! This guide will walk you through installing and using my custom ReShade preset for Guild Wars 2, updated for ReShade 6.6.1. It includes a full list of required effect packages, add-ons, recommended in-game graphics settings, and tips for best results.
 
 > **Changelog:** See [CHANGELOG.md](https://github.com/AlteredM1nd/gw2-reshade-eloras-personal-presets/blob/main/CHANGELOG.md) for recent updates and version history.
 
@@ -75,7 +75,7 @@ This collection now includes two main preset types:
 ## Requirements
 
 - **Guild Wars 2** (latest version)
-- **ReShade 6.5.1** ([Download here](https://reshade.me/#download))
+- **ReShade 6.6.1** ([Download here](https://reshade.me/#download))
 - **Windows 10/11**
 
 ---
@@ -126,8 +126,8 @@ Please follow the steps below carefully in order to install ReShade, the ReShade
    - From the Release Page, click `Source code (zip)` to download my entire repository as a `.zip file` containing everything, which you will then have to `extract (unzip)` by clicking on the `.zip` file in your `File Explorer`, clicking on the `Extract All` button, and then clicking on the `Extract` button.
    - Copy all files beginning with `Elora's Personal Presets`, the `ReshadeEffectShaderToggler.ini`, along with the entire `reshade-shaders` folder into your Guild Wars 2 game folder `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players).
 
-2. **Download and Install ReShade 6.5.1**
-   - Download the latest version of the ReShade installer (ReShade 6.5.1 with full add-on support) and run it. ([Download here](https://reshade.me/#download))
+2. **Download and Install ReShade 6.6.1**
+   - Download the latest version of the ReShade installer (ReShade 6.6.1 with full add-on support) and run it. ([Download here](https://reshade.me/#download))
    - Select your `Gw2-64.exe` (Guild Wars 2 executable), it may not appear on the default list of applications, and if so, click `Browse...` and navigate to the Guild Wars 2 folder and select it `C:\Program Files\Guild Wars 2` (default for standalone launcher players) or `C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2` (default for Steam players) and then click `Next`.
    - Choose `Microsoft DirectX 10/11/12` and then click `Next`.
    - Choose `Install ReShade and effects` and then click `Next`.
@@ -281,7 +281,7 @@ All Always On presets deliver high visual quality with a focus on smooth gamepla
 - Make sure your in-game graphics settings match the recommendations.
 - Try reloading the preset in the ReShade menu.
 - If depth-based effects (like MXAO or DOF) don't work, try switching between windowed and fullscreen, or check the "Copy depth buffer before clear operations" option in ReShade's settings.
-- If you see a black screen or crash, ensure your GPU drivers are up to date and that you are using ReShade 6.5.1.
+- If you see a black screen or crash, ensure your GPU drivers are up to date and that you are using ReShade 6.6.1.
 
 **Q: My game is running slowly!**
 - Some effects (like MXAO, SSDO, and high-quality DOF) are demanding. Disable or lower their quality in the ReShade menu if needed.
